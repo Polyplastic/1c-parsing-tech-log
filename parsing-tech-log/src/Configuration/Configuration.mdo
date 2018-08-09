@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6461558e-8d7f-4f26-b7a4-1e10c9a1248a">
+  <name>АнализТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ ТЖ</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="24b38e25-a352-41d2-b450-aea8288727c2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c9e77752-54c8-4656-9561-a3dee1e65969"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="30158bf6-6e16-4cc8-8ee8-3b262ea059ff"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="389aa75b-d78b-44a6-9d79-0a699e53a24b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="41fb1820-988c-4352-a87f-2e957515ce67"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a194674-8458-43f8-9f96-3afe61f16916"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version>1.0.0.0</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="9d74f535-3f09-47a4-a948-ee67e1dd73f4">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.АнализТЖ</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
+  <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбновлениеДанных</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <scheduledJobs>ScheduledJob.ЗагрузкаЖурнала</scheduledJobs>
+  <commonCommands>CommonCommand.ПеречитатьЖурнал</commonCommands>
+  <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Процессы</catalogs>
+  <catalogs>Catalog.События</catalogs>
+  <catalogs>Catalog.Свойства</catalogs>
+  <catalogs>Catalog.Замеры</catalogs>
+  <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
+  <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
+  <dataProcessors>DataProcessor.ПросмотрТехнологическогоЖурнала</dataProcessors>
+  <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаЖурнала</dataProcessors>
+  <informationRegisters>InformationRegister.Журнал</informationRegisters>
+  <informationRegisters>InformationRegister.ГраницыЧтенияДанных</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваСобытия</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусЗагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.УправлениеФоновымиЗаданиямиЗагрузки</informationRegisters>
+</mdclass:Configuration>

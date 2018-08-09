@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32fb1099-e326-4ec6-90ab-f8c1d2643fd5">
+  <producedTypes>
+    <objectType typeId="f1e0c0ac-ff65-4472-b744-b142172d52c4" valueTypeId="37c99f8f-913c-4433-bd6a-2d7dc2d503c4"/>
+    <refType typeId="e0d436a5-573b-436f-b918-b09959b82bd9" valueTypeId="c4eba030-a13a-40b0-a2ee-2a4d99e24696"/>
+    <selectionType typeId="900e102e-4adb-4cb4-ba3e-bdcd9538afaf" valueTypeId="6c0a0ca5-a682-4851-9b04-dcb3ad29abcd"/>
+    <listType typeId="f1eee3eb-620b-4fa8-bdef-6fbeb82fb528" valueTypeId="60578045-120d-486e-839d-f075224830e5"/>
+    <managerType typeId="ddd924dd-2368-4bcb-83fe-76e02f3eec1a" valueTypeId="700a58df-5339-47b7-8efc-9151f7be893f"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.События.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

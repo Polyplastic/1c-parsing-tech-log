@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73712a2e-3d5b-4598-9e37-b53b9f09caea">
+  <producedTypes>
+    <objectType typeId="ae99529d-21f6-4925-9235-543d7523070e" valueTypeId="4bf23440-9670-4cab-9186-c0ec45fd4dce"/>
+    <refType typeId="bb4953f6-a6ea-40f2-9ac8-3dca802a2679" valueTypeId="1b9a3de7-c93a-4ce3-a10c-63f21257e078"/>
+    <selectionType typeId="a3de1725-8b39-4683-9a15-296f7c7fee81" valueTypeId="367278a3-5354-42d4-852a-2e2cd07063d9"/>
+    <listType typeId="7947e61c-968f-46fe-82ec-85adecb9bc59" valueTypeId="bd913f03-cc13-4757-9dbc-c201ec89d0b6"/>
+    <managerType typeId="a87a94e2-e54a-4a2b-ad29-25ccca5eb8ca" valueTypeId="62a9b5b1-29f6-46c5-8edb-6ae2f9bbf487"/>
+  </producedTypes>
+  <name>Процессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Процессы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="22593321-e506-49f4-b753-c81811a5015f">
+      <name>_1CV8</name>
+      <description>1cv8</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="d4752cc2-2291-40ba-af8d-33e357608a5c">
+      <name>_1CV8C</name>
+      <description>1cv8c</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9d4aaa43-0432-4423-8937-474913f2b795">
+      <name>mmc</name>
+      <description>mmc</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="c79943aa-0ac4-4d39-bd97-eab14dda1385">
+      <name>ragent</name>
+      <description>ragent</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="9b358c18-37af-4903-90f8-bb6f015ae594">
+      <name>rmngr</name>
+      <description>rmngr</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="7474ecdd-a446-4e86-b030-5feaaae6c5c0">
+      <name>rphost</name>
+      <description>rphost</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

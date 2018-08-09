@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="390884f5-2883-4254-8912-701c244a8930">
+  <producedTypes>
+    <objectType typeId="981c803d-7a12-4710-a5cb-0c90d0aae132" valueTypeId="75852a9e-95ca-49ce-879c-cd62ad747b22"/>
+    <refType typeId="8ee089d6-194b-4e63-a440-b7c45f29fdf0" valueTypeId="eac1ae44-bc84-494f-8fdf-aa7ea1fe4cfa"/>
+    <selectionType typeId="258e8999-28d9-4a63-b9b1-f453cf981c4e" valueTypeId="c7d75d00-bfe3-4637-9250-b4d84b4857e3"/>
+    <listType typeId="c51da675-1f39-47f8-872e-f98e3a8d7be1" valueTypeId="59a4ed99-f832-4e42-9153-8cd88dd681c7"/>
+    <managerType typeId="4a1be780-203f-4b16-9e96-ba674db90717" valueTypeId="8ecf9253-6e8b-4474-9234-fa822c416081"/>
+  </producedTypes>
+  <name>Замеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Замеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Замеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8e76622e-1c16-4e5f-be21-d7e755abd100">
+    <name>ДатаЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата замера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="108e5605-d0c3-4153-a23f-a32ad01dc6bd">
+    <name>СерверныйТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверный ТЖ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c1cb8fa-365c-4917-a0dc-128385bf5077">
+    <name>НеРабочийКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не рабочий каталог</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,32 @@
+﻿Имя:
+Действия администратора и ошибки
+Описание:
+Шаблон создает технологический журнал небольшого объема, в котором содержится информация о запуске и завершении приложений, установке и разрыве соединений с кластером серверов 1С:Предприятия, действиях администратора кластера и об ошибочных ситуациях в работе 1С:Предприятия. Такой журнал в большинстве случаев достаточен, для расследования ошибочных ситуаций как в конфигурации, так и в технологической платформе 1С:Предприятия.
+Действия:
+ПутьКТЖ
+Шаблон:
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<dump create="false"/>
+	<log location="c:\v82\logs" history="168">
+		<event>
+			<eq property="name" value="proc"/>
+		</event>
+		<event>
+			<eq property="name" value="scom"/>
+		</event>
+		<event>
+			<eq property="name" value="conn"/>
+		</event>
+		<event>
+			<eq property="name" value="admin"/>
+		</event>
+		<event>
+			<eq property="name" value="excp"/>
+		</event>
+		<event>
+			<eq property="name" value="qerr"/>
+		</event>
+		<property name="all"/>
+	</log>
+</config>

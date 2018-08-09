@@ -1,0 +1,26 @@
+﻿Имя:
+Поиск утечек памяти
+Описание:
+Шаблон создает технологический журнал, фиксирующий утечки памяти на сервере 1С:Предприятия и в конфигурации
+Действия:
+ПутьКДампу
+ПутьКТЖ
+Шаблон:
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<dump create="true" location="c:\v82\dumps" type="136"/>
+	<log history="168" location="c:\v82\logs">
+		<event>
+			<eq property="name" value="excp"/>
+		</event>
+		<event>
+			<eq property="name" value="LEAKS"/>
+		</event>
+		<property name="all"> </property>
+	</log>
+	<mem/>
+	<leaks collect="1">
+		<point call="client"/>
+		<point call="server"/>
+	</leaks>
+</config>

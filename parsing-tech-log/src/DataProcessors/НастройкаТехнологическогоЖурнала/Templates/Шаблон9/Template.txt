@@ -1,0 +1,30 @@
+﻿Имя:
+Обращения к СУБД и планы запросов
+Описание:
+Технологический журнал будет содержать обращения 1С:Предприятия к СУБД, планы запросов, а так же информацию об ошибочных ситуациях. Объем выводимой информации может быть очень большим. Внимание! Получение планов запросов замедляет выполнение запросов к СУБД. Для некоторых СУБД замедление может быть существенным.
+Действия:
+ПутьКТЖ
+Шаблон:
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+ <dump create="false"/>
+ <plansql/>
+ <log location="C:\v82\log" history="168">
+  <event>
+   <eq property="name" value="db2"/>
+  </event>
+  <event>
+   <eq property="name" value="dbmssql"/>
+  </event>
+  <event>
+   <eq property="name" value="dboracle"/>
+  </event>
+  <event>
+   <eq property="name" value="dbpostgrs"/>
+  </event>
+  <event>
+   <eq property="name" value="excp"/>
+  </event>
+  <property name="all"/>
+ </log>
+</config>

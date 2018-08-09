@@ -1,0 +1,24 @@
+﻿Имя:
+Запись всех событий на клиентском компьютере
+Описание:
+В технологический журнал записываются все события, которые могут возникать на клиентском компьютере.
+Действия:
+ПутьКДампу
+ПутьКТЖ
+Шаблон:
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<dump create="true" location="c:\v82\dumps" type="3" prntscrn="false"/>
+	<log location="c:\v82\logs" history="168">
+		<event>
+			<eq property="name" value="proc"/>
+		</event>
+		<event>
+			<eq property="name" value="excp"/>
+		</event>
+		<event>
+			<eq property="name" value="sdbl"/>
+		</event>
+		<property name="all"/>
+	</log>
+</config>

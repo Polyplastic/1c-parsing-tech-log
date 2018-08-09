@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c50a321-c7f5-4d33-8d33-fd317bb407af">
+  <producedTypes>
+    <objectType typeId="f161f466-1338-4329-8b7b-59397926c41a" valueTypeId="88c32c06-1f05-47ea-a2da-00617f469dd3"/>
+    <managerType typeId="ace4e618-db31-4fa0-9b85-7bef07cdae89" valueTypeId="0b11fe7f-a1a6-4096-a152-fbdb2a60dcd9"/>
+  </producedTypes>
+  <name>ПросмотрТехнологическогоЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр технологического журнала</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПросмотрТехнологическогоЖурнала.Form.Форма</defaultForm>
+  <forms uuid="85c378e2-53e2-465a-b647-0f80a6922ba8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

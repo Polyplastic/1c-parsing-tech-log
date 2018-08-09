@@ -1,0 +1,38 @@
+﻿Имя:
+Ошибки и долгие операции
+Описание:
+Конфигурационный файл, получаемый из данного шаблона, добавляет все операции, длительность которых превышает 10 секунд. Это может оказаться полезным для обнаружения действий пользователей, которые выполнялись длительное время, с целью, например, их последующей оптимизации. Длительность событий выражается в сотнях микросекунд.
+Действия:
+ПутьКТЖ
+Шаблон:
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+	<dump create="false"/>
+	<log location="C:\Program Files\1cv82\logs" history="168">
+		<event>
+			<eq property="name" value="admin"/>
+			<gt property="duration" value="10000"/>
+		</event>
+		<event>
+			<eq property="name" value="conn"/>
+			<gt property="duration" value="10000"/>
+		</event>
+		<event>
+			<eq property="name" value="excp"/>
+			<gt property="duration" value="10000"/>
+		</event>
+		<event>
+			<eq property="name" value="proc"/>
+			<gt property="duration" value="10000"/>
+		</event>
+		<event>
+			<eq property="name" value="qerr"/>
+			<gt property="duration" value="10000"/>
+		</event>
+		<event>
+			<eq property="name" value="scom"/>
+			<gt property="duration" value="10000"/>
+		</event>
+		<property name="all"/>
+	</log>
+</config>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="471ed839-dc2c-4bd3-b367-0e917312e21b">
+  <producedTypes>
+    <selectionType typeId="cbd19f76-b457-431d-9e2a-e6eb1b9f6bdf" valueTypeId="38826bf5-caf3-47d3-bbea-01f80c8de4e5"/>
+    <listType typeId="460ec320-886e-4582-a6b0-bafdc9ab9864" valueTypeId="9e7e75c0-b031-4501-80eb-b04ab4ae6842"/>
+    <managerType typeId="84bcc252-ccf0-4f09-92ea-b43724396ca0" valueTypeId="e22f7407-bac0-46ef-b059-79f960361cd9"/>
+    <recordSetType typeId="4a6b8384-3d43-4533-8f60-5c13eed649aa" valueTypeId="90292fae-5570-490e-836a-8c06ca30feb1"/>
+    <recordKeyType typeId="8deb6058-1bd0-4bf9-9b32-6732f87b72c5" valueTypeId="ed42f782-6834-4369-813d-272f37910e01"/>
+    <recordType typeId="17a5e5b7-ed09-4286-bac0-7123b1a0d157" valueTypeId="3c2e96e5-db4e-480a-a1d0-4b627df64cf0"/>
+    <recordManagerType typeId="f61068dd-4023-4aa6-a188-5b3ec3a93f02" valueTypeId="9c555b10-41e5-494b-8978-d5f3dbca1007"/>
+  </producedTypes>
+  <name>СтатусЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус загрузки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СтатусЗагрузки.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="939e7228-ecfd-47cb-a364-47b2cce4709a">
+    <name>ЧтениеВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение в процессе</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="adead50f-6801-4e82-9787-479d002043a0">
+    <name>Прогресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогресс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d8d88c56-cc42-40d5-9eb4-e9792fe4e8fb">
+    <name>Разобрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разобрано при последней загрузке, строк</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e2cbd4be-dbd5-471d-aabb-b755693ea89e">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность последнего чтения, с</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="169f6b5b-d6cd-4af4-a459-a772b2188636">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d8276bfd-fbf0-49a8-ab85-d97405156759">
+    <name>Замер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Замеры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1e760b27-dadf-48a2-ac74-1ac7d9fb1cf1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
