@@ -30,42 +30,49 @@
       <name>_1CV8</name>
       <description>1cv8</description>
       <code xsi:type="core:StringValue">
-        <value>000000002</value>
+        <value></value>
       </code>
     </items>
     <items id="d4752cc2-2291-40ba-af8d-33e357608a5c">
       <name>_1CV8C</name>
       <description>1cv8c</description>
       <code xsi:type="core:StringValue">
-        <value>000000001</value>
+        <value></value>
+      </code>
+    </items>
+    <items id="7ea1c9f7-0955-4964-ba7d-e31beb07bd00">
+      <name>_1CV8S</name>
+      <description>1cv8s</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
       </code>
     </items>
     <items id="9d4aaa43-0432-4423-8937-474913f2b795">
       <name>mmc</name>
       <description>mmc</description>
       <code xsi:type="core:StringValue">
-        <value>000000006</value>
+        <value></value>
       </code>
     </items>
     <items id="c79943aa-0ac4-4d39-bd97-eab14dda1385">
       <name>ragent</name>
       <description>ragent</description>
       <code xsi:type="core:StringValue">
-        <value>000000004</value>
+        <value></value>
       </code>
     </items>
     <items id="9b358c18-37af-4903-90f8-bb6f015ae594">
       <name>rmngr</name>
       <description>rmngr</description>
       <code xsi:type="core:StringValue">
-        <value>000000005</value>
+        <value></value>
       </code>
     </items>
     <items id="7474ecdd-a446-4e86-b030-5feaaae6c5c0">
       <name>rphost</name>
       <description>rphost</description>
       <code xsi:type="core:StringValue">
-        <value>000000003</value>
+        <value></value>
       </code>
     </items>
   </predefined>

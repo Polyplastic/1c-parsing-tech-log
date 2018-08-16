@@ -795,150 +795,6 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <items xsi:type="form:FormGroup">
-        <name>Группа3</name>
-        <id>138</id>
-        <items xsi:type="form:FormField">
-          <name>ДатаНачала</name>
-          <id>132</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДатаНачала</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ДатаНачалаПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ДатаНачалаРасширеннаяПодсказка</name>
-            <id>134</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ДатаНачалаКонтекстноеМеню</name>
-            <id>133</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ДатаОкончания</name>
-          <id>135</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДатаОкончания</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ДатаОкончанияПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ДатаОкончанияРасширеннаяПодсказка</name>
-            <id>137</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ДатаОкончанияКонтекстноеМеню</name>
-            <id>136</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>Группа3РасширеннаяПодсказка</name>
-          <id>139</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <representation>WeakSeparation</representation>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
-        </extInfo>
-      </items>
       <items xsi:type="form:FormField">
         <name>ФильтрДлительность</name>
         <id>123</id>
@@ -1803,11 +1659,6 @@
 			КОГДА &amp;ИспользоватьОтборПоКлючевымСловам
 				ТОГДА РегистрСведенийЖурнал.ЗначениеСвойств ПОДОБНО &quot;%&quot; + &amp;ОтборПоКлючевымПолям + &quot;%&quot;
 			ИНАЧЕ ИСТИНА
-		КОНЕЦ
-	И ВЫБОР
-			КОГДА &amp;ИспользоватьОтборПоПериоду
-				ТОГДА РегистрСведенийЖурнал.ПериодСобытия МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
-			ИНАЧЕ ИСТИНА
 		КОНЕЦ</queryText>
       <mainTable>InformationRegister.Журнал</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -1933,42 +1784,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ДатаНачала</name>
-    <title>
-      <key>ru</key>
-      <value>Дата начала</value>
-    </title>
-    <id>7</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ДатаОкончания</name>
-    <title>
-      <key>ru</key>
-      <value>Дата окончания</value>
-    </title>
-    <id>8</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers/>
     </valueType>
     <view>
       <common>true</common>
