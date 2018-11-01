@@ -50,6 +50,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
+  <resources uuid="0d55bb78-9ecd-4d50-9b3b-7de2b5787c2b">
+    <name>РазмерФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер файла</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
   <dimensions uuid="53e0adc4-e366-4641-b13f-1e525e90405d">
     <name>Замер</name>
     <synonym>

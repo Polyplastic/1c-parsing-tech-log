@@ -285,7 +285,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>1000</length>
+        <length>256</length>
       </stringQualifiers>
     </type>
     <mask></mask>
@@ -293,9 +293,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value> </value>
-    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="9581eebd-2370-4e1b-b075-52bd5f3a0423">
