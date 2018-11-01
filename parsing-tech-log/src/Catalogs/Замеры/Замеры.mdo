@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Замеры.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="8e76622e-1c16-4e5f-be21-d7e755abd100">
     <name>ДатаЗамера</name>
     <synonym>
@@ -83,4 +84,114 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="10d79321-55ed-456b-bdbe-ab1416c51484">
+    <name>ПолныйПуть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8d8782a-7327-4595-abc9-bfeca6d94ade">
+    <name>ИдентификаторРЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор РЗ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f32b714f-144f-4b38-8621-46f59d704506">
+    <name>ЗагрузкаВРеальномВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка в реальном времени</value>
+    </synonym>
+    <comment>Выполнять загрузку &quot;текущего&quot; файла</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1589d5f-54a7-4aba-a51f-23bfbb584f3d">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fed27f1-e9b7-4cab-8104-9031a9d02b98">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4495e141-7216-46a9-8c2e-89f443bb8042">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4c9e5033-58b7-41e6-a018-918c4591b6de">
+    <name>ВыполнитьЗагрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить загрузку</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Замеры</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="a11d8e7e-1a5b-40b3-b0f8-d0abdff04c34">
+    <name>Очистить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Замеры</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e2ffe9fa-2680-4b8c-b5c7-456d8af021ca">
+    <name>ПросмотрЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр журнала</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Замеры</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

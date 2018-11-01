@@ -1,3 +1,2 @@
 eclipse.preferences.version=1
-infobaseBinding/5f088093-9ecb-426c-94e4-e00031b9423d/runtimeInstallation=com._1c.g5.v8.dt.platform.services.core.resolvableInstallations.environments\:com._1c.g5.v8.dt.platform.services.core.runtimeType.EnterprisePlatform\=8.3.11
-infobaseBinding/a9d99b81-d81a-4d46-9944-49fc3164279a/runtimeInstallation=com._1c.g5.v8.dt.platform.services.core.resolvableInstallations.environments\:com._1c.g5.v8.dt.platform.services.core.runtimeType.EnterprisePlatform\=8.3.11
+infobaseBinding/0da49e9f-81f1-42df-92ff-59c05b01eca2/runtimeInstallation=com._1c.g5.v8.dt.platform.services.core.resolvableInstallations.fixed\:com._1c.g5.v8.dt.platform.services.core.runtimeType.EnterprisePlatform\=8.3.12.1685

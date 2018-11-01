@@ -121,7 +121,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>4</length>
+        <length>5</length>
         <fixed>true</fixed>
       </stringQualifiers>
     </type>
@@ -130,7 +130,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="1aba27b4-560d-470c-ae9f-d59a4cd9e9b0">
