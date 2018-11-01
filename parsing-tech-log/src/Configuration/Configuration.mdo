@@ -48,7 +48,11 @@
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
-  <scheduledJobs>ScheduledJob.ЗагрузкаЖурнала</scheduledJobs>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбновлениеДанныхРегламентное</commonModules>
+  <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
+  <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
   <commonCommands>CommonCommand.ПеречитатьЖурнал</commonCommands>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
@@ -56,6 +60,7 @@
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
+  <catalogs>Catalog.ТехнологическийЖурнал</catalogs>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.ПросмотрТехнологическогоЖурнала</dataProcessors>

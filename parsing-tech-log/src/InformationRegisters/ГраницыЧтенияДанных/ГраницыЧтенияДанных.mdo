@@ -18,46 +18,6 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="5c09d24a-ee42-465f-a5e6-25999d8a2df5">
-    <name>День</name>
-    <synonym>
-      <key>ru</key>
-      <value>День</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="1ec54149-ddf8-4cda-92dc-834f3167b694">
-    <name>Час</name>
-    <synonym>
-      <key>ru</key>
-      <value>Час</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>2</precision>
-      </numberQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="3479a671-5722-4133-9a6b-a5adbfbfbae8">
     <name>ПрочитаноСтрок</name>
     <synonym>
@@ -77,6 +37,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f4d9da72-6ce9-443f-87f8-0f426f9e4875">
+    <name>ПрочитанПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитан полностью</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </resources>
   <dimensions uuid="53e0adc4-e366-4641-b13f-1e525e90405d">
     <name>Замер</name>
@@ -124,7 +96,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>4</length>
+        <length>5</length>
         <fixed>true</fixed>
       </stringQualifiers>
     </type>
@@ -133,7 +105,20 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e22fd813-912b-40bf-9e52-ee76b0c09494">
+    <name>ДатаФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата файла</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
