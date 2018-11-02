@@ -18,7 +18,6 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>100</descriptionLength>

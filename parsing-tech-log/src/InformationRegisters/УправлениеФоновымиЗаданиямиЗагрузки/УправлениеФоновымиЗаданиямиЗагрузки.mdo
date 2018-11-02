@@ -15,7 +15,6 @@
     <value>Управление фоновыми заданиями загрузки</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultListForm>InformationRegister.УправлениеФоновымиЗаданиямиЗагрузки.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -273,6 +272,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="70f4b701-fca0-494c-97b1-2734fbc2eb73">

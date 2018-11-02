@@ -17,10 +17,12 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor></vendor>
   <version>1.0.0.0</version>
   <updateCatalogAddress></updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -38,9 +40,13 @@
   </languages>
   <subsystems>Subsystem.АнализТЖ</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбновлениеДанных</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
@@ -48,14 +54,23 @@
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбновлениеДанныхРегламентное</commonModules>
   <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <commonCommands>CommonCommand.ПеречитатьЖурнал</commonCommands>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
+  <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.Процессы</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
@@ -66,6 +81,7 @@
   <dataProcessors>DataProcessor.ПросмотрТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаЖурнала</dataProcessors>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <informationRegisters>InformationRegister.Журнал</informationRegisters>
   <informationRegisters>InformationRegister.ГраницыЧтенияДанных</informationRegisters>
   <informationRegisters>InformationRegister.СвойстваСобытия</informationRegisters>

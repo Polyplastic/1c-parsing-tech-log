@@ -3,9 +3,7 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>CommonCommand.ПеречитатьЖурнал</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>

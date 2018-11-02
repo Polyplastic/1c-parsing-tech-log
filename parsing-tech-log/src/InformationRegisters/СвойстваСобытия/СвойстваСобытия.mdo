@@ -15,9 +15,9 @@
     <value>Свойства события</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.СвойстваСобытия.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СвойстваСобытия.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <attributes uuid="46d78fde-fa8f-4893-a753-983f902022b2">
     <name>ЗначениеСвойства</name>
@@ -55,6 +55,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="d47a12b3-39d3-42cf-b662-fa46ae7d872d">
@@ -143,6 +144,14 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <format>
+      <key>ru</key>
+      <value></value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value></value>
+    </editFormat>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -177,6 +186,15 @@
       <value>Форма записи</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="564f81dd-534f-4ab1-a19e-bb371c90c440">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

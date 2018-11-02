@@ -36,7 +36,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
@@ -56,7 +55,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
@@ -74,7 +72,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
@@ -93,9 +90,9 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="73cedbe4-32b4-405d-a7de-7a44d7837b0e">
@@ -111,7 +108,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
@@ -133,7 +129,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
@@ -151,7 +146,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
@@ -170,7 +164,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
@@ -191,7 +184,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
@@ -209,7 +201,6 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>

@@ -15,7 +15,6 @@
     <value>Статус загрузки</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultListForm>InformationRegister.СтатусЗагрузки.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -131,6 +130,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="1e760b27-dadf-48a2-ac74-1ac7d9fb1cf1">

@@ -81,6 +81,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="5bff5f45-13a9-4d14-8753-9046f843d683">

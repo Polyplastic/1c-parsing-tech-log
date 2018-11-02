@@ -24,4 +24,5 @@
   <content>InformationRegister.СтатусЗагрузки</content>
   <content>CommonCommand.ПеречитатьЖурнал</content>
   <content>DataProcessor.ЗагрузкаЖурнала</content>
+  <content>CommonForm.ФормаПоиска</content>
 </mdclass:Subsystem>
