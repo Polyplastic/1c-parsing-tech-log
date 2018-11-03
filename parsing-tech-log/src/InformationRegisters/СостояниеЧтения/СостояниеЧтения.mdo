@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa94f369-3887-4c3c-8559-fbe15bc3489d">
+  <producedTypes>
+    <selectionType typeId="d2e18e60-12be-48f4-8300-8c04a51421ae" valueTypeId="44a4ab8f-597a-4344-b3d9-f7357ff1564e"/>
+    <listType typeId="daa8b316-b5a4-4580-bd0f-0e45a019d353" valueTypeId="db347e3e-b9ba-43c4-9cda-bca7fd725044"/>
+    <managerType typeId="2b576dd0-8f6e-418a-bddf-007071f0ddd8" valueTypeId="880f8c78-0342-4b6f-83da-b4a44356891b"/>
+    <recordSetType typeId="af5b1b63-9678-4bd6-a741-976c263775b1" valueTypeId="6dd679d7-608b-45d7-b796-db311aa94b72"/>
+    <recordKeyType typeId="88b8e726-3c2c-4e19-b65b-908bb52c43f8" valueTypeId="28354719-3eec-4772-8076-5398b93548eb"/>
+    <recordType typeId="a6af7356-df4b-45c0-ab31-3809e2793b46" valueTypeId="b53c1f94-4c8c-4c50-ac6d-647ccb8d58f0"/>
+    <recordManagerType typeId="47c8fdc3-908a-4c6c-9647-740330ea6e45" valueTypeId="9b147237-a792-4f53-8b05-289cc5319b6f"/>
+  </producedTypes>
+  <name>СостояниеЧтения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние чтения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.СостояниеЧтения.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2030141f-11f6-4a8f-bd33-89768a7247f0">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="010f1949-dbdf-4a72-a3c2-0493e30f553c">
+    <name>ЧтениеЗавершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение завершено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="1253387e-6b73-4d27-b75a-d337a4a980bc">
+    <name>ПрочитаноСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитано строк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="6a865d33-14ce-4bce-865f-aa1caea8eea8">
+    <name>ФайлЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл замера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФайлыЗамера</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6d22143c-71a4-46b1-92ec-690e91c6f3f3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2ad4582f-1d57-42b0-9d74-32ef68408a39">
+    <name>СостояниеЧтения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние чтения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Замеры</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

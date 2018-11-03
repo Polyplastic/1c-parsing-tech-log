@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e21db12e-1e79-4b1e-8ea0-a7ed03c64e33">
+  <producedTypes>
+    <selectionType typeId="44a97ee4-55c8-481c-abf0-840438853661" valueTypeId="9b563148-ac9b-4d69-ab53-8c83e1fee784"/>
+    <listType typeId="f63c111f-b4fd-4ebb-a904-fff6622ccb71" valueTypeId="a97a54bc-301a-47d5-9421-d9928dce9747"/>
+    <managerType typeId="4a030e2e-d16c-4d07-a5a4-7891fa025e52" valueTypeId="27d81d34-9f23-49e5-9e5e-ce5cc6d0a479"/>
+    <recordSetType typeId="ff1804a7-9297-4753-ab6b-207ab4892c3b" valueTypeId="037defa5-9fc3-4baa-b92a-f2346bbcfd65"/>
+    <recordKeyType typeId="e7f99176-c43b-4e9f-9dee-c7eab875fb0f" valueTypeId="6161dbdd-c0f5-4772-9b3b-f3fb737372c7"/>
+    <recordType typeId="04bb5eb1-9c3f-4496-a0b2-f397649e2d99" valueTypeId="6637c7c4-9ec8-44c6-9b59-1ae455b1bc09"/>
+    <recordManagerType typeId="8393e2d7-6795-4d15-a674-8bc551fa1103" valueTypeId="0d944c91-9aea-4916-9d67-3e56a81f92c8"/>
+  </producedTypes>
+  <name>ПредставленияЗначенийСвойств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представления значений свойств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dc28d107-8a40-450e-921b-30d1a0cea9d0">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="84d5b702-1e2e-4dd0-bed4-d6187e3100c4">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Свойства</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dfd28895-d918-4f05-b78f-a8f5ced72949">
+    <name>ХешСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш сумма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>28</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

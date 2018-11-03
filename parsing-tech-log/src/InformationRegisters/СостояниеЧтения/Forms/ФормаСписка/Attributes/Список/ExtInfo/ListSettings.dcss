@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+	<dcsset:filter>
+		<dcsset:viewMode>Normal</dcsset:viewMode>
+		<dcsset:userSettingID>8727e6ab-01e4-4505-8389-cec7c04fdf90</dcsset:userSettingID>
+	</dcsset:filter>
+	<dcsset:order>
+		<dcsset:viewMode>Normal</dcsset:viewMode>
+		<dcsset:userSettingID>7e85e3e6-9f6b-45e8-b66e-f24cca59481e</dcsset:userSettingID>
+	</dcsset:order>
+	<dcsset:conditionalAppearance>
+		<dcsset:viewMode>Normal</dcsset:viewMode>
+		<dcsset:userSettingID>9ed23d2e-97a5-41b8-875e-150b505e1db2</dcsset:userSettingID>
+	</dcsset:conditionalAppearance>
+	<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+	<dcsset:itemsUserSettingID>7c53eafa-4e6b-4c49-9a11-dfaa042b9d42</dcsset:itemsUserSettingID>
+</Settings>

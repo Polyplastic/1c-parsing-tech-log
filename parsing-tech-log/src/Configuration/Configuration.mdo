@@ -75,7 +75,8 @@
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
-  <catalogs>Catalog.ТехнологическийЖурнал</catalogs>
+  <catalogs>Catalog.СобытияЗамера</catalogs>
+  <catalogs>Catalog.ФайлыЗамера</catalogs>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.ПросмотрТехнологическогоЖурнала</dataProcessors>
@@ -87,4 +88,6 @@
   <informationRegisters>InformationRegister.СвойстваСобытия</informationRegisters>
   <informationRegisters>InformationRegister.СтатусЗагрузки</informationRegisters>
   <informationRegisters>InformationRegister.УправлениеФоновымиЗаданиямиЗагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
+  <informationRegisters>InformationRegister.ПредставленияЗначенийСвойств</informationRegisters>
 </mdclass:Configuration>

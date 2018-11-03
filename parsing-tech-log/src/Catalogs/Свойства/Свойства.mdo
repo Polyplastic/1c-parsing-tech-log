@@ -26,4 +26,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b6704295-4469-4b2c-97e6-916d3fc649fe">
+    <name>МногострочныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многострочный режим</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

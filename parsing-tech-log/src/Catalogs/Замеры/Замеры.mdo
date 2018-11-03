@@ -32,6 +32,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Замеры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Замеры.Form.ФормаСписка</defaultListForm>
   <attributes uuid="8e76622e-1c16-4e5f-be21-d7e755abd100">
     <name>ДатаЗамера</name>
     <synonym>
@@ -154,6 +155,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="59d50913-c13b-46b2-9a11-e0bd36f68ea4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
