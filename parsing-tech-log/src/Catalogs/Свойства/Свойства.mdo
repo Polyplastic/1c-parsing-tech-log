@@ -20,9 +20,11 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

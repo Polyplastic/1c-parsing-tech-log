@@ -1,6 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
+    <name>БыстрыеОтборы</name>
+    <id>46</id>
+    <items xsi:type="form:FormField">
+      <name>ОтборЗамер</name>
+      <id>48</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборЗамер</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтборЗамерПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>ОтборЗамерРасширеннаяПодсказка</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОтборЗамерКонтекстноеМеню</name>
+        <id>49</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <quickChoice>true</quickChoice>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ОтборДлительность</name>
+      <id>57</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборДлительность</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтборДлительностьПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>ОтборДлительностьРасширеннаяПодсказка</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОтборДлительностьКонтекстноеМеню</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <clearButton>true</clearButton>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>БыстрыеОтборыРасширеннаяПодсказка</name>
+      <id>47</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
     <visible>true</visible>
@@ -51,6 +193,54 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormField">
+      <name>Владелец</name>
+      <id>54</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Владелец</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ВладелецРасширеннаяПодсказка</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВладелецКонтекстноеМеню</name>
+        <id>55</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormField">
       <name>Файл</name>
       <id>31</id>
@@ -600,6 +790,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <representation>HierarchicalList</representation>
+    <readOnly>true</readOnly>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -640,6 +831,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -668,6 +863,61 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ОтборЗамер</name>
+    <title>
+      <key>ru</key>
+      <value>Замер</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>CatalogRef.Замеры</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>РежимРабочегоСтола</name>
+    <title>
+      <key>ru</key>
+      <value>Режим рабочего стола</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборДлительность</name>
+    <title>
+      <key>ru</key>
+      <value>Длительность, более (сек)</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>

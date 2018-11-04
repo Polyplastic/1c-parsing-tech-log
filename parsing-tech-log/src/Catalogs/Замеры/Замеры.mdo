@@ -180,28 +180,4 @@
     </commandParameterType>
     <representation>Auto</representation>
   </commands>
-  <commands uuid="a11d8e7e-1a5b-40b3-b0f8-d0abdff04c34">
-    <name>Очистить</name>
-    <synonym>
-      <key>ru</key>
-      <value>Очистить</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Замеры</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="e2ffe9fa-2680-4b8c-b5c7-456d8af021ca">
-    <name>ПросмотрЖурнала</name>
-    <synonym>
-      <key>ru</key>
-      <value>Просмотр журнала</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Замеры</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Catalog>

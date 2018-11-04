@@ -19,7 +19,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor></vendor>
-  <version>1.0.0.0</version>
+  <version>2.0.1.0</version>
   <updateCatalogAddress></updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
@@ -39,8 +39,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.АнализТЖ</subsystems>
-  <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
@@ -66,7 +66,6 @@
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
-  <commonCommands>CommonCommand.ПеречитатьЖурнал</commonCommands>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
@@ -79,15 +78,8 @@
   <catalogs>Catalog.ФайлыЗамера</catalogs>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
-  <dataProcessors>DataProcessor.ПросмотрТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
-  <dataProcessors>DataProcessor.ЗагрузкаЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
-  <informationRegisters>InformationRegister.Журнал</informationRegisters>
-  <informationRegisters>InformationRegister.ГраницыЧтенияДанных</informationRegisters>
-  <informationRegisters>InformationRegister.СвойстваСобытия</informationRegisters>
-  <informationRegisters>InformationRegister.СтатусЗагрузки</informationRegisters>
-  <informationRegisters>InformationRegister.УправлениеФоновымиЗаданиямиЗагрузки</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
   <informationRegisters>InformationRegister.ПредставленияЗначенийСвойств</informationRegisters>
 </mdclass:Configuration>

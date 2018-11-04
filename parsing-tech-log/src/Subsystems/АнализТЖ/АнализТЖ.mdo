@@ -16,13 +16,4 @@
   <content>Catalog.Свойства</content>
   <content>Catalog.Замеры</content>
   <content>d59a06ec-c3ce-46a6-9701-89fa6100556f</content>
-  <content>DataProcessor.НастройкаТехнологическогоЖурнала</content>
-  <content>DataProcessor.ПросмотрТехнологическогоЖурнала</content>
-  <content>InformationRegister.Журнал</content>
-  <content>InformationRegister.ГраницыЧтенияДанных</content>
-  <content>InformationRegister.СвойстваСобытия</content>
-  <content>InformationRegister.СтатусЗагрузки</content>
-  <content>CommonCommand.ПеречитатьЖурнал</content>
-  <content>DataProcessor.ЗагрузкаЖурнала</content>
-  <content>CommonForm.ФормаПоиска</content>
 </mdclass:Subsystem>

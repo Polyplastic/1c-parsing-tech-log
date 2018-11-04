@@ -39,7 +39,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Замеры</owners>
-  <descriptionLength>50</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
@@ -86,6 +86,7 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <indexing>IndexWithAdditionalOrder</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="efe328f2-e3cb-48d5-be4d-8d6b5d95c1dd">

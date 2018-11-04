@@ -2,20 +2,20 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>CommonCommand.ПеречитатьЖурнал</command>
+      <command>Catalog.Процессы.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>CommonCommand.ПеречитатьЖурнал</commands>
+      <group>NavigationPanelImportant</group>
+      <commands>Catalog.Замеры.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>CommonCommand.ПеречитатьЖурнал</commands>
+      <group>NavigationPanelImportant</group>
+      <commands>Catalog.Замеры.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

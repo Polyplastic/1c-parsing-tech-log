@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="133dc9be-7434-423c-bad5-bf7cec9b2fe1">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6f8d61a-4933-4bbf-a197-2b68dfa0956c">
   <name>Администрирование</name>
   <synonym>
     <key>ru</key>
     <value>Администрирование</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПодсистемаАдминистрирование</picture>
   </picture>
+  <content>DataProcessor.НастройкаТехнологическогоЖурнала</content>
   <content>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</content>
-  <content>ad245d8d-2d9e-462e-af07-dd87c968d74e</content>
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
-  <content>InformationRegister.УправлениеФоновымиЗаданиямиЗагрузки</content>
-  <content>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</content>
   <content>CommonForm.ФормаКонстант</content>
 </mdclass:Subsystem>
