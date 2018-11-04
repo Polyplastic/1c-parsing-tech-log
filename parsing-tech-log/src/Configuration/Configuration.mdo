@@ -65,9 +65,11 @@
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
+  <constants>Constant.УдалятьУстаревшиеСобытия</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.Процессы</catalogs>
@@ -80,6 +82,7 @@
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
   <informationRegisters>InformationRegister.ПредставленияЗначенийСвойств</informationRegisters>
 </mdclass:Configuration>

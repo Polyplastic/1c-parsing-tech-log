@@ -150,6 +150,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="16a38544-c1fe-42d7-8e21-958e2a850216">
+    <name>ГлубинаХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина хранения, дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4495e141-7216-46a9-8c2e-89f443bb8042">
     <name>ФормаЭлемента</name>
     <synonym>
