@@ -83,6 +83,7 @@
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
+  <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
   <informationRegisters>InformationRegister.ПредставленияЗначенийСвойств</informationRegisters>
 </mdclass:Configuration>

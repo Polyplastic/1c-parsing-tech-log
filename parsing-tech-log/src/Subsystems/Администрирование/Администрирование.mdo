@@ -14,4 +14,5 @@
   <content>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</content>
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
   <content>CommonForm.ФормаКонстант</content>
+  <content>DataProcessor.ПереходСВерсии10</content>
 </mdclass:Subsystem>
