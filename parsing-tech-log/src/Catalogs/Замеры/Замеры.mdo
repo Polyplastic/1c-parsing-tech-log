@@ -166,6 +166,55 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f1cca866-163d-4033-bbb1-c9ddeca0164e">
+    <name>ФильтрТипПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр тип процесса</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f57ce732-cb6a-43b7-8dc2-c62218a8211d">
+    <name>ФильтрТипСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр тип события</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a1227c5-ff60-4a96-af56-3b757812d8e7">
+    <name>ФильтрСвойстваСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства события (регулярное выражение)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91c326c1-e7d2-4c2a-bbf9-8e8da9f31661">
+    <name>ФильтрСвойстваСобытияКроме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4495e141-7216-46a9-8c2e-89f443bb8042">
     <name>ФормаЭлемента</name>
     <synonym>

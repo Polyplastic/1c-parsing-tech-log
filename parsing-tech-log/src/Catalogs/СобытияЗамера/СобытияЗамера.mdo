@@ -47,6 +47,18 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.СобытияЗамера.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.СобытияЗамера.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="cce27e24-6458-41a3-913f-828795fd37ab">
+    <name>ТипПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Процессы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="18fa1e46-fb00-4f04-8f03-23990f9f8cb0">
     <name>Файл</name>
     <synonym>
