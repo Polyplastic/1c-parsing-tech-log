@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="627f9fa1-5956-4d1e-a132-064bc7b712f1">
+  <producedTypes>
+    <objectType typeId="e6f41c31-8adf-405c-aab3-397ba65ffb52" valueTypeId="889373f8-9111-40b9-a025-6d7a99d38d91"/>
+    <managerType typeId="553f9f95-d25c-44ee-bda9-9ecb845d7bac" valueTypeId="f4969210-93ae-44a3-9bdb-2f90092be1c1"/>
+  </producedTypes>
+  <name>УдалениеУстаревшихСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление устаревших событий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалениеУстаревшихСобытий.Form.Форма</defaultForm>
+  <forms uuid="1891d2c8-212d-4e6a-b7d2-cf10d27e39dd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

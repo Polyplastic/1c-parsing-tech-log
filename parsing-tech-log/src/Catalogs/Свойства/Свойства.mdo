@@ -18,13 +18,61 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Свойства.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="b6704295-4469-4b2c-97e6-916d3fc649fe">
+    <name>МногострочныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многострочный режим</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="070391bb-c918-4c77-b8ba-0db290e37089">
+    <name>НормализацияЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормализация значения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40e345c0-ff2f-401a-a134-0331e9ec7402">
+    <name>ТекстФункцииНормализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст функции нормализации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="da13a5c2-c2f3-46e7-8425-d388abbfc172">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

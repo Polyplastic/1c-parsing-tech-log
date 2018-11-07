@@ -17,16 +17,18 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor></vendor>
-  <version>1.0.0.0</version>
+  <version>2.0.1.0</version>
   <updateCatalogAddress></updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.11</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="9d74f535-3f09-47a4-a948-ee67e1dd73f4">
     <name>Русский</name>
     <synonym>
@@ -37,10 +39,14 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.АнализТЖ</subsystems>
+  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ОбновлениеДанных</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
@@ -48,27 +54,36 @@
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбновлениеДанныхРегламентное</commonModules>
   <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
-  <commonCommands>CommonCommand.ПеречитатьЖурнал</commonCommands>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
+  <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
+  <constants>Constant.УдалятьУстаревшиеСобытия</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.Процессы</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
-  <catalogs>Catalog.ТехнологическийЖурнал</catalogs>
+  <catalogs>Catalog.СобытияЗамера</catalogs>
+  <catalogs>Catalog.ФайлыЗамера</catalogs>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
-  <dataProcessors>DataProcessor.ПросмотрТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
-  <dataProcessors>DataProcessor.ЗагрузкаЖурнала</dataProcessors>
-  <informationRegisters>InformationRegister.Журнал</informationRegisters>
-  <informationRegisters>InformationRegister.ГраницыЧтенияДанных</informationRegisters>
-  <informationRegisters>InformationRegister.СвойстваСобытия</informationRegisters>
-  <informationRegisters>InformationRegister.СтатусЗагрузки</informationRegisters>
-  <informationRegisters>InformationRegister.УправлениеФоновымиЗаданиямиЗагрузки</informationRegisters>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
+  <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
+  <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
+  <informationRegisters>InformationRegister.ПредставленияЗначенийСвойств</informationRegisters>
 </mdclass:Configuration>

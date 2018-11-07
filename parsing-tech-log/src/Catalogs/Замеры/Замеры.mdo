@@ -32,6 +32,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Замеры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Замеры.Form.ФормаСписка</defaultListForm>
   <attributes uuid="8e76622e-1c16-4e5f-be21-d7e755abd100">
     <name>ДатаЗамера</name>
     <synonym>
@@ -149,6 +150,71 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="16a38544-c1fe-42d7-8e21-958e2a850216">
+    <name>ГлубинаХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина хранения, дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1cca866-163d-4033-bbb1-c9ddeca0164e">
+    <name>ФильтрТипПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр тип процесса</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f57ce732-cb6a-43b7-8dc2-c62218a8211d">
+    <name>ФильтрТипСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр тип события</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a1227c5-ff60-4a96-af56-3b757812d8e7">
+    <name>ФильтрСвойстваСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства события (регулярное выражение)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91c326c1-e7d2-4c2a-bbf9-8e8da9f31661">
+    <name>ФильтрСвойстваСобытияКроме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4495e141-7216-46a9-8c2e-89f443bb8042">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -158,35 +224,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="59d50913-c13b-46b2-9a11-e0bd36f68ea4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="4c9e5033-58b7-41e6-a018-918c4591b6de">
     <name>ВыполнитьЗагрузку</name>
     <synonym>
       <key>ru</key>
       <value>Выполнить загрузку</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Замеры</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="a11d8e7e-1a5b-40b3-b0f8-d0abdff04c34">
-    <name>Очистить</name>
-    <synonym>
-      <key>ru</key>
-      <value>Очистить</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Замеры</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="e2ffe9fa-2680-4b8c-b5c7-456d8af021ca">
-    <name>ПросмотрЖурнала</name>
-    <synonym>
-      <key>ru</key>
-      <value>Просмотр журнала</value>
     </synonym>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

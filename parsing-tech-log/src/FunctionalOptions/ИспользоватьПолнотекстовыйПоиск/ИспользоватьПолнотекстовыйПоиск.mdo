@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1526b18d-7fab-414e-a5b2-377b67ac0b55">
+  <name>ИспользоватьПолнотекстовыйПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать полнотекстовый поиск</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьПолнотекстовыйПоиск</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных.Command.ПолнотекстовыйПоиск</content>
+</mdclass:FunctionalOption>
