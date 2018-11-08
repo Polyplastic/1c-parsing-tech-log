@@ -68,6 +68,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="26a73093-a28d-431e-96eb-81f3621ce488">
+    <name>Хешировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хешировать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="da13a5c2-c2f3-46e7-8425-d388abbfc172">
     <name>ФормаЭлемента</name>
     <synonym>

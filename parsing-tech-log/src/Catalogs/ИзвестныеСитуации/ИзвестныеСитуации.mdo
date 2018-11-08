@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e000f200-1fbb-41da-8dc6-fb90d6e3a6a5">
+  <producedTypes>
+    <objectType typeId="7054f9af-2e28-48ba-b97c-1d7996d192b4" valueTypeId="4d843369-3ab4-4a57-a03e-01c52707fd2f"/>
+    <refType typeId="a38f5202-974e-439a-af94-d4ac0be7ce97" valueTypeId="3c2cfc14-e3da-4604-b16b-9ff9f0ff0fdd"/>
+    <selectionType typeId="a54de683-3b19-4646-810e-a0f65b7db654" valueTypeId="5ea3e351-68c1-4d83-a4dd-a1cfafc2c2b6"/>
+    <listType typeId="8d935ddc-bb31-4e98-ba35-2337c31e13d3" valueTypeId="2f11563f-8245-4ab5-b44d-30145e8b4999"/>
+    <managerType typeId="0a9cf59b-7d1b-4bc7-a9b5-61f339a1dad5" valueTypeId="b98febc4-f248-4998-a477-9425f377bba7"/>
+  </producedTypes>
+  <name>ИзвестныеСитуации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Известные ситуации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИзвестныеСитуации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИзвестныеСитуации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="384c71ad-52c0-438d-ad13-6ca52e420956">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Свойства</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Хешировать</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a3fb9f4-1bb8-4bea-92a0-3cbe9d9b39b8">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="427fc6e8-7ddf-4945-8dab-f11517a4d737">
+    <name>ХешЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш значения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>28</length>
+      </stringQualifiers>
+    </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a35dc56-07d4-45cd-b601-2976724d49ba">
+    <name>Рекомендации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0d1d37c2-bc65-43d8-8fae-de8ab4f10792">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="992ae359-7c4a-493c-a225-258e4b21f435">
+    <name>СобытияПоСитуации</name>
+    <synonym>
+      <key>ru</key>
+      <value>События по ситуации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
