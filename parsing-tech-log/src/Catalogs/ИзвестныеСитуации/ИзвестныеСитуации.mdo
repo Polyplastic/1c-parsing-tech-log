@@ -94,6 +94,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b2ae897d-4f1f-4ee1-a673-4a064252151f">
+    <name>Серьезность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серьезность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0d1d37c2-bc65-43d8-8fae-de8ab4f10792">
     <name>ФормаЭлемента</name>
     <synonym>
