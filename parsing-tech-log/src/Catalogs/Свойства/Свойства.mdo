@@ -15,6 +15,8 @@
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Свойства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Свойства.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -62,6 +64,18 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26a73093-a28d-431e-96eb-81f3621ce488">
+    <name>Хешировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хешировать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

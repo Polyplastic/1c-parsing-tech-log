@@ -78,6 +78,7 @@
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
+  <catalogs>Catalog.ИзвестныеСитуации</catalogs>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
@@ -85,5 +86,4 @@
   <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
   <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
-  <informationRegisters>InformationRegister.ПредставленияЗначенийСвойств</informationRegisters>
 </mdclass:Configuration>

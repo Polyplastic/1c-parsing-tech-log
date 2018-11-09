@@ -15,6 +15,7 @@
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.События.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.События.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
