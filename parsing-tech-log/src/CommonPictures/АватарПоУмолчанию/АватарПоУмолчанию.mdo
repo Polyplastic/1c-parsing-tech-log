@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e0c435e-314f-4b18-90fd-e2ca42e98f8f">
+  <name>АватарПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аватар по умолчанию</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

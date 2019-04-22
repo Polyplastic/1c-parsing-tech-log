@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26a4ad97-346b-4689-be65-34ca5b5e0f33">
+  <producedTypes>
+    <refType typeId="6d6e6f4c-6087-48d7-a20b-f76b818999ee" valueTypeId="23d4b64d-142d-4391-94ce-e51269f65b60"/>
+    <listType typeId="d18b0ba9-3237-4e7c-8d41-86626b33a600" valueTypeId="a57b6724-5a37-43ed-8779-b84969404785"/>
+    <managerType typeId="77669a4f-8a50-49dd-b6f4-9831f766b8ed" valueTypeId="805a3353-d5c5-417e-97ab-42cb8f3cbe51"/>
+  </producedTypes>
+  <name>ВариантыПубликацииДополнительныхОтчетовИОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты публикации дополнительных отчетов и обработок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e1dbb129-b236-4fdb-83e6-149eaca9f44d">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5ca4239d-818e-424e-b2ec-5457d3c2c0df">
+    <name>РежимОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="45c6dc95-78c7-403a-9b66-072f5bb70c7c">
+    <name>Отключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

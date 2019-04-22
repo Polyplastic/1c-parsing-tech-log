@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10209ad9-8fd5-47fd-aa98-03cfcabc158c">
+  <name>Карандаш_16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карандаш 16х16</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>
