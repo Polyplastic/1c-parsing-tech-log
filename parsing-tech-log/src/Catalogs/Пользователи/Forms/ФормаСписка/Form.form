@@ -233,6 +233,7 @@
       </contextMenu>
       <type>LabelField</type>
       <editMode>Enter</editMode>
+      <autoCellHeight>true</autoCellHeight>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>

@@ -571,7 +571,6 @@
         <name>НастроитьСписок</name>
         <id>35</id>
         <visible>true</visible>
-        <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
