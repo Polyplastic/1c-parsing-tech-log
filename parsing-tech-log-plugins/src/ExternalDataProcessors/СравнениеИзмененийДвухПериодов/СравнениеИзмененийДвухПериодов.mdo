@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23a41a06-57ff-44fa-86b4-be1b00b88752">
+  <producedTypes>
+    <objectType typeId="8c1f2c56-3ae3-46ae-9532-f46562ca7072" valueTypeId="3e19be9e-7f64-4df7-b500-4782604312ba"/>
+  </producedTypes>
+  <name>СравнениеИзмененийДвухПериодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение изменений двух периодов</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="8c1bc071-7826-488c-b18b-82ede7287830"/>
+  <defaultForm>ExternalDataProcessor.СравнениеИзмененийДвухПериодов.Form.Форма</defaultForm>
+  <forms uuid="41a096d1-913d-44bb-af6d-0d465f1f765a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
