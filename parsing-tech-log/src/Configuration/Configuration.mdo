@@ -19,7 +19,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.2.0</version>
+  <version>2.0.3.0</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
@@ -72,19 +72,19 @@
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиент</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеДанных</commonModules>
+  <commonModules>CommonModule.ОбновлениеДанныхРегламентное</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.ПолнотекстовыйПоискКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
-  <commonModules>CommonModule.ОбновлениеДанныхРегламентное</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
-  <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
@@ -92,9 +92,9 @@
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
@@ -105,36 +105,38 @@
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАнализТЖ</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАнализТЖ</commonCommands>
-  <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
+  <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.УдалятьУстаревшиеСобытия</constants>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИзвестныеСитуации</catalogs>
+  <catalogs>Catalog.Оборудование</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Процессы</catalogs>
-  <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
-  <catalogs>Catalog.Замеры</catalogs>
+  <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
-  <catalogs>Catalog.ИзвестныеСитуации</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимЗапускаКлиентскогоПриложения</enums>
   <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
+  <enums>Enum.ТипыЗамеров</enums>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
+  <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
-  <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
-  <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
-  <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>

@@ -1512,7 +1512,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПраваСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1551,7 +1550,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПраваСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -1591,7 +1589,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПраваУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1843,28 +1840,6 @@
     </edit>
     <main>true</main>
     <savedData>true</savedData>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>1/0:641a7ca5-d505-4dc9-8b05-7f770d510946</segments>
-      </tablePath>
-      <columns>
-        <name>Выбрана</name>
-        <title>
-          <key>ru</key>
-          <value>Выбрана</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>Boolean</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
   </attributes>
   <attributes>
     <name>Права</name>
@@ -2021,7 +1996,6 @@
     <use>
       <common>true</common>
     </use>
-    <picture xsi:type="core:PictureRef"/>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СнятьФлажкиСРолей</name>
@@ -2043,7 +2017,6 @@
     <use>
       <common>true</common>
     </use>
-    <picture xsi:type="core:PictureRef"/>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>УстановитьФлажкиНаРоли</name>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f33f072e-3d90-4849-904e-038bb7f26ef2">
+  <producedTypes>
+    <refType typeId="0b67bed8-6ab1-405a-a5f8-9f336f3ff64b" valueTypeId="6d2adec2-c3c2-4e7d-a10e-fd0a24568ebe"/>
+    <listType typeId="6c9a2fb2-0efd-4fcc-81ce-7563f17ba170" valueTypeId="6ac92106-da8c-44da-8365-e1ea022e0cf3"/>
+    <managerType typeId="9895b53e-3c2f-48b6-89ac-4b8fbf1591e0" valueTypeId="9bf80f88-235c-4efe-957f-f3fdc10948ae"/>
+  </producedTypes>
+  <name>ТипыЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы замеров</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56019f61-768c-4dc6-9cab-05e7e61eb1fe">
+    <name>ТехнологическийЖурнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологический журнал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="24ad0201-52de-4816-91f5-f13eb992df89">
+    <name>PerfomanceMonitor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Perfomance monitor</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0ce5f268-95c5-441f-b85f-1c89a201712c">
+    <name>Произвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>
