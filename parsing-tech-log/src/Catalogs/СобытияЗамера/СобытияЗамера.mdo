@@ -29,6 +29,9 @@
     <characteristicTypes>Catalog.Свойства</characteristicTypes>
     <keyField>Catalog.Свойства.StandardAttribute.Ref</keyField>
     <typesFilterField>Catalog.Свойства.Attribute.ЧисловойРежим</typesFilterField>
+    <typesFilterValue xsi:type="core:BooleanValue">
+      <value>false</value>
+    </typesFilterValue>
     <characteristicValues>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства</characteristicValues>
     <objectField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.StandardAttribute.Ref</objectField>
     <typeField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.Attribute.Свойство</typeField>

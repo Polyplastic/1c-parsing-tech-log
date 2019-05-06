@@ -70,6 +70,10 @@
         <segments>ШиринаОкна</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ШиринаОкнаПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ШиринаОкнаРасширеннаяПодсказка</name>
       <id>26</id>
@@ -803,7 +807,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ГрафикиPerfomanceMonitor</types>
+      <types>ExternalDataProcessor.ГрафикиPerfomanceMonitor</types>
     </valueType>
     <view>
       <common>true</common>
@@ -938,6 +942,26 @@
         <types>CatalogRef.Свойства</types>
       </itemValueType>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>Автообновлять</name>
+    <title>
+      <key>ru</key>
+      <value>Автообновлять</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Автообновлять</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>Вперед</name>
