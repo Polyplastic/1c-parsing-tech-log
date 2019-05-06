@@ -20,4 +20,5 @@
   <content>Catalog.ИзвестныеСитуации</content>
   <content>CommonCommand.ДополнительныеОбработкиАнализТЖ</content>
   <content>CommonCommand.ДополнительныеОтчетыАнализТЖ</content>
+  <content>Catalog.СобытияЗамера</content>
 </mdclass:Subsystem>

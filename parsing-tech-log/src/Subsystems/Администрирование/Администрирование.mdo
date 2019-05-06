@@ -19,4 +19,8 @@
   <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog.Оборудование</content>
+  <content>InformationRegister.СостояниеЧтения</content>
+  <content>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</content>
+  <content>Catalog.ФайлыЗамера</content>
 </mdclass:Subsystem>

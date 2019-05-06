@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3449e0ec-1226-49de-9a0c-984bd33b5c0c">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3449e0ec-1226-49de-9a0c-984bd33b5c0c">
   <producedTypes>
     <objectType typeId="0685f8b8-53bf-4eee-9f08-6d0a2ce6fd13" valueTypeId="268b34c3-b981-43fd-93c8-f0aaf9461b07"/>
     <refType typeId="79df82f2-309c-40b6-9413-62199611406b" valueTypeId="fa6d70d9-c4cf-410c-9ed7-40627e1665ad"/>
@@ -28,10 +28,23 @@
   <characteristics>
     <characteristicTypes>Catalog.Свойства</characteristicTypes>
     <keyField>Catalog.Свойства.StandardAttribute.Ref</keyField>
+    <typesFilterField>Catalog.Свойства.Attribute.ЧисловойРежим</typesFilterField>
     <characteristicValues>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства</characteristicValues>
     <objectField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.StandardAttribute.Ref</objectField>
     <typeField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.Attribute.Свойство</typeField>
     <valueField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.Attribute.Значение</valueField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.Свойства</characteristicTypes>
+    <keyField>Catalog.Свойства.StandardAttribute.Ref</keyField>
+    <typesFilterField>Catalog.Свойства.Attribute.ЧисловойРежим</typesFilterField>
+    <typesFilterValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </typesFilterValue>
+    <characteristicValues>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства</characteristicValues>
+    <objectField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.Attribute.Свойство</typeField>
+    <valueField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.Attribute.ЗначениеЧисло</valueField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -198,6 +211,26 @@
         <types>String</types>
         <stringQualifiers/>
       </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d50c202a-22bf-48d9-83de-deac5afa7b71">
+      <name>ЗначениеЧисло</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение (число)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

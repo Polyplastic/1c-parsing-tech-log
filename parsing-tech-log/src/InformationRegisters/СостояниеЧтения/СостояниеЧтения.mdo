@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa94f369-3887-4c3c-8559-fbe15bc3489d">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa94f369-3887-4c3c-8559-fbe15bc3489d">
   <producedTypes>
     <selectionType typeId="d2e18e60-12be-48f4-8300-8c04a51421ae" valueTypeId="44a4ab8f-597a-4344-b3d9-f7357ff1564e"/>
     <listType typeId="daa8b316-b5a4-4580-bd0f-0e45a019d353" valueTypeId="db347e3e-b9ba-43c4-9cda-bca7fd725044"/>
@@ -58,6 +58,24 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="a447835b-158e-4b7f-b10b-c99e4c011e51">
+    <name>ДатаИзмененияСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения состояния</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="6a865d33-14ce-4bce-865f-aa1caea8eea8">
     <name>ФайлЗамера</name>

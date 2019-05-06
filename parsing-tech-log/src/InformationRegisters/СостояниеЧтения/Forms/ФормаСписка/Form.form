@@ -286,6 +286,54 @@
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаИзмененияСостояния</name>
+      <id>31</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.ДатаИзмененияСостояния</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаИзмененияСостоянияРасширеннаяПодсказка</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаИзмененияСостоянияКонтекстноеМеню</name>
+        <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -506,18 +554,18 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ &#xD;
-       СостояниеЧтения.ФайлЗамера.Владелец КАК Замер, &#xD;
-       СостояниеЧтения.ФайлЗамера, &#xD;
-       СостояниеЧтения.Размер, &#xD;
-       СостояниеЧтения.ЧтениеЗавершено, &#xD;
-       СостояниеЧтения.ПрочитаноСтрок&#xD;
- ИЗ &#xD;
-       РегистрСведений.СостояниеЧтения&#xD;
- КАК &#xD;
-       СостояниеЧтения&#xD;
-ГДЕ &amp;Замер = ЗНАЧЕНИЕ(Справочник.Замеры.ПустаяСсылка)&#xD;
-	ИЛИ СостояниеЧтения.ФайлЗамера.Владелец = &amp;Замер</queryText>
+      <queryText>ВЫБРАТЬ
+	СостояниеЧтения.ФайлЗамера.Владелец КАК Замер,
+	СостояниеЧтения.ФайлЗамера КАК ФайлЗамера,
+	СостояниеЧтения.Размер КАК Размер,
+	СостояниеЧтения.ЧтениеЗавершено КАК ЧтениеЗавершено,
+	СостояниеЧтения.ПрочитаноСтрок КАК ПрочитаноСтрок,
+	СостояниеЧтения.ДатаИзмененияСостояния КАК ДатаИзмененияСостояния
+ИЗ
+	РегистрСведений.СостояниеЧтения КАК СостояниеЧтения
+ГДЕ
+	(&amp;Замер = ЗНАЧЕНИЕ(Справочник.Замеры.ПустаяСсылка)
+			ИЛИ СостояниеЧтения.ФайлЗамера.Владелец = &amp;Замер)</queryText>
       <mainTable>InformationRegister.СостояниеЧтения</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>

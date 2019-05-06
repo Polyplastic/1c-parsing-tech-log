@@ -231,6 +231,60 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1b66ffb5-c3d3-4375-89ad-cb889637a1ac">
+    <name>ТипЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип замера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыЗамеров</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыЗамеров.EnumValue.ТехнологическийЖурнал</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8922f025-bf77-4f80-a6d4-956b0bbf6eb0">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de52f7b3-88ca-4453-8528-88442d9ca5c4">
+    <name>ДополнительнаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная обработка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4495e141-7216-46a9-8c2e-89f443bb8042">
     <name>ФормаЭлемента</name>
     <synonym>
