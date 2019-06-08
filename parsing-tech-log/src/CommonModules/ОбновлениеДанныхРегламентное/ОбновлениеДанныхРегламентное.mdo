@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обновление данных регламентное</value>
   </synonym>
+  <comment></comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
 </mdclass:CommonModule>

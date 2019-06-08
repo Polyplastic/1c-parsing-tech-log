@@ -19,10 +19,11 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.3.0</version>
+  <version>2.0.4.0</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
+  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <detailedInformation>
     <key>ru</key>
@@ -54,6 +55,7 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Оракул</subsystems>
   <subsystems>Subsystem.АнализТЖ</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
@@ -65,6 +67,8 @@
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаОракул</commonPictures>
+  <commonPictures>CommonPicture.РабочийСтол</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
@@ -97,6 +101,8 @@
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
@@ -104,6 +110,8 @@
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиОракул</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыОракул</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАнализТЖ</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
@@ -122,6 +130,7 @@
   <catalogs>Catalog.Оборудование</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Процессы</catalogs>
+  <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
@@ -137,7 +146,10 @@
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
+  <informationRegisters>InformationRegister.СнимкиСостояний</informationRegisters>
+  <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
+  <informationRegisters>InformationRegister.ОбщееХранениеНастроек</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="badbdb7f-1d70-4680-886e-951d16767f21">
+  <name>ПодсистемаОракул</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема оракул</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

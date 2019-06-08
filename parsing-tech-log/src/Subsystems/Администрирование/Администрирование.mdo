@@ -23,4 +23,6 @@
   <content>InformationRegister.СостояниеЧтения</content>
   <content>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</content>
   <content>Catalog.ФайлыЗамера</content>
+  <content>InformationRegister.БезопасноеХранилищеДанных</content>
+  <content>InformationRegister.ОбщееХранениеНастроек</content>
 </mdclass:Subsystem>

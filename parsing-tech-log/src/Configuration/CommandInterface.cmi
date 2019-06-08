@@ -2,5 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>Subsystem.АнализТЖ</subsystems>
+    <subsystems>Subsystem.Оракул</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

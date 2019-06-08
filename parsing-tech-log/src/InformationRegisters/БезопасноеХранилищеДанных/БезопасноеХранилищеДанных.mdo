@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6ca8d33-deb2-4a9d-8976-0bb5ceb0e035">
+  <producedTypes>
+    <selectionType typeId="eec7c68a-5688-440b-8e31-de7bff9b1306" valueTypeId="d45eb140-76c8-4c5a-9816-0cab1b6a5f15"/>
+    <listType typeId="98410ee6-cb32-4d20-83e8-d2ae2ce9036c" valueTypeId="16caa562-d146-4859-bc7a-80454bc77eb7"/>
+    <managerType typeId="a1dae30c-b9af-4afa-9376-02aada1d2fb7" valueTypeId="cd7ed372-b4f9-41d8-aa42-0e44329dfacd"/>
+    <recordSetType typeId="58e44b3f-ee6b-42bd-ac0e-2cb88fa92c21" valueTypeId="a4d47dd6-3e91-4649-bfa7-b62370e869d0"/>
+    <recordKeyType typeId="b008f6de-3460-43fe-bb54-e591bd2b0d5c" valueTypeId="8d5867c8-0163-4498-a997-bf0b9fa03876"/>
+    <recordType typeId="6ab8f25c-e5db-4b5d-8b23-bbec2fd91e96" valueTypeId="f7377b1b-e3df-4baa-b6e6-705d9b685c04"/>
+    <recordManagerType typeId="fa9ea766-a49c-468a-92b9-436f69b6a5aa" valueTypeId="5fbde0b5-e33c-4527-bc98-c9e4965cf645"/>
+  </producedTypes>
+  <name>БезопасноеХранилищеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безопасное хранилище данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7bd6583a-7165-490c-b46c-a8f81eba875e">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="94eaf9c7-e54a-42a9-81c5-ef6e75644d33">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="4589255c-aefb-4229-9004-492b4663d2a5">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+      <types>CatalogRef.Замеры</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Свойства</types>
+      <types>CatalogRef.События</types>
+      <types>CatalogRef.СобытияЗамера</types>
+      <types>CatalogRef.ФайлыЗамера</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

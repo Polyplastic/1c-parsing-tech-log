@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ababe5da-4735-4139-951c-0ba143c50214">
+  <producedTypes>
+    <selectionType typeId="9ed4137a-8fe8-4377-bfc3-bd42d1cd00e6" valueTypeId="bd68f63e-f7be-4203-bc19-75e6c6c54597"/>
+    <listType typeId="f08dfd73-ba2d-4783-9ad3-97fadc526ad1" valueTypeId="0c938363-5887-47d9-a108-39864f80f016"/>
+    <managerType typeId="a7c69948-a1d3-47f8-b29f-042facd74650" valueTypeId="fa9fffb5-d075-408b-8ee2-30f5802ce2ec"/>
+    <recordSetType typeId="7b723cd0-b0fe-4953-b115-e75cd510b9a6" valueTypeId="a7c28eaa-e367-45ac-8984-32e5e934812a"/>
+    <recordKeyType typeId="6e67084c-ff20-4403-b9a0-f63e2502883f" valueTypeId="35425f61-d0ec-44bd-912b-dbccd9aec986"/>
+    <recordType typeId="5a758cfa-0bfc-4048-9acf-1aa14005fb4d" valueTypeId="bdc34e9a-2950-4f3c-9a41-8052eb845018"/>
+    <recordManagerType typeId="3d06c2a5-49f3-4c4c-b772-f39de41cd976" valueTypeId="7746b9df-cebc-44c0-b52a-af835afb1685"/>
+  </producedTypes>
+  <name>ОбщееХранениеНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общее хранение настроек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2fdf0d70-2dec-4557-a30c-1d74455cf188">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="ab9d4f48-5ae5-43d3-9de6-9f53b8b694a8">
+    <name>ДатаАктуальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="e659ac49-0014-402e-8129-090adb24b04a">
+    <name>КлючОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="086b7b7c-e4d4-4974-8c25-6c3af856c00b">
+    <name>КлючНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ настроек</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d64f3507-657b-4a56-98c8-bd4b33f7d410">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

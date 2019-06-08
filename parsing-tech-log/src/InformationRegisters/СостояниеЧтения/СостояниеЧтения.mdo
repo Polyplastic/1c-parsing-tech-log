@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Состояние чтения</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultListForm>InformationRegister.СостояниеЧтения.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,14 +24,19 @@
       <key>ru</key>
       <value>Размер</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="010f1949-dbdf-4a72-a3c2-0493e30f553c">
     <name>ЧтениеЗавершено</name>
@@ -38,11 +44,16 @@
       <key>ru</key>
       <value>Чтение завершено</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="1253387e-6b73-4d27-b75a-d337a4a980bc">
     <name>ПрочитаноСтрок</name>
@@ -50,14 +61,19 @@
       <key>ru</key>
       <value>Прочитано строк</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="a447835b-158e-4b7f-b10b-c99e4c011e51">
     <name>ДатаИзмененияСостояния</name>
@@ -77,17 +93,40 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="7bd27bec-7a8f-4510-a13f-7200c94df70c">
+    <name>ДатаПрочитанныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прочитанных данных</value>
+    </synonym>
+    <comment>Дата последней прочитанной записи из источника</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="6a865d33-14ce-4bce-865f-aa1caea8eea8">
     <name>ФайлЗамера</name>
     <synonym>
       <key>ru</key>
       <value>Файл замера</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.ФайлыЗамера</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
@@ -97,6 +136,7 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -106,10 +146,12 @@
       <key>ru</key>
       <value>Состояние чтения</value>
     </synonym>
+    <comment></comment>
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType>
       <types>CatalogRef.Замеры</types>
     </commandParameterType>
     <representation>Auto</representation>
+    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>
