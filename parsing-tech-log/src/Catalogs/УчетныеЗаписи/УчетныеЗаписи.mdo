@@ -28,6 +28,22 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.УчетныеЗаписи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="063766d3-3b31-4824-af3f-2a82ab3388cd">
+    <name>API</name>
+    <synonym>
+      <key>ru</key>
+      <value>API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="6cb40594-bc96-4c14-9230-5a72d5665e4a">
     <name>Ответственный</name>
     <synonym>
