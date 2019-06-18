@@ -15,4 +15,6 @@
   <content>CommonCommand.ДополнительныеОтчетыОракул</content>
   <content>CommonCommand.ДополнительныеОбработкиОракул</content>
   <content>Catalog.НейронныеСети</content>
+  <content>Catalog.МашиныСостояний</content>
+  <content>InformationRegister.СостояниеОбработкиFSM</content>
 </mdclass:Subsystem>

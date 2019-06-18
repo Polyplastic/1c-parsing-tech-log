@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b4b1c45-7ffa-4f97-aa76-4ba979857dd8">
-  <name>АнализТЖ</name>
+  <name>Замеры</name>
   <synonym>
     <key>ru</key>
-    <value>Анализ ТЖ</value>
+    <value>Замеры</value>
   </synonym>
   <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
@@ -18,7 +18,7 @@
   <content>d59a06ec-c3ce-46a6-9701-89fa6100556f</content>
   <content>DataProcessor.УдалениеУстаревшихСобытий</content>
   <content>Catalog.ИзвестныеСитуации</content>
-  <content>CommonCommand.ДополнительныеОбработкиАнализТЖ</content>
-  <content>CommonCommand.ДополнительныеОтчетыАнализТЖ</content>
+  <content>CommonCommand.ДополнительныеОбработкиЗамеры</content>
+  <content>CommonCommand.ДополнительныеОтчетыЗамеры</content>
   <content>Catalog.СобытияЗамера</content>
 </mdclass:Subsystem>

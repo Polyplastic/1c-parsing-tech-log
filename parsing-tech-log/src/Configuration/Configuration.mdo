@@ -56,7 +56,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Оракул</subsystems>
-  <subsystems>Subsystem.АнализТЖ</subsystems>
+  <subsystems>Subsystem.Замеры</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
@@ -69,6 +69,7 @@
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаОракул</commonPictures>
   <commonPictures>CommonPicture.РабочийСтол</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаЗамеры</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
@@ -113,9 +114,9 @@
   <commonCommands>CommonCommand.ДополнительныеОбработкиОракул</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыОракул</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОбработкиАнализТЖ</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиЗамеры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОтчетыАнализТЖ</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыЗамеры</commonCommands>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.УдалятьУстаревшиеСобытия</constants>
@@ -127,21 +128,22 @@
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИзвестныеСитуации</catalogs>
+  <catalogs>Catalog.МашиныСостояний</catalogs>
+  <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Процессы</catalogs>
-  <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
+  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимЗапускаКлиентскогоПриложения</enums>
   <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
   <enums>Enum.ТипыЗамеров</enums>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
-  <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
@@ -152,4 +154,5 @@
   <informationRegisters>InformationRegister.ОбщееХранениеНастроек</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеОбработкиFSM</informationRegisters>
 </mdclass:Configuration>

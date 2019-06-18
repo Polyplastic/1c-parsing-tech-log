@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50e9b271-06bf-4a3f-9054-b0291d6a2d69">
+  <producedTypes>
+    <selectionType typeId="30c1cdc5-4caa-4d89-8432-78575606cc79" valueTypeId="b64afa51-d4ae-49cc-9930-78902db95a03"/>
+    <listType typeId="e80a4fba-8177-4feb-b128-615270f860dd" valueTypeId="496e1576-ebd2-4094-80bd-557de4afabe2"/>
+    <managerType typeId="1cfce46e-55a0-4db2-9f9b-e6ff48462591" valueTypeId="e78d3379-49d2-47e4-9c98-44b20bdb91cd"/>
+    <recordSetType typeId="29cdfcd0-19bb-4dc4-b59d-173b908a2705" valueTypeId="844e097d-b89e-4839-ba03-eb14311e5d98"/>
+    <recordKeyType typeId="afb6e427-4bca-4c05-8d87-e9b444e782a4" valueTypeId="f43f0e95-5e29-4e0d-a5b7-69548f7d8ea0"/>
+    <recordType typeId="52eac3ab-2fcf-4212-9cc3-eaf74d3dac35" valueTypeId="03a7865f-0b0a-4e74-80f9-eb8ff603fba1"/>
+    <recordManagerType typeId="6bf89233-c50e-4e6f-ac45-a0b486c37994" valueTypeId="dead02fc-6a1c-48de-9e80-47a9de070cd1"/>
+  </producedTypes>
+  <name>СостояниеОбработкиFSM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние обработки FSM</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c2d8f9c3-0357-4f43-a8df-5af00154949e">
+    <name>ДатаИзмененияСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения состояния</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="acccd844-12f3-4868-b032-b2af29bd7f1f">
+    <name>ДатаПрочитанныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прочитанных данных</value>
+    </synonym>
+    <comment>Дата последней прочитанной записи из источника</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b7d0dddc-c207-4165-9fc8-c55d5dd94286">
+    <name>ТекущееСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="35583fd0-72bb-4e97-8a88-3ee94d424d37">
+    <name>ПредыдущееСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущее состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="cc0d430a-2240-4cf2-85fd-9f2bf753613c">
+    <name>ОбработаноСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано строк</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="916b6df4-958f-47da-a2d2-07245c3fac55">
+    <name>ФайлЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл замера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФайлыЗамера</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

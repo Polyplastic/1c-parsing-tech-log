@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ababe5da-4735-4139-951c-0ba143c50214">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ababe5da-4735-4139-951c-0ba143c50214">
   <producedTypes>
     <selectionType typeId="9ed4137a-8fe8-4377-bfc3-bd42d1cd00e6" valueTypeId="bd68f63e-f7be-4203-bc19-75e6c6c54597"/>
     <listType typeId="f08dfd73-ba2d-4783-9ad3-97fadc526ad1" valueTypeId="0c938363-5887-47d9-a108-39864f80f016"/>
@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Общее хранение настроек</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="2fdf0d70-2dec-4557-a30c-1d74455cf188">
@@ -22,11 +23,16 @@
       <key>ru</key>
       <value>Настройки</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="ab9d4f48-5ae5-43d3-9de6-9f53b8b694a8">
     <name>ДатаАктуальности</name>
@@ -34,12 +40,17 @@
       <key>ru</key>
       <value>Дата актуальности</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="e659ac49-0014-402e-8129-090adb24b04a">
     <name>КлючОбъекта</name>
@@ -47,15 +58,22 @@
       <key>ru</key>
       <value>Ключ объекта</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="086b7b7c-e4d4-4974-8c25-6c3af856c00b">
@@ -64,15 +82,22 @@
       <key>ru</key>
       <value>Ключ настроек</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="d64f3507-657b-4a56-98c8-bd4b33f7d410">
@@ -81,14 +106,21 @@
       <key>ru</key>
       <value>Пользователь</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
