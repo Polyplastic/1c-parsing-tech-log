@@ -1,0 +1,138 @@
+<HTML><HEAD>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="__STYLE__"><BASE href="v8config://9ae61fce-53fb-489e-9006-60abf23bb86a/mdobject/id26216be3-bb74-4eb9-9f96-3b63954c68f9/8eb4fad1-1fa6-403e-970f-2c12dbb43e23">
+<META name=GENERATOR content="MSHTML 11.00.9600.19377"></HEAD>
+<BODY>
+<H2>Настройка фаззификации и нечеткого контроллера (Fuzzyfication And Fuzzy Controller).</H2>
+<P>Обработка предназначена для работы в составе Фреймворка "Мониторинг производительности". </P>
+<P>Open source проект: <A target='_blank' href="https://github.com/Polyplastic/1c-parsing-tech-log">https://github.com/Polyplastic/1c-parsing-tech-log</A></P>
+<P>Сообщения об ошибках и изменениях в функционале пишите: <A target='_blank' href="https://github.com/Polyplastic/1c-parsing-tech-log/issues">https://github.com/Polyplastic/1c-parsing-tech-log/issues</A></P>
+<P>Информацию&nbsp;по фреймворку, инструкции и видео-уроки смотрите по адресам глобальной сети: </P>
+<P><A href="https://github.com/Polyplastic/1c-parsing-tech-log/wiki">https://github.com/Polyplastic/1c-parsing-tech-log/wiki</A>&nbsp;и <A target='_blank' href="http://testingtool.ru">http://testingtool.ru</A></P>
+<P>Автор: <b>Крючков Владимир</b> (ivanov660 infostart/kruchkov.v@polyplastic.ru)</P>
+<H2>Краткое описание:</H2>
+<H3>Фаззификация.</H3>
+<P>На этой вкладке необходимо описать правила фаззификации для входных сигналов, если требуется. От значений числовых перейти к логическим: низкий, средний, высокий или очень низкий, низкий, средний, высокий, очень высокий.</P>
+<P>Особенности определяются в поле "Число Диапазонов": 3 диапазона, 5 диапазонов или не требуется (no fuzzyfication).</P>
+<P>Для режима не требуется, необходимо вручную указать значения логических значений в таблице. Эти значения будут использоваться в таблице правил нечеткого контроллера.</P>
+<P>К примеру, сигнал "Загрузка процессора%" может быть представлена в такой диагарамме:</P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P>очень низко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - от 0%&nbsp;&nbsp;&nbsp;&nbsp; до&nbsp;10%<BR>низко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - от 10%&nbsp;&nbsp; до 25%<BR>средний&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - от 25%&nbsp;&nbsp;&nbsp; до 70%<BR>высокий&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - от 70%&nbsp;&nbsp; до 90%<BR>очень высокий&nbsp; - от 90%&nbsp; до 100% и выше</P></BLOCKQUOTE>
+<P dir=ltr>Или для сигнала "Длина очереди к процессору":</P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P dir=ltr>&nbsp;низко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - от 0 до 1<BR>&nbsp;средний &nbsp;&nbsp;- от 1 до 3<BR>&nbsp;высокий&nbsp;&nbsp;&nbsp; - от 3 до бесконечности</P></BLOCKQUOTE>
+<P>Видео-уроки и более подробную информацию смотрите на сайте проекта!</P>
+<H3>Контроллер</H3>
+<P>На этой вкладке вы описываете правила поведения контроллера - принятие решение системы искусственного интеллекта. Вы должны установить соответствия лоигических заключений о состоянии сигналов и общем результате&nbsp;состояния системы.</P>
+<P>К примеру, на основании данных сигнала "Загрузка процессора %" и "Длина очереди к процессору"&nbsp;мы можем сделать следующие выводы:</P>
+<table>
+<th>
+"Загрузка процессора %"
+</th>
+<th>"Длина очереди к процессору"
+</th>
+<th>Решение</th>
+<tr>
+<td>
+очень низко
+</td>
+<td>
+низко
+</td>
+<td>
+нет нагрузки
+</td>
+</tr>
+<tr>
+<td>
+низко
+</td>
+<td>
+низко
+</td>
+<td>
+нет нагрузки
+</td>
+</tr>
+<tr>
+<td>
+средний
+</td>
+<td>
+низкий
+</td>
+<td>
+рабочий режим
+</td>
+</tr>
+<tr>
+<td>
+средний
+</td>
+<td>
+средний
+</td>
+<td>
+наблюдаются проблемы
+</td>
+</tr>
+<tr>
+<td>
+высокий
+</td>
+<td>
+средний
+</td>
+<td>
+увеличина нагрузка
+</td>
+</tr>
+<tr>
+<td>
+высокий
+</td>
+<td>
+средний
+</td>
+<td>
+высокая нагрузка
+</td>
+</tr>
+<tr>
+<td>
+очень высокий
+</td>
+<td>
+высокий
+</td>
+<td>
+перегрузка системы
+</td>
+</tr>
+<tr>
+<td>
+низкий
+</td>
+<td>
+высокий
+</td>
+<td>
+неизвестаня критическая ситуация
+</td>
+</tr>
+<tr>
+<td>
+...
+</td>
+<td>
+...
+</td>
+<td>
+...
+</td>
+</tr>
+
+</table>
+<P>Видео-уроки и более подробную информацию смотрите на сайте проекта!</P>
+<H3>Проект.</H3>
+<P>На этой вкладке вы должны сохранить или загрузить проект. И общие настройки и поисание. </P>
+<P>Рекомендуем заполнять "Комментарий" для того чтобы при загрузке правил пользователь мог получить представление о их назначении.</P></BODY></HTML>

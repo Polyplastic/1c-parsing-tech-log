@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ae61fce-53fb-489e-9006-60abf23bb86a">
+  <producedTypes>
+    <objectType typeId="f1ad2a28-770d-4451-9169-ae8d919384bb" valueTypeId="73b27c4d-041d-4119-a4f9-43a07e23f2bc"/>
+  </producedTypes>
+  <name>НечеткийКонтроллер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нечеткий контроллер</value>
+  </synonym>
+  <comment>Крючков Владимир (ivanov660), http://testingtool.ru</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="93f3c2b6-7f40-4025-bb9e-7a5b72732c99"/>
+  <defaultForm>ExternalDataProcessor.НечеткийКонтроллер.Form.Форма</defaultForm>
+  <forms uuid="04ede5a3-5533-4580-bf1f-73760b786139">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a33f73e9-f609-4fcf-8d13-4cfaca75bf1e">
+    <name>AboutHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>About HTML</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

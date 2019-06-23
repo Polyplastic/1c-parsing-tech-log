@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6ca8d33-deb2-4a9d-8976-0bb5ceb0e035">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6ca8d33-deb2-4a9d-8976-0bb5ceb0e035">
   <producedTypes>
     <selectionType typeId="eec7c68a-5688-440b-8e31-de7bff9b1306" valueTypeId="d45eb140-76c8-4c5a-9816-0cab1b6a5f15"/>
     <listType typeId="98410ee6-cb32-4d20-83e8-d2ae2ce9036c" valueTypeId="16caa562-d146-4859-bc7a-80454bc77eb7"/>
@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Безопасное хранилище данных</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="7bd6583a-7165-490c-b46c-a8f81eba875e">
@@ -22,11 +23,16 @@
       <key>ru</key>
       <value>Данные</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="94eaf9c7-e54a-42a9-81c5-ef6e75644d33">
     <name>Комментарий</name>
@@ -34,12 +40,19 @@
       <key>ru</key>
       <value>Комментарий</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <dimensions uuid="4589255c-aefb-4229-9004-492b4663d2a5">
     <name>Владелец</name>
@@ -47,22 +60,56 @@
       <key>ru</key>
       <value>Владелец</value>
     </synonym>
+    <comment></comment>
     <type>
-      <types>String</types>
-      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+      <types>CatalogRef.ФайлыЗамера</types>
+      <types>CatalogRef.МашиныСостояний</types>
+      <types>CatalogRef.СобытияЗамера</types>
+      <types>CatalogRef.УчетныеЗаписи</types>
       <types>CatalogRef.Замеры</types>
       <types>CatalogRef.Пользователи</types>
+      <types>String</types>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+      <types>CatalogRef.НейронныеСети</types>
       <types>CatalogRef.Свойства</types>
       <types>CatalogRef.События</types>
-      <types>CatalogRef.СобытияЗамера</types>
-      <types>CatalogRef.ФайлыЗамера</types>
       <stringQualifiers>
         <length>255</length>
       </stringQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9cc4a4e5-c6d2-4df6-a52e-505582e7977a">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

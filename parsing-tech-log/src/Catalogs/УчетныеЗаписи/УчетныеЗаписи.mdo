@@ -34,13 +34,20 @@
       <key>ru</key>
       <value>API</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -135,6 +142,16 @@
     </attributes>
   </tabularSections>
   <forms uuid="a8e4161a-b932-4c03-b21a-28e33d496082">
+    <name>ФормаЭлементаРазработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента разработка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="15e2037a-f858-4ca0-ade4-c42e3bd8fff7">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

@@ -53,7 +53,8 @@
 	Возврат "
 	| <div style='text-indent: 25px;'>Данная обработка позволяет отправлять сообщения через API Skype.</div>
 	| <hr />
-	| Подробную информацию смотрите по адресу интернет: <a target='_blank' href='https://github.com/Polyplastic/1c-parsing-tech-log'>https://github.com/Polyplastic/1c-parsing-tech-log</a>";
+	| Подробную информацию смотрите по адресу интернет: <a target='_blank' href='https://github.com/Polyplastic/1c-parsing-tech-log'>https://github.com/Polyplastic/1c-parsing-tech-log</a><br /><br />
+	| P.S. Про получение настроек для работы обработки можно почитать тут: <a target='_blank' href='https://infostart.ru/public/962753/'>Отправка сообщений в Skype через Microsoft Bot Framework API</a>";
 	
 КонецФункции
 
