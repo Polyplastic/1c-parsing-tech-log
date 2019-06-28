@@ -428,9 +428,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>МашинаСостояний</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>Замер</name>
@@ -448,9 +445,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Замер</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ИсточникСвойство</name>
@@ -468,9 +462,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>ИсточникСвойство</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ИсточникЗамер</name>
@@ -488,9 +479,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>ИсточникЗамер</segments>
-    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ЗагрузитьНастройки</name>

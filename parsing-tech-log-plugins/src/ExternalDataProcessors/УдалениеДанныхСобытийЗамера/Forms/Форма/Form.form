@@ -60,10 +60,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Замер</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Замер</segments>
     </dataPath>
     <extendedTooltip>
       <name>ЗамерРасширеннаяПодсказка</name>
@@ -205,9 +203,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Замер</segments>
-    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>УдалитьПрограммно</name>
