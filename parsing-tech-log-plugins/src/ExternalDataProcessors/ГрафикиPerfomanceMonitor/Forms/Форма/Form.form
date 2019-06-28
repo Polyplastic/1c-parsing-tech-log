@@ -975,9 +975,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Замер</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ВидГрафика_Мониторинга</name>

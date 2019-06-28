@@ -742,9 +742,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>УчетнаяЗапись</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ПортПрокси</name>

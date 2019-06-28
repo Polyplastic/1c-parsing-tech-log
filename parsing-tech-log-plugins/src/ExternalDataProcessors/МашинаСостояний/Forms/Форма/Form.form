@@ -1223,26 +1223,6 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>МашинаСостояний</name>
-    <title>
-      <key>ru</key>
-      <value>Машина состояний</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>CatalogRef.МашиныСостояний</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>МашинаСостояний</segments>
-    </settingsSavedData>
-  </attributes>
-  <attributes>
     <name>ПутьКПроекту</name>
     <title>
       <key>ru</key>
