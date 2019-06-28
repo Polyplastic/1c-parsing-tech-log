@@ -19,10 +19,11 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.3.0</version>
+  <version>2.0.4.0</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
+  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <detailedInformation>
     <key>ru</key>
@@ -54,7 +55,8 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.АнализТЖ</subsystems>
+  <subsystems>Subsystem.Оракул</subsystems>
+  <subsystems>Subsystem.Замеры</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
@@ -65,6 +67,9 @@
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаОракул</commonPictures>
+  <commonPictures>CommonPicture.РабочийСтол</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаЗамеры</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
@@ -97,6 +102,8 @@
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
@@ -104,10 +111,12 @@
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиОракул</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыОракул</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОбработкиАнализТЖ</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиЗамеры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОтчетыАнализТЖ</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыЗамеры</commonCommands>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.УдалятьУстаревшиеСобытия</constants>
@@ -119,6 +128,8 @@
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИзвестныеСитуации</catalogs>
+  <catalogs>Catalog.МашиныСостояний</catalogs>
+  <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Процессы</catalogs>
@@ -126,18 +137,22 @@
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
+  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимЗапускаКлиентскогоПриложения</enums>
   <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
   <enums>Enum.ТипыЗамеров</enums>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
-  <dataProcessors>DataProcessor.ПереходСВерсии10</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
+  <informationRegisters>InformationRegister.СнимкиСостояний</informationRegisters>
+  <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
+  <informationRegisters>InformationRegister.ОбщееХранениеНастроек</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеОбработкиFSM</informationRegisters>
 </mdclass:Configuration>

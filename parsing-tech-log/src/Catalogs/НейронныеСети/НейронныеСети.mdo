@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="045eb489-6981-429e-995f-a349f2878332">
+  <producedTypes>
+    <objectType typeId="ca48c2ac-1526-48ec-a7f7-914f3aabd766" valueTypeId="6d3d7682-4910-4144-a42c-a9c4b8c43762"/>
+    <refType typeId="bb88d5cd-53aa-4677-b5ac-9ad9ac85080b" valueTypeId="3a0429c0-9176-40ae-8dd1-edfb26585017"/>
+    <selectionType typeId="7d05d30e-377b-4781-8090-d1ccc9dd06ea" valueTypeId="58618a36-7ca3-4e70-84c6-92cfb82ac85e"/>
+    <listType typeId="b788c020-f531-4480-bc96-32f4898d0a69" valueTypeId="57bfbc0e-4620-4ddb-99fb-c0e73636ddf4"/>
+    <managerType typeId="1cceef7f-3bec-45e7-a273-1972962dc366" valueTypeId="f16d8859-8360-4a32-9ea6-7d1a7673a7a1"/>
+  </producedTypes>
+  <name>НейронныеСети</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нейронные сети</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НейронныеСети.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Нейронная сеть</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НейронныеСети.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="502e3d08-8ed4-4c6e-842d-ce7a31618dba">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b25743f0-236d-44dd-8d8a-4d46df17d742">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce5f4af3-f71d-4326-8827-9887d08e3522">
+    <name>ТипСети</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сети</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dfb32e26-49af-46e0-9793-d75179c812e0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

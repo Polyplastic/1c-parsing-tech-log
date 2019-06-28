@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81806064-d50e-4ae6-b5d1-d5769cbcc0f7">
+  <producedTypes>
+    <objectType typeId="9b52fdf0-2c91-485b-9c31-0cc109a8b520" valueTypeId="ce91a98a-a6d8-4f3a-9246-dcfd65c4e5f6"/>
+  </producedTypes>
+  <name>ОбработкаДанныхНечеткимКонтроллером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка данных нечетким контроллером</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="14174e76-1622-47d5-bd19-de2e88e7d6a1"/>
+  <defaultForm>ExternalDataProcessor.ОбработкаДанныхНечеткимКонтроллером.Form.Форма</defaultForm>
+  <forms uuid="bb53fe3f-92ec-4a55-bd7d-b33ea4b52894">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

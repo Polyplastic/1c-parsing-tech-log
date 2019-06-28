@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75cab567-8229-46c6-859a-ab065c486add">
+  <producedTypes>
+    <objectType typeId="edf79906-18fe-45ea-9b49-912a5751c0dc" valueTypeId="946277e0-3127-4d17-b695-87a9d50cc80d"/>
+  </producedTypes>
+  <name>ОтправкаСообщенийAPI_Telegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений API telegram</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="c6a5e842-b4f5-4240-8383-9a2626a05e55"/>
+  <defaultForm>ExternalDataProcessor.ОтправкаСообщенийAPI_Telegram.Form.Форма</defaultForm>
+  <forms uuid="baf7c285-a2dd-4649-ac5b-28a8db6cf0a4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

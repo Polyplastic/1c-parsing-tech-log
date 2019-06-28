@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a1b39cf-6c79-4200-9b66-614d9616bf4a">
+  <producedTypes>
+    <objectType typeId="9a12f436-0b58-4064-860c-2034fc3c6452" valueTypeId="a9543b58-845d-460a-8b21-74c39a504ed6"/>
+  </producedTypes>
+  <name>МашинаСостояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машина состояний</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b1b4f91c-b943-46d3-86e1-9403297eee78"/>
+  <defaultForm>ExternalDataProcessor.МашинаСостояний.Form.Форма</defaultForm>
+  <forms uuid="5675421a-368e-4eb0-aa75-56ba4ab8c4e0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

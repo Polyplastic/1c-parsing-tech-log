@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6727ab-76cf-4665-9c82-fc7f8fd1b112">
+  <name>ПодсистемаЗамеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема замеры</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

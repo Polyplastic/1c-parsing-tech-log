@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e78348c2-4022-4cca-8106-37c217bb35fa">
+  <name>Оракул</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оракул</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаОракул</picture>
+  </picture>
+  <content>InformationRegister.СнимкиСостояний</content>
+  <content>CommonCommand.ДополнительныеОтчетыОракул</content>
+  <content>CommonCommand.ДополнительныеОбработкиОракул</content>
+  <content>Catalog.НейронныеСети</content>
+  <content>Catalog.МашиныСостояний</content>
+  <content>InformationRegister.СостояниеОбработкиFSM</content>
+</mdclass:Subsystem>

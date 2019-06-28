@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6f3bfae-c7ef-4e85-8c4a-80a9faa271c3">
+  <producedTypes>
+    <objectType typeId="547959b1-335a-4646-8136-54afc203961f" valueTypeId="ae9b0d70-eff0-430e-8a04-c8d8aaa6ffca"/>
+    <refType typeId="45e3bb6a-9006-4258-965a-6c70844b3425" valueTypeId="730ba81c-f556-4a32-8a81-0fba31c31a32"/>
+    <selectionType typeId="7f3d8598-eba9-4726-800e-1f33ff67c167" valueTypeId="898157dd-2842-49ad-800d-1dd3cb5bff50"/>
+    <listType typeId="510f8e43-0f36-446d-9de4-64ce3079f168" valueTypeId="ebeacfe3-d381-4b4d-b732-9eceb837a87f"/>
+    <managerType typeId="f1afb691-7b16-4c39-bad7-ed0996e5146d" valueTypeId="58374a2c-9f90-4abb-a6a6-33207a40e0ee"/>
+  </producedTypes>
+  <name>МашиныСостояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машины состояний</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МашиныСостояний.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Машина состояний</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МашиныСостояний.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="15450a9a-30a2-4ac0-961b-008aaf9e8582">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93303455-d3f6-4664-9e52-e071c54ed419">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="05232dfd-18a0-4bc1-9c30-7865d2c1d5d0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c827f83c-c331-4a2c-a148-e97f1a6146a8">
+  <producedTypes>
+    <objectType typeId="a137e794-d66b-40e7-b952-5d8e90e804f8" valueTypeId="32b5dc4a-c879-4a9e-ac70-8dcc3db4d869"/>
+  </producedTypes>
+  <name>УдалениеДанныхСобытийЗамера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление данных событий замера</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="fe2561c3-25e9-4213-8d06-6bfa5fca1c42"/>
+  <defaultForm>ExternalDataProcessor.УдалениеДанныхСобытийЗамера.Form.Форма</defaultForm>
+  <forms uuid="c1b1f727-4d23-4133-be5d-6e3a8756381a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

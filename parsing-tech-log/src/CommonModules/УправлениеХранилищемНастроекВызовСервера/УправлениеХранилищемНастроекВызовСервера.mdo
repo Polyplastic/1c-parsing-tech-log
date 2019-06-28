@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99541e75-9c9b-43ef-86fc-2033b6293043">
+  <name>УправлениеХранилищемНастроекВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление хранилищем настроек вызов сервера</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

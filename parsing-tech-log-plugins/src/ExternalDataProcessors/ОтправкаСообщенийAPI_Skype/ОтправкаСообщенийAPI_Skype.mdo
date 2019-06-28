@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4ac86ae-4a3e-4e18-8534-8abe79ec6432">
+  <producedTypes>
+    <objectType typeId="888f570a-c7ee-4bb0-8045-0cd0bf383150" valueTypeId="66bb2326-2c07-4f83-b920-62de89d5815e"/>
+  </producedTypes>
+  <name>ОтправкаСообщенийAPI_Skype</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений API skype</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="653f468c-e597-4384-ab70-610d7b413df1"/>
+  <defaultForm>ExternalDataProcessor.ОтправкаСообщенийAPI_Skype.Form.Форма</defaultForm>
+  <forms uuid="3539023a-646d-459a-9dbe-f5ff0133cadb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
