@@ -1025,7 +1025,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ОтправкаСообщенийAPI_email</types>
+      <types>ExternalDataProcessor.ОтправкаСообщенийAPI_email</types>
     </valueType>
     <view>
       <common>true</common>

@@ -632,7 +632,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ОтправкаСообщенийAPI_Telegram</types>
+      <types>ExternalDataProcessor.ОтправкаСообщенийAPI_Telegram</types>
     </valueType>
     <view>
       <common>true</common>

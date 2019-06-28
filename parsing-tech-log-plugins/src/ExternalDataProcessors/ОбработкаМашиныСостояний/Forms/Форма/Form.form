@@ -402,7 +402,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ОбработкаМашиныСостояний</types>
+      <types>ExternalDataProcessor.ОбработкаМашиныСостояний</types>
     </valueType>
     <view>
       <common>true</common>

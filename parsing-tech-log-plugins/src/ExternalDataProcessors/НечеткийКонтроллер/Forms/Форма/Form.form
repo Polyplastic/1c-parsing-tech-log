@@ -4229,7 +4229,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.НечеткийКонтроллер</types>
+      <types>ExternalDataProcessor.НечеткийКонтроллер</types>
     </valueType>
     <view>
       <common>true</common>

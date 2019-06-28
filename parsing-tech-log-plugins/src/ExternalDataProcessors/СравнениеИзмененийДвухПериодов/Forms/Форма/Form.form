@@ -561,7 +561,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.СравнениеИзмененийДвухПериодов</types>
+      <types>ExternalDataProcessor.СравнениеИзмененийДвухПериодов</types>
     </valueType>
     <view>
       <common>true</common>

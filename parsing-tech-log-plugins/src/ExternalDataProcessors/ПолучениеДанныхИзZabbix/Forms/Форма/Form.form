@@ -3283,7 +3283,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ПолучениеДанныхИзZabbix</types>
+      <types>ExternalDataProcessor.ПолучениеДанныхИзZabbix</types>
     </valueType>
     <view>
       <common>true</common>

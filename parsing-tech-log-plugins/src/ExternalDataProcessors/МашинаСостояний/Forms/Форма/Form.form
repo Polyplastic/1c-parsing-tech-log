@@ -1212,7 +1212,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.МашинаСостояний</types>
+      <types>ExternalDataProcessor.МашинаСостояний</types>
     </valueType>
     <view>
       <common>true</common>

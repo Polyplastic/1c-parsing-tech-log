@@ -646,7 +646,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ОбработкаДанныхНечеткимКонтроллером</types>
+      <types>ExternalDataProcessor.ОбработкаДанныхНечеткимКонтроллером</types>
     </valueType>
     <view>
       <common>true</common>
