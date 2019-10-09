@@ -19,7 +19,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.4.0</version>
+  <version>2.0.4.3</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
@@ -83,6 +83,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
@@ -104,6 +105,7 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>

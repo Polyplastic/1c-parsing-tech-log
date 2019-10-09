@@ -289,6 +289,68 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="87cb849d-e443-46cc-9b38-2bc88949f622">
+    <name>ДоплнятьСписокНаборомПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплнять список набором полей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c2fefc64-4b33-4e17-b4d0-61aea4268c34">
+    <producedTypes>
+      <objectType typeId="401e3f48-13e4-4762-a6f0-e625aedda16a" valueTypeId="e0b076a4-048c-441b-bd50-c23679d4b0c2"/>
+      <rowType typeId="00cf1508-6e3a-4fa2-8024-30994ed55ac4" valueTypeId="fb6f1ad1-6235-40ec-926d-7c94edcfc00e"/>
+    </producedTypes>
+    <name>ДополнительныеПоляСвойствДляСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные поля свойств для списка</value>
+    </synonym>
+    <attributes uuid="4b52350d-6225-4a1d-8d29-b0b2146b907e">
+      <name>Использовать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использовать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b37edfa7-0268-4f9f-b364-fd898dc9e3df">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Свойства</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0f2d4bb-15d1-4aa7-a325-4688ad0f2fb9">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="4495e141-7216-46a9-8c2e-89f443bb8042">
     <name>ФормаЭлемента</name>
     <synonym>
