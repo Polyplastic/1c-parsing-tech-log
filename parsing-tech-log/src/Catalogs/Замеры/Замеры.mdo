@@ -344,7 +344,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>50</length>
+          <length>150</length>
         </stringQualifiers>
       </type>
       <dataHistory>Use</dataHistory>
