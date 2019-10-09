@@ -935,6 +935,43 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ДополнительныеРеквизиты</name>
+    <title>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>Arbitrary</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоличествоЭлементов</name>
+    <title>
+      <key>ru</key>
+      <value>Количество элементов</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
