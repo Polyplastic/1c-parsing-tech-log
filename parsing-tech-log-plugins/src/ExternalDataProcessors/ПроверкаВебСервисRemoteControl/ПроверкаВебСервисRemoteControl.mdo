@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21ffc138-cdf8-496e-9896-3ce6435df654">
+  <producedTypes>
+    <objectType typeId="217d9d48-daed-488f-b26d-46e9a35a9faa" valueTypeId="c965b513-1712-488c-a67f-1a2205ef8d52"/>
+  </producedTypes>
+  <name>ПроверкаВебСервисRemoteControl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка веб сервис remote control</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b1d57a37-5583-41d5-86dd-4f2469defd3d"/>
+  <defaultForm>ExternalDataProcessor.ПроверкаВебСервисRemoteControl.Form.Форма</defaultForm>
+  <forms uuid="db2294cc-218c-4775-9743-95cb87271f65">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
