@@ -695,6 +695,19 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="da3e675b-f5ed-4753-89e6-993b5b2c822e">
+      <name>ИмяФормы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя формы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="d45efa7e-2c0f-4468-a53e-3537ab22b09b">
     <producedTypes>
