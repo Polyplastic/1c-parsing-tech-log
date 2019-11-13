@@ -300,6 +300,54 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Автообновление</name>
+      <id>256</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Автообновление</segments>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>АвтообновлениеПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>АвтообновлениеРасширеннаяПодсказка</name>
+        <id>258</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>АвтообновлениеКонтекстноеМеню</name>
+        <id>257</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
       <name>НеИспользоватьФоновоеОбновлениеДанных</name>
       <id>247</id>
       <visible>true</visible>
@@ -1634,16 +1682,16 @@
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <items xsi:type="form:Button">
-                <name>ТаблицаДанныхСортироватьСписокПоВозрастанию</name>
-                <id>130</id>
+                <name>ТаблицаДанныхСортироватьПоВозрастанию</name>
+                <id>259</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТаблицаДанныхСортироватьСписокПоВозрастаниюРасширеннаяПодсказка</name>
-                  <id>131</id>
+                  <name>ТаблицаДанныхСортироватьПоВозрастаниюРасширеннаяПодсказка</name>
+                  <id>260</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1656,7 +1704,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Item.ТаблицаДанных.StandardCommand.SortListAsc</commandName>
+                <commandName>Form.Command.СортироватьПоВозрастанию</commandName>
                 <representation>Auto</representation>
                 <onlyInAllActions>false</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1665,16 +1713,16 @@
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <items xsi:type="form:Button">
-                <name>ТаблицаДанныхСортироватьСписокПоУбыванию</name>
-                <id>132</id>
+                <name>ТаблицаДанныхСортироватьПоУбыванию</name>
+                <id>261</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТаблицаДанныхСортироватьСписокПоУбываниюРасширеннаяПодсказка</name>
-                  <id>133</id>
+                  <name>ТаблицаДанныхСортироватьПоУбываниюРасширеннаяПодсказка</name>
+                  <id>262</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1687,7 +1735,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Item.ТаблицаДанных.StandardCommand.SortListDesc</commandName>
+                <commandName>Form.Command.СортироватьПоУбыванию</commandName>
                 <representation>Auto</representation>
                 <onlyInAllActions>false</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1699,7 +1747,6 @@
                 <name>ТаблицаДанныхПолучитьДополнительныеСвойстваВыбранногоЭлементаДанных</name>
                 <id>212</id>
                 <visible>true</visible>
-                <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
@@ -1956,16 +2003,16 @@
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <items xsi:type="form:Button">
-                <name>ТаблицаДанныхКонтекстноеМенюСортироватьСписокПоВозрастанию</name>
-                <id>154</id>
+                <name>ТаблицаДанныхКонтекстноеМенюСортироватьПоУбыванию</name>
+                <id>263</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТаблицаДанныхКонтекстноеМенюСортироватьСписокПоВозрастаниюРасширеннаяПодсказка</name>
-                  <id>155</id>
+                  <name>ТаблицаДанныхКонтекстноеМенюСортироватьПоУбываниюРасширеннаяПодсказка</name>
+                  <id>264</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1978,7 +2025,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Item.ТаблицаДанных.StandardCommand.SortListAsc</commandName>
+                <commandName>Form.Command.СортироватьПоУбыванию</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1986,16 +2033,16 @@
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <items xsi:type="form:Button">
-                <name>ТаблицаДанныхКонтекстноеМенюСортироватьСписокПоУбыванию</name>
-                <id>156</id>
+                <name>ТаблицаДанныхКонтекстноеМенюСортироватьПоВозрастанию</name>
+                <id>265</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТаблицаДанныхКонтекстноеМенюСортироватьСписокПоУбываниюРасширеннаяПодсказка</name>
-                  <id>157</id>
+                  <name>ТаблицаДанныхКонтекстноеМенюСортироватьПоВозрастаниюРасширеннаяПодсказка</name>
+                  <id>266</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2008,7 +2055,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Item.ТаблицаДанных.StandardCommand.SortListDesc</commandName>
+                <commandName>Form.Command.СортироватьПоВозрастанию</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3764,6 +3811,62 @@
       <segments>НеИспользоватьФоновоеОбновлениеДанных</segments>
     </settingsSavedData>
   </attributes>
+  <attributes>
+    <name>Автообновление</name>
+    <title>
+      <key>ru</key>
+      <value>Автообновление</value>
+    </title>
+    <id>26</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Автообновление</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>НаименованиеФоновогоЗадания</name>
+    <title>
+      <key>ru</key>
+      <value>Наименование фонового задания</value>
+    </title>
+    <id>27</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяКолонкиСортировки</name>
+    <title>
+      <key>ru</key>
+      <value>Имя колонки сортировки</value>
+    </title>
+    <id>28</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПолучитьДанные</name>
     <title>
@@ -4004,6 +4107,48 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СортироватьПоУбыванию</name>
+    <title>
+      <key>ru</key>
+      <value>Сортировать по убыванию</value>
+    </title>
+    <id>13</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SortListDesc</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СортироватьПоУбыванию</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СортироватьПоВозрастанию</name>
+    <title>
+      <key>ru</key>
+      <value>Сортировать по возрастанию</value>
+    </title>
+    <id>14</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SortListAsc</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СортироватьПоВозрастанию</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
