@@ -352,9 +352,7 @@
       <id>247</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>НеИспользоватьФоновоеОбновлениеДанных</segments>
       </dataPath>
@@ -1532,6 +1530,7 @@
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
+        <useAlternationRowColor>true</useAlternationRowColor>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
@@ -1623,7 +1622,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ТаблицаДанныхНайти</name>
-                <id>126</id>
+                <id>275</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1631,7 +1630,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТаблицаДанныхНайтиРасширеннаяПодсказка</name>
-                  <id>127</id>
+                  <id>276</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1645,7 +1644,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Item.ТаблицаДанных.StandardCommand.Find</commandName>
-                <representation>Auto</representation>
+                <representation>Picture</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
@@ -1653,7 +1652,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ТаблицаДанныхОтменитьПоиск</name>
-                <id>128</id>
+                <id>277</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1661,7 +1660,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТаблицаДанныхОтменитьПоискРасширеннаяПодсказка</name>
-                  <id>129</id>
+                  <id>278</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1675,7 +1674,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Item.ТаблицаДанных.StandardCommand.CancelSearch</commandName>
-                <representation>Auto</representation>
+                <representation>Picture</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
@@ -1810,6 +1809,10 @@
               <horizontalAlign>Left</horizontalAlign>
               <autoFill>true</autoFill>
             </autoCommandBar>
+            <handlers>
+              <event>OnActivateCell</event>
+              <name>ТаблицаДанныхПриАктивизацииЯчейки</name>
+            </handlers>
             <searchStringAddition>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1944,7 +1947,7 @@
               <id>45</id>
               <items xsi:type="form:Button">
                 <name>ТаблицаДанныхКонтекстноеМенюНайти</name>
-                <id>150</id>
+                <id>279</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1952,7 +1955,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТаблицаДанныхКонтекстноеМенюНайтиРасширеннаяПодсказка</name>
-                  <id>151</id>
+                  <id>280</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1974,7 +1977,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ТаблицаДанныхКонтекстноеМенюОтменитьПоиск</name>
-                <id>152</id>
+                <id>281</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1982,7 +1985,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТаблицаДанныхКонтекстноеМенюОтменитьПоискРасширеннаяПодсказка</name>
-                  <id>153</id>
+                  <id>282</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2128,7 +2131,6 @@
                 <common>true</common>
               </userVisible>
             </contextMenu>
-            <changeRowOrder>true</changeRowOrder>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -2140,8 +2142,8 @@
             <verticalScrollBar>AutoUse</verticalScrollBar>
             <horizontalLines>true</horizontalLines>
             <verticalLines>true</verticalLines>
+            <useAlternationRowColor>true</useAlternationRowColor>
             <searchOnInput>Auto</searchOnInput>
-            <initialListView>Auto</initialListView>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
             <fileDragMode>AsFileRef</fileDragMode>
@@ -2671,6 +2673,7 @@
             <verticalScrollBar>AutoUse</verticalScrollBar>
             <horizontalLines>true</horizontalLines>
             <verticalLines>true</verticalLines>
+            <useAlternationRowColor>true</useAlternationRowColor>
             <searchOnInput>Auto</searchOnInput>
             <initialListView>Auto</initialListView>
             <horizontalStretch>true</horizontalStretch>
@@ -3867,6 +3870,142 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ТаблицаСуждений</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица суждений</value>
+    </title>
+    <id>29</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>invert</name>
+      <title>
+        <key>ru</key>
+        <value>Invert</value>
+      </title>
+      <id>30</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>warning_from</name>
+      <title>
+        <key>ru</key>
+        <value>Warning from</value>
+      </title>
+      <id>31</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>attention_from</name>
+      <title>
+        <key>ru</key>
+        <value>Attention from</value>
+      </title>
+      <id>32</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>warning_to</name>
+      <title>
+        <key>ru</key>
+        <value>Warning to</value>
+      </title>
+      <id>33</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>attention_to</name>
+      <title>
+        <key>ru</key>
+        <value>Attention to</value>
+      </title>
+      <id>34</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>key</name>
+      <title>
+        <key>ru</key>
+        <value>Key</value>
+      </title>
+      <id>35</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <formCommands>
     <name>ПолучитьДанные</name>
     <title>
@@ -4150,6 +4289,50 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НайтиПредустановкойОтбора</name>
+    <title>
+      <key>ru</key>
+      <value>Найти по текущей ячейке</value>
+    </title>
+    <id>15</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Find</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НайтиПредустановкойОтбора</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтменитьОтбор</name>
+    <title>
+      <key>ru</key>
+      <value>Отменить поиск</value>
+    </title>
+    <id>16</id>
+    <use>
+      <common>true</common>
+    </use>
+    <shortcut>Ctrl+Q</shortcut>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CancelSearch</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтменитьОтбор</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+    <associatedTableElementId>43</associatedTableElementId>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
