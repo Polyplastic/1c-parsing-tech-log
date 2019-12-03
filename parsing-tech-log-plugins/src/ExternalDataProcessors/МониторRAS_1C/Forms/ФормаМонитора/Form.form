@@ -4006,6 +4006,41 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>КлючКластера</name>
+    <title>
+      <key>ru</key>
+      <value>Ключ кластера</value>
+    </title>
+    <id>38</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущаяСтрокаАгрегации</name>
+    <title>
+      <key>ru</key>
+      <value>Текущая строка агрегации</value>
+    </title>
+    <id>39</id>
+    <valueType>
+      <types>Arbitrary</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПолучитьДанные</name>
     <title>
