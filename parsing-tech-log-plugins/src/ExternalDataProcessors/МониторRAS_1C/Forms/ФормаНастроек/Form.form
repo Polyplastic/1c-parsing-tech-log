@@ -1021,36 +1021,6 @@
         <autoCommandBar>
           <name>ТаблицаКластеровКоманднаяПанель</name>
           <id>20</id>
-          <items xsi:type="form:Button">
-            <name>ПолучитьСписокКластеров</name>
-            <id>58</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ПолучитьСписокКластеровРасширеннаяПодсказка</name>
-              <id>59</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ПолучитьСписокКластеров</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1226,16 +1196,16 @@
         <name>Группа10</name>
         <id>158</id>
         <items xsi:type="form:Button">
-          <name>ПолучитьСписокИнформационныхБаз</name>
-          <id>56</id>
+          <name>ОбновитьСписок</name>
+          <id>376</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПолучитьСписокИнформационныхБазРасширеннаяПодсказка</name>
-            <id>57</id>
+            <name>ОбновитьСписокРасширеннаяПодсказка</name>
+            <id>377</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1249,24 +1219,31 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.ПолучитьСписокИнформационныхБаз</commandName>
+          <commandName>Form.Command.ОбновитьСписок</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <items xsi:type="form:Button">
-          <name>ПолучитьСписокСерверов</name>
-          <id>156</id>
+        <items xsi:type="form:FormField">
+          <name>Список</name>
+          <id>373</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Список</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>СписокПриИзменении</name>
+          </handlers>
           <extendedTooltip>
-            <name>ПолучитьСписокСерверовРасширеннаяПодсказка</name>
-            <id>157</id>
+            <name>СписокРасширеннаяПодсказка</name>
+            <id>375</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1279,236 +1256,22 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.ПолучитьСписокСерверов</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>Группа14</name>
-          <id>292</id>
-          <items xsi:type="form:Button">
-            <name>ПолучитьСписокПроцессов</name>
-            <id>52</id>
-            <title>
-              <key>ru</key>
-              <value>Список процессов</value>
-            </title>
+          <contextMenu>
+            <name>СписокКонтекстноеМеню</name>
+            <id>374</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <extendedTooltip>
-              <name>ПолучитьСписокПроцессовРасширеннаяПодсказка</name>
-              <id>53</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualButton</type>
-            <commandName>Form.Command.ПолучитьСписокПроцессов</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ПолучитьСписокПроцессовЛицензий</name>
-            <id>209</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ПолучитьСписокПроцессовЛицензийРасширеннаяПодсказка</name>
-              <id>210</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualButton</type>
-            <commandName>Form.Command.ПолучитьСписокПроцессовЛицензий</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>Группа14РасширеннаяПодсказка</name>
-            <id>293</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualGroup</type>
-          <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>AlwaysHorizontal</group>
-            <showLeftMargin>true</showLeftMargin>
-            <united>true</united>
-            <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Button">
-          <name>ПолучитьСписокСоединений</name>
-          <id>60</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ПолучитьСписокСоединенийРасширеннаяПодсказка</name>
-            <id>61</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.ПолучитьСписокСоединений</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>Группа15</name>
-          <id>294</id>
-          <items xsi:type="form:Button">
-            <name>ПолучитьСписокСеансов</name>
-            <id>54</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ПолучитьСписокСеансовРасширеннаяПодсказка</name>
-              <id>55</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualButton</type>
-            <commandName>Form.Command.ПолучитьСписокСеансов</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ПолучитьСписокСеансовЛицензий</name>
-            <id>207</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ПолучитьСписокСеансовЛицензийРасширеннаяПодсказка</name>
-              <id>208</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualButton</type>
-            <commandName>Form.Command.ПолучитьСписокСеансовЛицензий</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>Группа15РасширеннаяПодсказка</name>
-            <id>295</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualGroup</type>
-          <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>AlwaysHorizontal</group>
-            <showLeftMargin>true</showLeftMargin>
-            <united>true</united>
-            <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
-          </extInfo>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>RadioButtonField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:RadioButtonsFieldExtInfo"/>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2740,6 +2503,7 @@
             </contextMenu>
             <changeRowOrder>true</changeRowOrder>
             <autoMaxWidth>true</autoMaxWidth>
+            <height>4</height>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
@@ -5134,6 +4898,7 @@
             </contextMenu>
             <readOnly>true</readOnly>
             <autoMaxWidth>true</autoMaxWidth>
+            <height>4</height>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <rowSelectionMode>Row</rowSelectionMode>
@@ -5687,6 +5452,7 @@
             </contextMenu>
             <changeRowOrder>true</changeRowOrder>
             <autoMaxWidth>true</autoMaxWidth>
+            <height>4</height>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
@@ -5861,6 +5627,10 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
@@ -6931,6 +6701,41 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>Список</name>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
+    <id>27</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗамерВходящий</name>
+    <title>
+      <key>ru</key>
+      <value>Замер входящий</value>
+    </title>
+    <id>28</id>
+    <valueType>
+      <types>CatalogRef.Замеры</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СохранитьНастройки</name>
     <title>
@@ -6982,111 +6787,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПолучитьСписокКластеров</name>
-    <title>
-      <key>ru</key>
-      <value>Получить список кластеров</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список кластеров</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокКластеров</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокИнформационныхБаз</name>
-    <title>
-      <key>ru</key>
-      <value>Список информационных баз</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список информационных баз</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокИнформационныхБаз</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокСоединений</name>
-    <title>
-      <key>ru</key>
-      <value>Список соединений</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список соединений</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокСоединений</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокПроцессов</name>
-    <title>
-      <key>ru</key>
-      <value>Получить список процессов</value>
-    </title>
-    <id>6</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список процессов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокПроцессов</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокСеансов</name>
-    <title>
-      <key>ru</key>
-      <value>Список сеансов</value>
-    </title>
-    <id>7</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список сеансов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокСеансов</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ДобавитьВКорзину</name>
     <title>
       <key>ru</key>
@@ -7106,48 +6806,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДобавитьВКорзину</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокСерверов</name>
-    <title>
-      <key>ru</key>
-      <value>Список серверов</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список серверов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокСерверов</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокСеансовЛицензий</name>
-    <title>
-      <key>ru</key>
-      <value>лицензий</value>
-    </title>
-    <id>10</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список сеансов лицензий</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокСеансовЛицензий</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -7175,27 +6833,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПолучитьСписокПроцессовЛицензий</name>
-    <title>
-      <key>ru</key>
-      <value>лицензий</value>
-    </title>
-    <id>12</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить список процессов лицензий</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьСписокПроцессовЛицензий</name>
-      </handler>
-    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -7306,6 +6943,33 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ОбновитьСписок</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить список</value>
+    </title>
+    <id>18</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьСписок</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <parameters>
+    <name>Замер</name>
+    <valueType>
+      <types>CatalogRef.Замеры</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
