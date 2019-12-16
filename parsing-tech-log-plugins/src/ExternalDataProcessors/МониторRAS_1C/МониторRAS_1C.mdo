@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81218903-fede-4856-92bd-4d3b62d3e7b6">
+  <producedTypes>
+    <objectType typeId="15d85b67-b530-4ac1-8e62-c096126d355b" valueTypeId="ab94cbb5-1bec-4373-85c2-ff13b7f4e121"/>
+  </producedTypes>
+  <name>МониторRAS_1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор RAS 1 C</value>
+  </synonym>
+  <comment>Крючков Владимир как (ivanov660) (https://github.com/Polyplastic/1c-parsing-tech-log)</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="59f204ec-1721-43f4-af9d-baaf33ad7103"/>
+  <defaultForm>ExternalDataProcessor.МониторRAS_1C.Form.ФормаМонитора</defaultForm>
+  <forms uuid="9f44192b-8ef9-4a9f-9906-dfd227f36d4a">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8a6dc67-44af-496a-b485-0a0bd965e6bf">
+    <name>ФормаМонитора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма монитора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0632c6dc-0f70-42f5-a761-e290367ff7cd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

@@ -1053,6 +1053,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ИмяФормы</name>
+      <title>
+        <key>ru</key>
+        <value>Имя формы</value>
+      </title>
+      <id>16</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ОбъектыНазначения</name>
