@@ -18,6 +18,8 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>100</descriptionLength>
@@ -36,7 +38,6 @@
     <type>
       <types>CatalogRef.Свойства</types>
     </type>
-    <fillChecking>ShowError</fillChecking>
     <choiceParameters>
       <name>Отбор.Хешировать</name>
       <value xsi:type="core:BooleanValue">

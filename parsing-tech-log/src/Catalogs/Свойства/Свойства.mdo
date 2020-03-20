@@ -31,6 +31,15 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8fbf3771-f8da-42f3-b944-3bc7ff4475a3">
+      <name>ОшибкаРазбора</name>
+      <description>&lt;ошибка разбора></description>
+      <code xsi:type="core:StringValue">
+        <value>ОшибкаРазбора</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Свойства.Form.ФормаЭлемента</defaultObjectForm>
