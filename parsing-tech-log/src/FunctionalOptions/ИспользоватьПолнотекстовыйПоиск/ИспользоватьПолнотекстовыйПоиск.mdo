@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Использовать полнотекстовый поиск</value>
   </synonym>
-  <comment></comment>
   <location>Constant.ИспользоватьПолнотекстовыйПоиск</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>

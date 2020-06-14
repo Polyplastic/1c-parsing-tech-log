@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Режим запуска клиентского приложения</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="c779045c-c48a-4d28-aa96-482081fb1020">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Управляемое приложение</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="2e03333f-efdb-4178-822a-1b2489310bef">
     <name>ОбычноеПриложение</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Обычное приложение</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="a10e5d33-a6fa-4880-9de3-4de1d95c5e79">
     <name>Авто</name>
@@ -35,6 +32,5 @@
       <key>ru</key>
       <value>Авто</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Общего назначения служебный клиент</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
 </mdclass:CommonModule>

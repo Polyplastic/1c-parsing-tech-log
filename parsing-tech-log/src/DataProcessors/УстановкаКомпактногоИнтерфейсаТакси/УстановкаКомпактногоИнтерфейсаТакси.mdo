@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Установка компактного интерфейса такси</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси.Form.Форма</defaultForm>
   <forms uuid="452906f6-7402-4618-9a45-d705f51c582d">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

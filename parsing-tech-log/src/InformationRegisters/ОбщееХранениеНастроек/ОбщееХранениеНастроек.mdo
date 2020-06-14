@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Общее хранение настроек</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="2fdf0d70-2dec-4557-a30c-1d74455cf188">
@@ -23,11 +22,9 @@
       <key>ru</key>
       <value>Настройки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -40,12 +37,10 @@
       <key>ru</key>
       <value>Дата актуальности</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -58,14 +53,12 @@
       <key>ru</key>
       <value>Ключ объекта</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -82,14 +75,12 @@
       <key>ru</key>
       <value>Ключ настроек</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -106,14 +97,12 @@
       <key>ru</key>
       <value>Пользователь</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

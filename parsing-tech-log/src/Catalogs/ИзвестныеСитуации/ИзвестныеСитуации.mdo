@@ -19,8 +19,9 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
   <limitLevelCount>true</limitLevelCount>
-  <levelCount>2</levelCount>
+  <levelCount>3</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
@@ -38,29 +39,31 @@
     <type>
       <types>CatalogRef.Свойства</types>
     </type>
-    <choiceParameters>
-      <name>Отбор.Хешировать</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5a3fb9f4-1bb8-4bea-92a0-3cbe9d9b39b8">
-    <name>Значение</name>
+    <name>Текст</name>
     <synonym>
       <key>ru</key>
-      <value>Значение</value>
+      <value>Текст</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
     <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -76,7 +79,12 @@
         <length>28</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -92,9 +100,121 @@
       <stringQualifiers/>
     </type>
     <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="335c948f-fc3b-4bfd-8ccd-b02a99593669">
+    <name>ВариантыЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты значений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f9a6396-e135-44a2-8878-23c9cb2ee5e0">
+    <name>Вектор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вектор</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="faedabd0-a173-4476-9250-bc04774d4d58">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижняя граница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0fe8a15a-a1ad-4a53-bb78-6ce968148dce">
+    <producedTypes>
+      <objectType typeId="fb53bb1a-73a0-443f-b874-b7d8bb9d7448" valueTypeId="3367d380-0dd0-4b6a-9094-e8ebcb8fe535"/>
+      <rowType typeId="4d9d3f17-30f3-4f54-8fd8-07b6a14be522" valueTypeId="b5322c80-9147-4492-badb-d9e7e43f4957"/>
+    </producedTypes>
+    <name>ТекстыВариантов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тексты вариантов</value>
+    </synonym>
+    <attributes uuid="0d436b7a-681e-4636-9e6e-4d8a3c29df2c">
+      <name>Текст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e68c9380-6de6-4421-b277-d27e8da2065a">
+      <name>ХешЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хеш значения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>28</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="050e0679-e9c8-420b-9bd3-2783c130e6f0">
+      <name>Вектор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вектор</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="0d1d37c2-bc65-43d8-8fae-de8ab4f10792">
     <name>ФормаЭлемента</name>
     <synonym>

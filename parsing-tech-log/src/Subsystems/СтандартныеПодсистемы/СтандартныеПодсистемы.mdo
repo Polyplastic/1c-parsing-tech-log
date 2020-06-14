@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Стандартные подсистемы</value>
   </synonym>
-  <comment></comment>
   <subsystems>ПолнотекстовыйПоиск</subsystems>
 </mdclass:Subsystem>

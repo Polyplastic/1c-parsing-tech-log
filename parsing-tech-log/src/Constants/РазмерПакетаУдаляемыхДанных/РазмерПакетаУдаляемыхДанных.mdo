@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46bdfe8a-015e-42b7-9012-74862037eed0">
+  <producedTypes>
+    <managerType typeId="dba24b96-4d2c-4e6c-9676-cf26f32605b0" valueTypeId="78408305-95bf-4e01-8484-0450fa46e146"/>
+    <valueManagerType typeId="1875e3f8-07e7-4636-ac5f-01fc7b2cb0dc" valueTypeId="ade882bd-9d01-4f83-96e8-7efd6e198c94"/>
+    <valueKeyType typeId="6a3978d6-2fc5-4467-af10-e0b8279ad6e5" valueTypeId="889fc3f1-e33c-49e6-be2d-18a7567d30ec"/>
+  </producedTypes>
+  <name>РазмерПакетаУдаляемыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пакета удаляемых данных</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Полнотекстовый поиск</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DataProcessor.ПолнотекстовыйПоискВДанных.Form.УпрощеннаяФорма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -23,7 +22,6 @@
       <key>ru</key>
       <value>Поиск</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -33,7 +31,6 @@
       <key>ru</key>
       <value>Управление полнотекстовым поиском и извлечением текстов</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -48,7 +45,6 @@
       <key>ru</key>
       <value>Полнотекстовый поиск</value>
     </synonym>
-    <comment></comment>
     <group>ActionsPanelTools</group>
     <commandParameterType/>
     <representation>Auto</representation>

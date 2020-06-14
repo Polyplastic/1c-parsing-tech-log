@@ -1,0 +1,2 @@
+неспецифицированная ошибка работы с ресурсом
+non-specified resource error

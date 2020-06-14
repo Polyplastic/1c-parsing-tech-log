@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c4b790f-b542-420c-acec-f7987eb7325a">
+  <producedTypes>
+    <managerType typeId="e13989d0-6b1f-4875-b3b9-c8fccf4fa7da" valueTypeId="e2fa0c9f-a2a8-4c0c-873a-84558389e181"/>
+    <valueManagerType typeId="acca86f6-22d3-46ca-baac-b33c2b2fd951" valueTypeId="2e18b132-06a5-4f4c-bf58-f06c9b60c2a5"/>
+    <valueKeyType typeId="39620abf-2c33-4cc5-ab7c-2e015d87ef3a" valueTypeId="4659ecc6-6690-42cf-9d43-c9f5b1976c61"/>
+  </producedTypes>
+  <name>АдресИнтернетReleaseDescription</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес интернет - описание релизов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

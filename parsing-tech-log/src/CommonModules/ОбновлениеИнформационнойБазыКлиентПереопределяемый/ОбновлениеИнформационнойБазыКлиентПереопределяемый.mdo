@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Обновление информационной базы клиент переопределяемый</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

@@ -594,8 +594,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Команды.ИмяФормы</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Команды.ИмяФормы</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КомандыИмяФормыРасширеннаяПодсказка</name>
@@ -874,7 +876,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>КомандыСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -913,7 +914,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>КомандыСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -953,7 +953,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>КомандыУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1191,7 +1190,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ВиртуальныеРазделыСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1230,7 +1228,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ВиртуальныеРазделыСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -1270,7 +1267,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ВиртуальныеРазделыУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2072,7 +2068,6 @@
     <use>
       <common>true</common>
     </use>
-    <picture xsi:type="core:PictureRef"/>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗагрузитьИзФайлаФорма</name>
@@ -2095,7 +2090,6 @@
     <use>
       <common>true</common>
     </use>
-    <picture xsi:type="core:PictureRef"/>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыгрузитьВФайлФорма</name>

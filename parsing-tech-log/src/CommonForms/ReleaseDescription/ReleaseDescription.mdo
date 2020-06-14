@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32fc4594-8ea2-40f6-bdd6-e56f8f781953">
+  <name>ReleaseDescription</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание релизов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

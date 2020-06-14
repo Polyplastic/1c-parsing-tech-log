@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Обновление информационной базы клиент</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <serverCall>true</serverCall>

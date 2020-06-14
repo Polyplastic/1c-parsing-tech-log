@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Учетные записи</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.УчетныеЗаписи.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -34,14 +33,12 @@
       <key>ru</key>
       <value>API</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -57,11 +54,9 @@
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -74,12 +69,10 @@
       <key>ru</key>
       <value>Комментарий</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -98,19 +91,16 @@
       <key>ru</key>
       <value>Настройки</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="51fcaf81-904f-46d3-b042-f62c4ab2f357">
       <name>Наименование</name>
       <synonym>
         <key>ru</key>
         <value>Наименование</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -123,7 +113,6 @@
         <key>ru</key>
         <value>Значение</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <types>Number</types>
@@ -134,7 +123,6 @@
           <length>255</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -147,7 +135,6 @@
       <key>ru</key>
       <value>Форма элемента разработка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -157,7 +144,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

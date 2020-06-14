@@ -10,25 +10,20 @@
     <key>ru</key>
     <value>Варианты публикации дополнительных отчетов и обработок</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -40,7 +35,6 @@
       <key>ru</key>
       <value>Используется</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="5ca4239d-818e-424e-b2ec-5457d3c2c0df">
     <name>РежимОтладки</name>
@@ -48,7 +42,6 @@
       <key>ru</key>
       <value>Режим отладки</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="45c6dc95-78c7-403a-9b66-072f5bb70c7c">
     <name>Отключена</name>
@@ -56,6 +49,5 @@
       <key>ru</key>
       <value>Отключена</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

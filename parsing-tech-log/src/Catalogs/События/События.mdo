@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>События</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.События.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.События.StandardAttribute.Code</inputByString>
@@ -21,12 +20,11 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>50</codeLength>
-  <descriptionLength>50</descriptionLength>
+  <codeLength>30</codeLength>
+  <descriptionLength>30</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Типы замеров</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="56019f61-768c-4dc6-9cab-05e7e61eb1fe">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Технологический журнал</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="24ad0201-52de-4816-91f5-f13eb992df89">
     <name>PerfomanceMonitor</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Perfomance monitor</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="0ce5f268-95c5-441f-b85f-1c89a201712c">
     <name>Произвольный</name>
@@ -35,6 +32,5 @@
       <key>ru</key>
       <value>Произвольный</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

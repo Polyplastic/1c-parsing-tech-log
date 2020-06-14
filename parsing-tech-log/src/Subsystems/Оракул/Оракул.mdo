@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Оракул</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -17,4 +16,5 @@
   <content>Catalog.НейронныеСети</content>
   <content>Catalog.МашиныСостояний</content>
   <content>InformationRegister.СостояниеОбработкиFSM</content>
+  <content>InformationRegister.КлассификаторДанных</content>
 </mdclass:Subsystem>

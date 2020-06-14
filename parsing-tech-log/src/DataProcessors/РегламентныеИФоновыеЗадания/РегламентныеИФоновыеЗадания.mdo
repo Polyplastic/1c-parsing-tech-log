@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Регламентные и фоновые задания</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.РегламентныеИФоновыеЗадания.Form.РегламентныеИФоновыеЗадания</defaultForm>
   <help>
@@ -23,7 +22,6 @@
       <key>ru</key>
       <value>Регламентные и фоновые задания</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -33,7 +31,6 @@
       <key>ru</key>
       <value>Фоновое задание</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -48,7 +45,6 @@
       <key>ru</key>
       <value>Регламентное задание</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>

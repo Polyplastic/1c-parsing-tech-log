@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Стандартные подсистемы клиент</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

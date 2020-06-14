@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Цвет фона предупреждения</value>
   </synonym>
-  <comment></comment>
   <value xsi:type="core:ColorValue">
     <value xsi:type="core:ColorDef">
       <red>251</red>

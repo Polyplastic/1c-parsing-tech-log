@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Замеры</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -15,10 +14,10 @@
   <content>Catalog.События</content>
   <content>Catalog.Свойства</content>
   <content>Catalog.Замеры</content>
-  <content>d59a06ec-c3ce-46a6-9701-89fa6100556f</content>
   <content>DataProcessor.УдалениеУстаревшихСобытий</content>
   <content>Catalog.ИзвестныеСитуации</content>
   <content>CommonCommand.ДополнительныеОбработкиЗамеры</content>
   <content>CommonCommand.ДополнительныеОтчетыЗамеры</content>
   <content>Catalog.СобытияЗамера</content>
+  <content>InformationRegister.КлассификаторДанных</content>
 </mdclass:Subsystem>

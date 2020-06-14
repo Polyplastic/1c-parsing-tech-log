@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Дополнительные обработки</value>
   </synonym>
-  <comment></comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>

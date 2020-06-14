@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Процессы</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Процессы.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Процессы.StandardAttribute.Code</inputByString>

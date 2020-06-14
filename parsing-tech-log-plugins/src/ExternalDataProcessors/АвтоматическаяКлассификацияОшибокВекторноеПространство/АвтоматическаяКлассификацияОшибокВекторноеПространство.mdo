@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1824c138-a7fb-4f89-b21f-1c986c96e8dd">
+  <producedTypes>
+    <objectType typeId="4c221473-1124-4404-934e-22448e496018" valueTypeId="d98ffff1-0959-4cac-9b2f-9cfdab473d31"/>
+  </producedTypes>
+  <name>АвтоматическаяКлассификацияОшибокВекторноеПространство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическая классификация ошибок векторное пространство</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="3fcdb6c7-b0f2-4732-b369-78bdb1d5ad9c"/>
+  <defaultForm>ExternalDataProcessor.АвтоматическаяКлассификацияОшибокВекторноеПространство.Form.ФормаНастроек</defaultForm>
+  <forms uuid="1b225519-2cba-47dc-83ee-1201895d1feb">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0fb1ab07-fda8-4d8a-a27c-66bb0db382c8">
+    <name>ФормаЗагрузкиОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb5116ae-b167-4ba3-a9da-758452188fb6">
+    <name>ФормаМонитора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма монитора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="db1ec588-6d89-413c-8032-2dcc7ba3da79">
+    <name>СтопСлова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоп слова</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="38e96a5f-a557-4d61-89db-50ede47a25ee">
+    <name>СтопФразы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоп фразы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="100e5df7-c614-4a93-b3a8-82ea84922761">
+    <name>ФразыСинонимы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фразы синонимы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="61b0bc21-19f8-47a0-a422-7ae9b9509975">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="5053211f-e26b-45a8-8f50-8f298578c121">
+    <name>ИменаЦветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена цветов</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
