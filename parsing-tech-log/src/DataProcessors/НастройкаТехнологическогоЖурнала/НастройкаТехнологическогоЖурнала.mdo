@@ -13,7 +13,6 @@
     <key>en</key>
     <value>Настройка технологического журнала</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.НастройкаТехнологическогоЖурнала.Form.ОсновнаяФорма</defaultForm>
   <help>
@@ -27,7 +26,6 @@
       <key>ru</key>
       <value>Основная форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -37,7 +35,6 @@
       <key>ru</key>
       <value>Редактор условий события</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -52,7 +49,6 @@
       <key>ru</key>
       <value>Редактор условий колонки</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -67,7 +63,6 @@
       <key>ru</key>
       <value>Редактор условия</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -82,7 +77,6 @@
       <key>ru</key>
       <value>Выбор шаблона</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -97,7 +91,6 @@
       <key>ru</key>
       <value>Сохранение шаблона</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -112,7 +105,6 @@
       <key>ru</key>
       <value>Состав свойств событий</value>
     </synonym>
-    <comment></comment>
   </templates>
   <templates uuid="a3a7f961-f3cd-42c0-804f-7f49acb3e8f0">
     <name>События</name>
@@ -120,7 +112,6 @@
       <key>ru</key>
       <value>События</value>
     </synonym>
-    <comment></comment>
   </templates>
   <templates uuid="9c12a16c-476c-48b3-84b7-43f362870bf2">
     <name>Свойства</name>
@@ -128,7 +119,6 @@
       <key>ru</key>
       <value>Свойства</value>
     </synonym>
-    <comment></comment>
   </templates>
   <templates uuid="0a30418f-e55f-4cf6-ad49-df5a45630b5f">
     <name>ЗначенияСвойств</name>
@@ -136,7 +126,6 @@
       <key>ru</key>
       <value>Значения свойств</value>
     </synonym>
-    <comment></comment>
   </templates>
   <templates uuid="92879352-965d-4432-9eca-338f0885cecb">
     <name>Шаблон1</name>
@@ -144,7 +133,6 @@
       <key>ru</key>
       <value>Шаблон1</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="819cbbdf-e6ab-4ce3-af41-a6b0e01308cc">
@@ -153,7 +141,6 @@
       <key>ru</key>
       <value>Шаблон2</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="43b83ad5-5b23-4ed8-9175-7acea2be2ebf">
@@ -162,7 +149,6 @@
       <key>ru</key>
       <value>Шаблон3</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="2a0e2549-78a9-4711-aff3-163ff7feb202">
@@ -171,7 +157,6 @@
       <key>ru</key>
       <value>Шаблон4</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="2e7aac73-a203-4a16-b7dd-07101b0e81c5">
@@ -180,7 +165,6 @@
       <key>ru</key>
       <value>Шаблон5</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="f678e096-753e-4d30-8cd9-52a58a0216fd">
@@ -189,7 +173,6 @@
       <key>ru</key>
       <value>Шаблон6</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="31dc9a06-8d88-43ab-99e4-7817f33838ea">
@@ -198,7 +181,6 @@
       <key>ru</key>
       <value>Шаблон7</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="c4fda5a8-56e9-4a3d-95e3-c20b205dd8d1">
@@ -207,7 +189,6 @@
       <key>ru</key>
       <value>Шаблон8</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="80317da1-1a9a-474c-bdda-f685fc053d95">
@@ -216,7 +197,6 @@
       <key>ru</key>
       <value>Шаблон9</value>
     </synonym>
-    <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
 </mdclass:DataProcessor>

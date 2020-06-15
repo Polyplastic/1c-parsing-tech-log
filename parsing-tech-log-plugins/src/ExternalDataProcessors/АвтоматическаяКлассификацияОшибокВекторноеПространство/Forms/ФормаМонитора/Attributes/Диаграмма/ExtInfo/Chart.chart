@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart:Chart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:chart="http://g5.1c.ru/v8/dt/chart/model" xmlns:core="http://g5.1c.ru/v8/dt/mcore">
+  <seriesCurId>1</seriesCurId>
+  <isSeriesDesign>true</isSeriesDesign>
+  <realExSeriesData>
+    <properties>
+      <id>1</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Auto</marker>
+      <text>
+        <key>#</key>
+        <value>Сводная</value>
+      </text>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realExSeriesData>
+  <isPointsDesign>true</isPointsDesign>
+  <curSeries>-1</curSeries>
+  <chartType>Column3D</chartType>
+  <labelsDelimiter>, </labelsDelimiter>
+  <labelsColor xsi:type="core:ColorDef">
+    <red>51</red>
+    <green>51</green>
+    <blue>51</blue>
+  </labelsColor>
+  <transparentLabelsBkg>true</transparentLabelsBkg>
+  <labelsBorder xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </labelsBorder>
+  <isShowTitle>true</isShowTitle>
+  <isShowLegend>true</isShowLegend>
+  <ttlBorder xsi:type="core:BorderDef"/>
+  <ttlBorderColor xsi:type="core:ColorDef">
+    <red>160</red>
+    <green>160</green>
+    <blue>160</blue>
+  </ttlBorderColor>
+  <lgBorder xsi:type="core:BorderDef"/>
+  <lgBorderColor xsi:type="core:ColorDef">
+    <red>160</red>
+    <green>160</green>
+    <blue>160</blue>
+  </lgBorderColor>
+  <chBorder xsi:type="core:BorderDef"/>
+  <chBorderColor xsi:type="core:ColorDef">
+    <red>160</red>
+    <green>160</green>
+    <blue>160</blue>
+  </chBorderColor>
+  <bkgColor xsi:type="core:ColorDef">
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+  </bkgColor>
+  <ttlColor xsi:type="core:ColorDef">
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+  </ttlColor>
+  <legColor xsi:type="core:ColorDef">
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+  </legColor>
+  <chColor xsi:type="core:ColorDef">
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+  </chColor>
+  <ttlTxtColor xsi:type="core:ColorDef">
+    <red>51</red>
+    <green>51</green>
+    <blue>51</blue>
+  </ttlTxtColor>
+  <legTxtColor xsi:type="core:ColorDef">
+    <red>51</red>
+    <green>51</green>
+    <blue>51</blue>
+  </legTxtColor>
+  <chTxtColor xsi:type="core:ColorDef">
+    <red>51</red>
+    <green>51</green>
+    <blue>51</blue>
+  </chTxtColor>
+  <isShowScale>true</isShowScale>
+  <isShowScaleVL>true</isShowScaleVL>
+  <isShowSeriesScale>true</isShowSeriesScale>
+  <isShowPointsScale>true</isShowPointsScale>
+  <isShowValuesScale>true</isShowValuesScale>
+  <xLabelsOrientation>Auto</xLabelsOrientation>
+  <scaleLine>
+    <width>1</width>
+    <style>Solid</style>
+  </scaleLine>
+  <scaleColor xsi:type="core:ColorDef">
+    <red>169</red>
+    <green>169</green>
+    <blue>169</blue>
+  </scaleColor>
+  <isAutoSeriesName>true</isAutoSeriesName>
+  <isAutoPointName>true</isAutoPointName>
+  <maxSeries>4</maxSeries>
+  <maxSeriesPrc>30</maxSeriesPrc>
+  <spaceMode>Half</spaceMode>
+  <baseVal>0</baseVal>
+  <isLight>true</isLight>
+  <dtVerLines>true</dtVerLines>
+  <dtHorLines>true</dtHorLines>
+  <dtHAlign>Right</dtHAlign>
+  <dtKeys>true</dtKeys>
+  <paletteKind>Auto</paletteKind>
+  <surfaceColor xsi:type="core:ColorDef">
+    <red>169</red>
+  </surfaceColor>
+  <gaugeQualityBands/>
+  <endGaugeAngle>180</endGaugeAngle>
+  <gaugeThickness>5</gaugeThickness>
+  <gaugeLabelsLocation>InsideScale</gaugeLabelsLocation>
+  <gaugeBushThickness>4</gaugeBushThickness>
+  <gaugeBushColor xsi:type="core:ColorDef">
+    <red>169</red>
+    <green>169</green>
+    <blue>169</blue>
+  </gaugeBushColor>
+  <autoMaxValue>true</autoMaxValue>
+  <autoMinValue>true</autoMinValue>
+  <elementsIsInit>true</elementsIsInit>
+  <titleIsInit>true</titleIsInit>
+  <legendIsInit>true</legendIsInit>
+  <chartIsInit>true</chartIsInit>
+  <elementsChart>
+    <right>0.1672</right>
+  </elementsChart>
+  <elementsLegend>
+    <left>0.8328</left>
+    <top>0.047</top>
+  </elementsLegend>
+  <elementsTitle>
+    <left>0.8328</left>
+    <bottom>0.953</bottom>
+  </elementsTitle>
+  <borderColor xsi:type="core:ColorDef">
+    <red>160</red>
+    <green>160</green>
+    <blue>160</blue>
+  </borderColor>
+  <border xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </border>
+  <splineStrain>95</splineStrain>
+  <translucenceMode>Auto</translucenceMode>
+  <translucencePercent>255</translucencePercent>
+  <multiStageLinkLine>
+    <width>1</width>
+    <style>Solid</style>
+  </multiStageLinkLine>
+  <multiStageLinkColor xsi:type="core:ColorDef"/>
+  <valuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </valuesAxis>
+  <pointsAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </pointsAxis>
+  <bubbleSizeValueSource>NextSeries</bubbleSizeValueSource>
+  <bubbleSizeCommonSeries>-2</bubbleSizeCommonSeries>
+  <bubbleSizing>IncreaseArea</bubbleSizing>
+  <pointsScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </pointsScale>
+  <valuesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </valuesScale>
+  <seriesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </seriesScale>
+  <trendLinesArray>
+    <seriesId>1</seriesId>
+  </trendLinesArray>
+  <colorPaletteDescription>
+    <colorPalette>Auto</colorPalette>
+  </colorPaletteDescription>
+  <referenceBandsColorPaletteDescription>
+    <colorPalette>Auto</colorPalette>
+  </referenceBandsColorPaletteDescription>
+  <valuesReferenceLines/>
+  <pointsReferenceLines/>
+  <valuesReferenceBands/>
+  <pointsReferenceBands/>
+</chart:Chart>

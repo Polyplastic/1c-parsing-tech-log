@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Строковые функции</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

@@ -16,22 +16,89 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <synonym>
       <key>ru</key>
       <value>Замер</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
     <characteristicTypes>Catalog.Свойства</characteristicTypes>
     <keyField>Catalog.Свойства.StandardAttribute.Ref</keyField>
     <typesFilterField>Catalog.Свойства.Attribute.ЧисловойРежим</typesFilterField>
-    <typesFilterValue xsi:type="core:BooleanValue">
-      <value>false</value>
-    </typesFilterValue>
+    <typesFilterValue xsi:type="core:BooleanValue"/>
     <characteristicValues>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства</characteristicValues>
     <objectField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.StandardAttribute.Ref</objectField>
     <typeField>Catalog.СобытияЗамера.TabularSection.КлючевыеСвойства.Attribute.Свойство</typeField>
@@ -72,6 +139,9 @@
     <type>
       <types>CatalogRef.Процессы</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -84,10 +154,13 @@
     <type>
       <types>CatalogRef.ФайлыЗамера</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
       <field>Catalog.СобытияЗамера.StandardAttribute.Owner</field>
     </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="052228a7-3d87-4158-987e-ccd45446061e">
@@ -102,6 +175,9 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="189c00f4-3117-4445-968d-2fd64301741a">
@@ -114,6 +190,9 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>IndexWithAdditionalOrder</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -129,6 +208,9 @@
         <precision>6</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="992bd819-b3a6-44c4-9656-15d0090e3815">
@@ -143,6 +225,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="82dce714-394a-41ac-a3b3-a79e32a104f9">
@@ -154,6 +239,9 @@
     <type>
       <types>CatalogRef.События</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d27da346-3381-4870-a5cf-729cd5e2f847">
@@ -168,6 +256,9 @@
         <precision>3</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5379565f-7508-41e5-a620-f20553acdf71">
@@ -181,6 +272,11 @@
       <stringQualifiers/>
     </type>
     <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="644e984b-1c47-47c1-860f-fc3349361020">
@@ -202,6 +298,8 @@
       <type>
         <types>CatalogRef.Свойства</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="7facd707-bdc1-404f-ae90-94f4722d9844">
@@ -214,6 +312,8 @@
         <types>String</types>
         <stringQualifiers/>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -223,7 +323,6 @@
         <key>ru</key>
         <value>Значение (число)</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -231,7 +330,6 @@
           <scale>5</scale>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -249,6 +347,8 @@
           <length>28</length>
         </stringQualifiers>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>

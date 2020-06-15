@@ -10,25 +10,20 @@
     <key>ru</key>
     <value>Способы вызова дополнительных обработок</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -40,7 +35,6 @@
       <key>ru</key>
       <value>Вызов клиентского метода</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="7f74fa39-1609-418c-8d33-3cd7569ec41d">
     <name>ВызовСерверногоМетода</name>
@@ -48,7 +42,6 @@
       <key>ru</key>
       <value>Вызов серверного метода</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="e44d0f47-f17d-43ba-8506-5f0d194f2e3a">
     <name>ЗаполнениеФормы</name>
@@ -56,7 +49,6 @@
       <key>ru</key>
       <value>Заполнение формы</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="1f57ff2f-35f4-4d86-abe2-0598cc72e1fe">
     <name>ОткрытиеФормы</name>
@@ -64,7 +56,6 @@
       <key>ru</key>
       <value>Открытие формы</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="88e4dbae-f946-4ed1-9534-96a086d147c0">
     <name>СценарийВБезопасномРежиме</name>
@@ -72,7 +63,6 @@
       <key>ru</key>
       <value>Сценарий в безопасном режиме</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="3c5f2e97-4947-4302-9afd-d36ccc91d0bc">
     <name>ЗагрузкаДанныхИзФайла</name>
@@ -80,6 +70,5 @@
       <key>ru</key>
       <value>Загрузка данных из файла</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

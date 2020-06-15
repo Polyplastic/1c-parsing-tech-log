@@ -5,21 +5,19 @@
     <key>ru</key>
     <value>Анализ ТЖ</value>
   </synonym>
-  <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="24b38e25-a352-41d2-b450-aea8288727c2"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c9e77752-54c8-4656-9561-a3dee1e65969"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="30158bf6-6e16-4cc8-8ee8-3b262ea059ff"/>
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="389aa75b-d78b-44a6-9d79-0a699e53a24b"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="41fb1820-988c-4352-a87f-2e957515ce67"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a194674-8458-43f8-9f96-3afe61f16916"/>
-  <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.5.1</version>
+  <version>2.0.7.1</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
@@ -52,7 +50,6 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Оракул</subsystems>
@@ -96,7 +93,6 @@
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
-  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
@@ -107,6 +103,9 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
+  <commonModules>CommonModule.СтеммерПортераКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтеммерПортераКлиентСерверПовтИсп</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
@@ -120,13 +119,17 @@
   <commonCommands>CommonCommand.ДополнительныеОбработкиЗамеры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыЗамеры</commonCommands>
+  <commonCommands>CommonCommand.ReleaseDescription</commonCommands>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
   <constants>Constant.УдалятьУстаревшиеСобытия</constants>
+  <constants>Constant.АдресИнтернетReleaseDescription</constants>
+  <constants>Constant.РазмерПакетаУдаляемыхДанных</constants>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
+  <commonForms>CommonForm.ReleaseDescription</commonForms>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -158,4 +161,5 @@
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеОбработкиFSM</informationRegisters>
+  <informationRegisters>InformationRegister.КлассификаторДанных</informationRegisters>
 </mdclass:Configuration>

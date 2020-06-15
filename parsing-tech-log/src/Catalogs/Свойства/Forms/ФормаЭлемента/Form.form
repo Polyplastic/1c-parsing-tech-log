@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Код</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Code</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КодРасширеннаяПодсказка</name>
@@ -58,8 +60,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Наименование</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -163,8 +167,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.МногострочныйРежим</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.МногострочныйРежим</segments>
+        </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -207,8 +213,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Хешировать</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Хешировать</segments>
+        </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -251,8 +259,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НормализацияЗначения</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.НормализацияЗначения</segments>
+        </paths>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -505,8 +515,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТекстФункцииНормализации</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ТекстФункцииНормализации</segments>
+        </paths>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>

@@ -12,73 +12,60 @@
     <key>ru</key>
     <value>Идентификаторы объектов метаданных</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ИдентификаторыОбъектовМетаданных.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <toolTip>
       <key>ru</key>
       <value>Ссылка на объект метаданных в базе данных</value>
     </toolTip>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -89,7 +76,6 @@
       <key>ru</key>
       <value>Группа объектов</value>
     </synonym>
-    <comment></comment>
     <toolTip>
       <key>ru</key>
       <value>Группа объектов метаданных.</value>
@@ -99,7 +85,6 @@
       <value>f6b1de62-9422-4ed0-8d1c-7a9ec4ab1ffe.00000000-0000-0000-0000-000000000000</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -110,7 +95,6 @@
       <key>ru</key>
       <value>Представление</value>
     </synonym>
-    <comment></comment>
     <toolTip>
       <key>ru</key>
       <value>Представление идентификатора объекта метаданных</value>
@@ -118,17 +102,14 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -165,7 +146,6 @@
       <key>ru</key>
       <value>Порядок коллекции</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -180,7 +160,6 @@
 например, коллекция &quot;Справочники&quot;
 перед коллекцией &quot;Документы&quot;</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -204,7 +183,6 @@
       <key>ru</key>
       <value>Имя объекта метаданных</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -219,7 +197,6 @@
       <key>ru</key>
       <value>Синоним</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -231,7 +208,6 @@
       <value>Синоним объекта метаданных,
 например, &quot;Объекты адресации задач&quot;</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -257,7 +233,6 @@
       <key>ru</key>
       <value>Полное имя объекта метаданных</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -273,7 +248,6 @@
       <key>ru</key>
       <value>Полный синоним</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -285,7 +259,6 @@
       <value>Полный синоним объекта метаданных,
 например, &quot;Планы видов характеристик. Объекты адресации задач&quot;</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -300,7 +273,6 @@
       <key>ru</key>
       <value>Без данных</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -308,7 +280,6 @@
       <key>ru</key>
       <value>Объект метаданных не имеет таблиц данных</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -320,7 +291,6 @@
       <key>ru</key>
       <value>Значение пустой ссылки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>AnyRef</types>
     </type>
@@ -332,7 +302,6 @@
 (в форме показано представление
 типа значения пустой ссылки)</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -345,7 +314,6 @@
       <key>ru</key>
       <value>Ключ объекта метаданных</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
@@ -353,7 +321,6 @@
       <key>ru</key>
       <value>Хранилище ключа по которому определяется объект метаданных без использования полного имени</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -365,7 +332,6 @@
       <key>ru</key>
       <value>Новая ссылка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
     </type>
@@ -373,7 +339,6 @@
       <key>ru</key>
       <value>Используется при обработке дублей идентификаторов подчиненного узла распределенной информационной базы.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -385,7 +350,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -395,7 +359,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>

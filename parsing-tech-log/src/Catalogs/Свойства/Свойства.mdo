@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Свойства</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Свойства.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Свойства.StandardAttribute.Code</inputByString>
@@ -52,6 +51,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -61,11 +63,9 @@
       <key>ru</key>
       <value>Числовой режим</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -78,14 +78,12 @@
       <key>ru</key>
       <value>Синоним</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -103,6 +101,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -116,6 +117,11 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -128,6 +134,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -137,11 +146,9 @@
       <key>ru</key>
       <value>Процент</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

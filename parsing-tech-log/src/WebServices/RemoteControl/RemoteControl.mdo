@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Remote control</value>
   </synonym>
-  <comment></comment>
   <namespace>http://www.1c.ru/SSL/RemoteControl_1_0_0_1</namespace>
   <descriptorFileName>RemoteControl.1cws</descriptorFileName>
   <sessionMaxAge>20</sessionMaxAge>
@@ -15,7 +14,6 @@
       <key>ru</key>
       <value>Get current state</value>
     </synonym>
-    <comment></comment>
     <xdtoReturningValueType>
       <name>boolean</name>
       <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>

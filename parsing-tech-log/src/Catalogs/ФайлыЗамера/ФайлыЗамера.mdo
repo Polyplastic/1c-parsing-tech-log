@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Файлы замера</value>
   </synonym>
-  <comment></comment>
   <inputByString>Catalog.ФайлыЗамера.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
@@ -33,14 +32,12 @@
       <key>ru</key>
       <value>Дата файла</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

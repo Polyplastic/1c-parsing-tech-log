@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Владелец</name>
     <id>4</id>
@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Владелец</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Owner</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ВладелецРасширеннаяПодсказка</name>
@@ -58,8 +60,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Наименование</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -112,8 +116,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТипПроцесса</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ТипПроцесса</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТипПроцессаРасширеннаяПодсказка</name>
@@ -162,8 +168,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Файл</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Файл</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ФайлРасширеннаяПодсказка</name>
@@ -216,8 +224,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НомерСтрокиФайла</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.НомерСтрокиФайла</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НомерСтрокиФайлаРасширеннаяПодсказка</name>
@@ -298,8 +308,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ДатаСобытия</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ДатаСобытия</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаСобытияРасширеннаяПодсказка</name>
@@ -348,8 +360,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ДатаСобытияМкс</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ДатаСобытияМкс</segments>
+        </paths>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -399,8 +413,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ДлительностьМкс</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ДлительностьМкс</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДлительностьМксРасширеннаяПодсказка</name>
@@ -481,8 +497,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТипСобытия</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ТипСобытия</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТипСобытияРасширеннаяПодсказка</name>
@@ -531,8 +549,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.УровеньСобытия</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.УровеньСобытия</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>УровеньСобытияРасширеннаяПодсказка</name>
@@ -622,8 +642,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КлючевыеСвойства.НомерСтроки</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КлючевыеСвойства.LineNumber</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеСвойстваНомерСтрокиРасширеннаяПодсказка</name>
@@ -669,8 +691,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КлючевыеСвойства.Свойство</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КлючевыеСвойства.Свойство</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеСвойстваСвойствоРасширеннаяПодсказка</name>
@@ -720,8 +744,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КлючевыеСвойства.Значение</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КлючевыеСвойства.Значение</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеСвойстваЗначениеРасширеннаяПодсказка</name>
@@ -821,8 +847,10 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КлючевыеСвойства.ХешЗначения</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КлючевыеСвойства.ХешЗначения</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеСвойстваХешЗначенияРасширеннаяПодсказка</name>
@@ -971,7 +999,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>КлючевыеСвойстваСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1010,7 +1037,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>КлючевыеСвойстваСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -1050,7 +1076,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>КлючевыеСвойства</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1100,6 +1125,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -1179,7 +1205,12 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>InformationRegister.КлассификаторДанных.StandardCommand.OpenByValue.СобытиеЗамера</command>
+        <userVisible/>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>

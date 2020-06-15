@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Remote control</value>
   </synonym>
-  <comment></comment>
   <rootURL>RemoteControl</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
@@ -15,7 +14,6 @@
       <key>ru</key>
       <value>Get current state</value>
     </synonym>
-    <comment></comment>
     <template>/GetCurrentState</template>
     <methods uuid="bf7b04fc-e7dd-48ab-b6ef-f5f6087d771f">
       <name>Проверить</name>
@@ -23,7 +21,6 @@
         <key>ru</key>
         <value>Проверить</value>
       </synonym>
-      <comment></comment>
       <handler>GetCurrentStateПроверить</handler>
     </methods>
   </urlTemplates>

@@ -10,25 +10,20 @@
     <key>ru</key>
     <value>Виды дополнительных отчетов и обработок</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -40,7 +35,6 @@
       <key>ru</key>
       <value>Дополнительная обработка</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="88e8b336-3e0b-4db6-98e1-27a0326db496">
     <name>ДополнительныйОтчет</name>
@@ -48,7 +42,6 @@
       <key>ru</key>
       <value>Дополнительный отчет</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="6576ecdc-41bd-4638-8d24-aabd887c8e8d">
     <name>Отчет</name>
@@ -56,7 +49,6 @@
       <key>ru</key>
       <value>Отчет</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="a9bc4c43-f58e-4c7c-a3a6-df7f2a9ab91c">
     <name>СозданиеСвязанныхОбъектов</name>
@@ -64,6 +56,5 @@
       <key>ru</key>
       <value>Создание связанных объектов</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

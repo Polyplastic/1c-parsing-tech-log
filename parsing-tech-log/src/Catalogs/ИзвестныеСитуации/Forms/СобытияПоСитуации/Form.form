@@ -25,12 +25,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.Owner</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Владелец</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -79,12 +75,8 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.Ref</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ссылка</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -135,7 +127,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.ТипСобытия</segments>
         </paths>
@@ -191,7 +182,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.ДатаСобытия</segments>
         </paths>
@@ -247,7 +237,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.ДатаСобытияМкс</segments>
         </paths>
@@ -303,12 +292,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.Description</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Наименование</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -359,7 +344,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.ТипПроцесса</segments>
         </paths>
@@ -415,7 +399,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.УровеньСобытия</segments>
         </paths>
@@ -469,7 +452,6 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.ВсеСвойства</segments>
         </paths>
@@ -525,7 +507,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.ДлительностьМкс</segments>
         </paths>
@@ -581,7 +562,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.Файл</segments>
         </paths>
@@ -637,7 +617,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Список.НомерСтрокиФайла</segments>
         </paths>

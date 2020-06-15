@@ -996,7 +996,7 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
             <handlers>
-              <event>OnActivateArea</event>
+              <event>OnActivate</event>
               <name>РедакторТЖПриАктивизацииОбласти</name>
             </handlers>
             <handlers>
@@ -1655,7 +1655,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>ДампТипСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1694,7 +1693,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>ДампТипСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
               <horizontalLocation>Left</horizontalLocation>
@@ -1734,7 +1732,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>ДампТипУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2269,7 +2266,6 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>УтечкиМодулиСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2308,7 +2304,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>УтечкиМодулиСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
                 <horizontalLocation>Left</horizontalLocation>
@@ -2348,7 +2343,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>УтечкиМодулиУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2564,7 +2558,6 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>УтечкиПроцедурыСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2603,7 +2596,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>УтечкиПроцедурыСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
                 <horizontalLocation>Left</horizontalLocation>
@@ -2643,7 +2635,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>УтечкиПроцедурыУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3232,7 +3223,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>СистемныеСобытияСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -3271,7 +3261,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>СистемныеСобытияСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
               <horizontalLocation>Left</horizontalLocation>
@@ -3311,7 +3300,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>СистемныеСобытияУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

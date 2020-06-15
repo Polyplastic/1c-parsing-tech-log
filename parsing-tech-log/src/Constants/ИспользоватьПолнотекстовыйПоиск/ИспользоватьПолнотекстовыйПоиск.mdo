@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="9849e8fd-b584-4b43-ba9a-2e50ae0a84a1" valueTypeId="436334c0-f547-47b2-a7f7-064722f9a730"/>
     <valueManagerType typeId="2e3735c9-f894-4214-91a3-d81a431df765" valueTypeId="c6fadc43-1c63-4ca3-a53b-7bf720ae1720"/>
+    <valueKeyType typeId="3feffd4a-c17d-4f9c-a0ac-20cd757931ee" valueTypeId="282c917f-91f7-4772-83c8-a7cc3af96cf6"/>
   </producedTypes>
   <name>ИспользоватьПолнотекстовыйПоиск</name>
   <synonym>
     <key>ru</key>
     <value>Использовать полнотекстовый поиск</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

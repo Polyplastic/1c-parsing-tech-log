@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Полнотекстовый поиск сервер переопределяемый</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

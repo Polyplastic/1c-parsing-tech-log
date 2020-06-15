@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Наименование</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -58,8 +60,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Родитель</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Parent</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>РодительРасширеннаяПодсказка</name>
@@ -108,8 +112,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.IPv4</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.IPv4</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>IPv4РасширеннаяПодсказка</name>
@@ -158,8 +164,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.IPv6</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.IPv6</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>IPv6РасширеннаяПодсказка</name>
@@ -208,8 +216,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДоменноеИмя</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ДоменноеИмя</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ДоменноеИмяРасширеннаяПодсказка</name>
@@ -258,8 +268,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ИмяКомпьютера</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ИмяКомпьютера</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ИмяКомпьютераРасширеннаяПодсказка</name>
@@ -308,8 +320,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ОперационнаяСистема</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ОперационнаяСистема</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ОперационнаяСистемаРасширеннаяПодсказка</name>
@@ -358,8 +372,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ЭтоСервер</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ЭтоСервер</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ЭтоСерверРасширеннаяПодсказка</name>
@@ -401,8 +417,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Комментарий</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>

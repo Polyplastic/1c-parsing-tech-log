@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonCommand.ReleaseDescription</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.СобытияЗамера.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>CommonCommand.ReleaseDescription</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.СобытияЗамера.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.Процессы.StandardCommand.OpenList</commands>
-      <commands>Catalog.Свойства.StandardCommand.OpenList</commands>
-      <commands>Catalog.События.StandardCommand.OpenList</commands>
+      <commands>Catalog.СобытияЗамера.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

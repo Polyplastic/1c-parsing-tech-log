@@ -25,4 +25,6 @@
   <content>InformationRegister.БезопасноеХранилищеДанных</content>
   <content>InformationRegister.ОбщееХранениеНастроек</content>
   <content>Catalog.УчетныеЗаписи</content>
+  <content>CommonForm.ОписаниеИзмененийСистемы</content>
+  <content>CommonCommand.ReleaseDescription</content>
 </mdclass:Subsystem>

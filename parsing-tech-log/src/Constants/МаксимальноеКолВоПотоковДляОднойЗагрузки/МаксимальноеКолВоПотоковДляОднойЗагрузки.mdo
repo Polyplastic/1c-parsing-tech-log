@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="1d75fc4d-8fb4-4a87-a3b1-f38fc6199795" valueTypeId="43747719-3d9e-426f-9f18-68acefeb15e2"/>
     <valueManagerType typeId="de1f6615-584e-48a8-9bd2-f19f6422328f" valueTypeId="0ffe9ac6-432c-433e-83f3-fdb61da4606f"/>
+    <valueKeyType typeId="cfaa280d-f305-42e2-ae83-18dfcb65e7a8" valueTypeId="4d0c9f19-43b6-49df-90a6-5adb7fdcccde"/>
   </producedTypes>
   <name>МаксимальноеКолВоПотоковДляОднойЗагрузки</name>
   <synonym>
     <key>ru</key>
     <value>Максимальное кол во потоков для одной загрузки</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -18,7 +18,6 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

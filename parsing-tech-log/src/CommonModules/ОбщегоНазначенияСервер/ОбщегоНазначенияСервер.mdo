@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Общего назначения сервер</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

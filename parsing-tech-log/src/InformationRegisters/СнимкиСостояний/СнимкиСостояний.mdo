@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Снимки состояний</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,14 +23,12 @@
       <key>ru</key>
       <value>Значение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>255</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -46,7 +43,6 @@
       <key>ru</key>
       <value>Значение число</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -54,7 +50,6 @@
         <scale>10</scale>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -67,14 +62,12 @@
       <key>ru</key>
       <value>Кластер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -89,14 +82,12 @@
       <key>ru</key>
       <value>Ключ</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -112,12 +103,10 @@
       <key>ru</key>
       <value>Дата события</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -132,11 +121,9 @@
       <key>ru</key>
       <value>Свойство</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Свойства</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -150,11 +137,9 @@
       <key>ru</key>
       <value>Замер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Замеры</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

@@ -14,46 +14,37 @@
     <key>ru</key>
     <value>Пользовательские настройки доступа к обработкам</value>
   </synonym>
-  <comment></comment>
   <editType>InDialog</editType>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>LineNumber</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Recorder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Period</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -64,7 +55,6 @@
       <key>ru</key>
       <value>Доступно</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -72,7 +62,6 @@
       <key>ru</key>
       <value>Признак доступности обработки для пользователя</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
@@ -84,7 +73,6 @@
       <key>ru</key>
       <value>Дополнительный отчет или обработка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     </type>
@@ -92,7 +80,6 @@
       <key>ru</key>
       <value>Дополнительный отчет или обработка, к которой настроен доступ</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
@@ -108,7 +95,6 @@
       <key>ru</key>
       <value>Идентификатор команды</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -119,7 +105,6 @@
       <key>ru</key>
       <value>Идентификатор команды, к которой настроен доступ</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
@@ -136,7 +121,6 @@
       <key>ru</key>
       <value>Пользователь</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
@@ -144,7 +128,6 @@
       <key>ru</key>
       <value>Пользователь, для которого настроен доступ</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72cfeb14-d4ce-41c0-8dab-886c5a485be5">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72cfeb14-d4ce-41c0-8dab-886c5a485be5">
   <producedTypes>
     <managerType typeId="2c874c0e-9537-400c-bca9-ee0bdd140567" valueTypeId="3f5284d8-9b21-4330-a689-6bac21d842fe"/>
     <valueManagerType typeId="43134bfc-7651-445f-a40e-8b6522c8bad5" valueTypeId="7ff52b07-ec27-4810-b77e-f15493a5063c"/>
+    <valueKeyType typeId="3adc4a9b-9d52-4e4d-bf29-7fc910aad431" valueTypeId="dfdc0b36-fad8-448b-bfcc-88c7f76cba5b"/>
   </producedTypes>
   <name>УдалятьУстаревшиеСобытия</name>
   <synonym>
@@ -13,5 +14,7 @@
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

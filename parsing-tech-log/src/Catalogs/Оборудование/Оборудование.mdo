@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Оборудование</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Оборудование.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -36,14 +35,12 @@
       <key>ru</key>
       <value>IPv4</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>15</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -58,14 +55,12 @@
       <key>ru</key>
       <value>IPv6</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>39</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -80,14 +75,12 @@
       <key>ru</key>
       <value>Доменное имя</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -102,14 +95,12 @@
       <key>ru</key>
       <value>Имя компьютера</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -124,12 +115,10 @@
       <key>ru</key>
       <value>Комментарий</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -144,14 +133,12 @@
       <key>ru</key>
       <value>Операционная система</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -166,11 +153,9 @@
       <key>ru</key>
       <value>Это сервер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -183,7 +168,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

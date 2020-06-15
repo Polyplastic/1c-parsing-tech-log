@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Дополнительные отчеты и обработки клиент сервер</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>
