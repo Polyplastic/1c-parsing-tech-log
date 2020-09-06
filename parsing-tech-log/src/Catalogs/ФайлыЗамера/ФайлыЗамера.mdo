@@ -19,7 +19,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Замеры</owners>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <codeSeries>WithinSubordination</codeSeries>
