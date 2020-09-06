@@ -691,10 +691,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.КлючевыеСвойства.Свойство</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.КлючевыеСвойства.Свойство</segments>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеСвойстваСвойствоРасширеннаяПодсказка</name>
