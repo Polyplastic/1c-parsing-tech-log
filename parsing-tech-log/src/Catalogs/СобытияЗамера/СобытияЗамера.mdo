@@ -289,7 +289,7 @@
       <key>ru</key>
       <value>Ключевые свойства</value>
     </synonym>
-    <attributes uuid="6080a191-b5f1-4837-90f7-2671d1c9f8bc">
+    <attributes uuid="c2799ef7-f735-4596-a794-e50b560fe665">
       <name>Свойство</name>
       <synonym>
         <key>ru</key>
@@ -298,9 +298,8 @@
       <type>
         <types>CatalogRef.Свойства</types>
       </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
     </attributes>
     <attributes uuid="7facd707-bdc1-404f-ae90-94f4722d9844">
       <name>Значение</name>
@@ -346,6 +345,19 @@
         <stringQualifiers>
           <length>28</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="6080a191-b5f1-4837-90f7-2671d1c9f8bc">
+      <name>УдалитьСвойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалить свойство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Свойства</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
