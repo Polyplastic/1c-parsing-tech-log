@@ -328,6 +328,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cf64b48b-4ded-405d-93ba-41bd767d8e77">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, назначенный наблюдать за состоянием</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="c2fefc64-4b33-4e17-b4d0-61aea4268c34">
     <producedTypes>
       <objectType typeId="401e3f48-13e4-4762-a6f0-e625aedda16a" valueTypeId="e0b076a4-048c-441b-bd50-c23679d4b0c2"/>
