@@ -603,9 +603,7 @@
       <id>66</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.НомерСтрокиФайла</segments>
       </dataPath>
