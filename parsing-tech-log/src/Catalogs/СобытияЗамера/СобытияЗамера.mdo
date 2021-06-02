@@ -130,54 +130,22 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.СобытияЗамера.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.СобытияЗамера.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="cce27e24-6458-41a3-913f-828795fd37ab">
-    <name>ТипПроцесса</name>
+  <attributes uuid="5379565f-7508-41e5-a620-f20553acdf71">
+    <name>ВсеСвойства</name>
     <synonym>
       <key>ru</key>
-      <value>Тип процесса</value>
+      <value>Все свойства</value>
     </synonym>
     <type>
-      <types>CatalogRef.Процессы</types>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="18fa1e46-fb00-4f04-8f03-23990f9f8cb0">
-    <name>Файл</name>
-    <synonym>
-      <key>ru</key>
-      <value>Файл</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ФайлыЗамера</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Catalog.СобытияЗамера.StandardAttribute.Owner</field>
-    </choiceParameterLinks>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="052228a7-3d87-4158-987e-ccd45446061e">
-    <name>НомерСтрокиФайла</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер строки файла</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="189c00f4-3117-4445-968d-2fd64301741a">
@@ -230,6 +198,53 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5c27e973-1fce-41be-8aed-2e32576ecf5d">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиСобытия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="052228a7-3d87-4158-987e-ccd45446061e">
+    <name>НомерСтрокиФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки файла</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cce27e24-6458-41a3-913f-828795fd37ab">
+    <name>ТипПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Процессы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="82dce714-394a-41ac-a3b3-a79e32a104f9">
     <name>ТипСобытия</name>
     <synonym>
@@ -261,22 +276,22 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5379565f-7508-41e5-a620-f20553acdf71">
-    <name>ВсеСвойства</name>
+  <attributes uuid="18fa1e46-fb00-4f04-8f03-23990f9f8cb0">
+    <name>Файл</name>
     <synonym>
       <key>ru</key>
-      <value>Все свойства</value>
+      <value>Файл</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.ФайлыЗамера</types>
     </type>
-    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.СобытияЗамера.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="644e984b-1c47-47c1-860f-fc3349361020">
@@ -345,19 +360,6 @@
         <stringQualifiers>
           <length>28</length>
         </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="6080a191-b5f1-4837-90f7-2671d1c9f8bc">
-      <name>УдалитьСвойство</name>
-      <synonym>
-        <key>ru</key>
-        <value>Удалить свойство</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Свойства</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

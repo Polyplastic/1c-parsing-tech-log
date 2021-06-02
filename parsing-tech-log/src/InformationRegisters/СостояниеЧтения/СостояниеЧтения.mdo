@@ -116,6 +116,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="cd7bd224-c7bd-47f9-a8be-4af34fa716c6">
+    <name>СобытиеЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие замера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СобытияЗамера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <attributes uuid="56c4bb43-500e-4012-8414-1cc4b9db32e8">
     <name>ОписаниеОшибки</name>
     <synonym>

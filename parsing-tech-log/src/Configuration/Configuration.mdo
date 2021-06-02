@@ -59,6 +59,8 @@
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styles>Style.Стандартный</styles>
+  <styles>Style.Темный</styles>
   <commonPictures>CommonPicture.АватарПоУмолчанию</commonPictures>
   <commonPictures>CommonPicture.Карандаш_16х16</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
@@ -69,6 +71,7 @@
   <commonPictures>CommonPicture.ПодсистемаЗамеры</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ТолькоЧтение</roles>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВызовСервера</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиент</commonModules>
@@ -134,6 +137,8 @@
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИзвестныеСитуации</catalogs>
+  <catalogs>Catalog.КлючиСобытия</catalogs>
+  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <catalogs>Catalog.МашиныСостояний</catalogs>
   <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
@@ -143,7 +148,6 @@
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
-  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимЗапускаКлиентскогоПриложения</enums>
@@ -154,12 +158,13 @@
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
-  <informationRegisters>InformationRegister.СнимкиСостояний</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
+  <informationRegisters>InformationRegister.КлассификаторДанных</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПользователя</informationRegisters>
   <informationRegisters>InformationRegister.ОбщееХранениеНастроек</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
+  <informationRegisters>InformationRegister.СнимкиСостояний</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеОбработкиFSM</informationRegisters>
-  <informationRegisters>InformationRegister.КлассификаторДанных</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
 </mdclass:Configuration>
