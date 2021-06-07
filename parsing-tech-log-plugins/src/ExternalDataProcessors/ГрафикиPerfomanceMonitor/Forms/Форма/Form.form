@@ -188,7 +188,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -508,7 +508,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -537,7 +537,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -803,7 +803,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -832,7 +832,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">

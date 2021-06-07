@@ -204,7 +204,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АвтоматическаяКлассификацияОшибокВекторноеПространство</types>
+      <types>ExternalDataProcessor.АвтоматическаяКлассификацияОшибокВекторноеПространство</types>
     </valueType>
     <view>
       <common>true</common>

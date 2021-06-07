@@ -96,19 +96,19 @@
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
+  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.СтеммерПортераКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтеммерПортераКлиентСерверПовтИсп</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
-  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
-  <commonModules>CommonModule.СтеммерПортераКлиентСервер</commonModules>
-  <commonModules>CommonModule.СтеммерПортераКлиентСерверПовтИсп</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
