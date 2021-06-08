@@ -42,6 +42,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Свойства.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Свойства.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="b6704295-4469-4b2c-97e6-916d3fc649fe">
     <name>МногострочныйРежим</name>
     <synonym>
@@ -160,6 +161,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d427fc50-d304-46d7-a520-1a7b8587a973">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
