@@ -27,4 +27,5 @@
   <content>Catalog.УчетныеЗаписи</content>
   <content>CommonForm.ОписаниеИзмененийСистемы</content>
   <content>CommonCommand.ReleaseDescription</content>
+  <content>InformationRegister.НастройкиПользователя</content>
 </mdclass:Subsystem>

@@ -20,4 +20,5 @@
   <content>CommonCommand.ДополнительныеОтчетыЗамеры</content>
   <content>Catalog.СобытияЗамера</content>
   <content>InformationRegister.КлассификаторДанных</content>
+  <content>Catalog.КлючиСобытия</content>
 </mdclass:Subsystem>

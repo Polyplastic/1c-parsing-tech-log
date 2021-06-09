@@ -17,7 +17,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.8.7</version>
+  <version>2.0.9.1</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
@@ -59,6 +59,8 @@
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styles>Style.Стандартный</styles>
+  <styles>Style.Темный</styles>
   <commonPictures>CommonPicture.АватарПоУмолчанию</commonPictures>
   <commonPictures>CommonPicture.Карандаш_16х16</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
@@ -69,6 +71,7 @@
   <commonPictures>CommonPicture.ПодсистемаЗамеры</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ТолькоЧтение</roles>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВызовСервера</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиент</commonModules>
@@ -93,19 +96,20 @@
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
+  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СправочникиСерверПовтИсп</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.СтеммерПортераКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтеммерПортераКлиентСерверПовтИсп</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
-  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
-  <commonModules>CommonModule.СтеммерПортераКлиентСервер</commonModules>
-  <commonModules>CommonModule.СтеммерПортераКлиентСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
@@ -134,6 +138,8 @@
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИзвестныеСитуации</catalogs>
+  <catalogs>Catalog.КлючиСобытия</catalogs>
+  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <catalogs>Catalog.МашиныСостояний</catalogs>
   <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
@@ -143,7 +149,6 @@
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
-  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимЗапускаКлиентскогоПриложения</enums>
@@ -154,12 +159,13 @@
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
-  <informationRegisters>InformationRegister.СнимкиСостояний</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
+  <informationRegisters>InformationRegister.КлассификаторДанных</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПользователя</informationRegisters>
   <informationRegisters>InformationRegister.ОбщееХранениеНастроек</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
+  <informationRegisters>InformationRegister.СнимкиСостояний</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеОбработкиFSM</informationRegisters>
-  <informationRegisters>InformationRegister.КлассификаторДанных</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеЧтения</informationRegisters>
 </mdclass:Configuration>

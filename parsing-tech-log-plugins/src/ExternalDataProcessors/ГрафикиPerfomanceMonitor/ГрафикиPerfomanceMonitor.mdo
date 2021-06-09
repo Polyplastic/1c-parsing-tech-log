@@ -6,18 +6,17 @@
   <name>ГрафикиPerfomanceMonitor</name>
   <synonym>
     <key>ru</key>
-    <value>Графики perfomance monitor</value>
+    <value>Графики замеров</value>
   </synonym>
   <comment></comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="2688351f-61a0-4420-81d3-332a8948cb47"/>
   <defaultForm>ExternalDataProcessor.ГрафикиPerfomanceMonitor.Form.Форма</defaultForm>
-  <forms uuid="d674ad23-c5fd-437c-88c1-0756378bed4e">
+  <forms uuid="97c5ce5b-3586-44e9-a392-dff75846f1f2">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
