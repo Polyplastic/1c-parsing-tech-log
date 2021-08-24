@@ -630,8 +630,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Ключ</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Ключ</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КлючРасширеннаяПодсказка</name>
@@ -741,8 +743,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КлючевыеСвойства.Свойство</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КлючевыеСвойства.Свойство</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеСвойстваСвойствоРасширеннаяПодсказка</name>
@@ -997,7 +1001,6 @@
         </extendedTooltip>
         <commandName>Form.Command.СоздатьОписаниеСитуации</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>

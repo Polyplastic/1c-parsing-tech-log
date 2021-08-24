@@ -3391,7 +3391,6 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<stepDirection>ByColumns</stepDirection>
 	<defaultFormatIndex>3</defaultFormatIndex>
 	<height>88</height>
 	<vgRows>88</vgRows>

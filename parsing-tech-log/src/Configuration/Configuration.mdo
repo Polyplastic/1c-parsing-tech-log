@@ -11,7 +11,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="389aa75b-d78b-44a6-9d79-0a699e53a24b"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="41fb1820-988c-4352-a87f-2e957515ce67"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a194674-8458-43f8-9f96-3afe61f16916"/>
-  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -116,6 +116,7 @@
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеНеиспользуемыхФайлов</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <commonCommands>CommonCommand.ДополнительныеОбработкиОракул</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыОракул</commonCommands>
