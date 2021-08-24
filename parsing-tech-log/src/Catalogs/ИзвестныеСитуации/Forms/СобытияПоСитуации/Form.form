@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>События по ситуации</value>
@@ -130,9 +130,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.ТипСобытия</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ТипСобытия</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокТипСобытияРасширеннаяПодсказка</name>
@@ -185,9 +182,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.ДатаСобытия</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаСобытия</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокДатаСобытияРасширеннаяПодсказка</name>
@@ -237,9 +231,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаСобытияМкс</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Список.ДатаСобытияМкс</segments>
         </paths>
@@ -347,9 +338,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.ТипПроцесса</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ТипПроцесса</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокТипПроцессаРасширеннаяПодсказка</name>
@@ -402,9 +390,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.УровеньСобытия</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.УровеньСобытия</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокУровеньСобытияРасширеннаяПодсказка</name>
@@ -452,9 +437,6 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ВсеСвойства</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Список.ВсеСвойства</segments>
         </paths>
@@ -510,9 +492,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.ДлительностьМкс</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДлительностьМкс</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокДлительностьМксРасширеннаяПодсказка</name>
@@ -565,9 +544,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.Файл</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Файл</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокФайлРасширеннаяПодсказка</name>
@@ -617,9 +593,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.НомерСтрокиФайла</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Список.НомерСтрокиФайла</segments>
         </paths>
@@ -835,6 +808,11 @@
     <verticalStretch>true</verticalStretch>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
     </extInfo>
   </items>

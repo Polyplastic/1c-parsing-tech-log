@@ -6,6 +6,7 @@
     <value>Удаление устаревших событий</value>
   </synonym>
   <methodName>CommonModule.ОбновлениеДанныхРегламентное.УдалениеУстаревшихСобытий</methodName>
+  <description>Удаление устаревших событий</description>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>25</restartIntervalOnFailure>

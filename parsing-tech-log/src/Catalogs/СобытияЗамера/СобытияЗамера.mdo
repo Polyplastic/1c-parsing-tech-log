@@ -292,6 +292,7 @@
       <field>Catalog.СобытияЗамера.StandardAttribute.Owner</field>
     </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="644e984b-1c47-47c1-860f-fc3349361020">
@@ -313,6 +314,8 @@
       <type>
         <types>CatalogRef.Свойства</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
     </attributes>

@@ -646,8 +646,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Ответственный</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Ответственный</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -1319,9 +1321,6 @@
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДополнительныеПоляСвойствДляСписка.Использовать</segments>
             </paths>
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДополнительныеПоляСвойствДляСписка.Использовать</segments>
-            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ДополнительныеПоляСвойствДляСпискаИспользоватьРасширеннаяПодсказка</name>
@@ -1364,9 +1363,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДополнительныеПоляСвойствДляСписка.Свойство</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДополнительныеПоляСвойствДляСписка.Свойство</segments>
             </paths>
@@ -1423,9 +1419,6 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДополнительныеПоляСвойствДляСписка.ИмяРеквизита</segments>
-            </paths>
             <paths xsi:type="form:DataPath">
               <segments>Объект.ДополнительныеПоляСвойствДляСписка.ИмяРеквизита</segments>
             </paths>
@@ -1756,7 +1749,6 @@
       </extendedTooltip>
       <commandName>Form.Command.ОчиститьЗамер</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1898,7 +1890,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Clear</picture>
+      <picture>-200</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

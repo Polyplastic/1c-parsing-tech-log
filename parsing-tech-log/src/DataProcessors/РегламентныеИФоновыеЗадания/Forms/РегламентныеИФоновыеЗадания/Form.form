@@ -415,7 +415,6 @@
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Change</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -445,7 +444,6 @@
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Copy</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -475,7 +473,6 @@
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Delete</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -3365,7 +3362,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Magnifier</picture>
+      <picture>-700</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

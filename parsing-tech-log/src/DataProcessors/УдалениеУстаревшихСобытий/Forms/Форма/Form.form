@@ -24,9 +24,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.Замер</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Замер</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокЗамерРасширеннаяПодсказка</name>
@@ -79,9 +76,6 @@
         <paths xsi:type="form:DataPath">
           <segments>Список.ГраничнаяДата</segments>
         </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ГраничнаяДата</segments>
-        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СписокГраничнаяДатаРасширеннаяПодсказка</name>
@@ -131,9 +125,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.КоличествоКУдалению</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Список.КоличествоКУдалению</segments>
         </paths>
