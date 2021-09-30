@@ -81,6 +81,12 @@
 	| <div style='text-indent: 25px;'>Для работы на сервере 1С должен быть обязательно запущена служба ras. Команда для установки может иметь следующий формат:<br />
 	|  <code>sc create ""1C:Enterprise RAS"" binpath= ""\""C:/Program Files/1cv8/8.3.10.2466/bin/ras.exe\"" cluster --service --port=1545 localhost:1540""</code> <br /> (обратите внимние, что после свойства 'binpath=' должен идти пробел)</div>
 	| <hr />
+	| <div style='text-indent: 25px;'>Автор идеи: Крючков Владимир.</div>
+	| <div style='text-indent: 25px;'>Реализовали: Крючков Владимир.</div>
+	| <hr />
+	| <a href='https://infostart.ru/1c/articles/1285308/'>Анализ проблем производительности по динамике мониторинга RAS 1C</a>
+	| <a href='https://infostart.ru/1c/articles/1168942/'>Мониторим производительность с помощью 1С RAS</a>
+	| <hr />
 	| Подробную информацию смотрите по адресу интернет: <a target='_blank' href='https://github.com/Polyplastic/1c-parsing-tech-log'>https://github.com/Polyplastic/1c-parsing-tech-log</a>";
 	
 КонецФункции

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b9d6f5-5145-475f-b12f-a6d7d25624c8">
+  <producedTypes>
+    <objectType typeId="d6d1c43f-3723-4e87-bed3-42bbf5ab2ed8" valueTypeId="e8f2ebf6-e2cf-4f30-921f-54e02c4cc22f"/>
+  </producedTypes>
+  <name>GrafanaSkin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Grafana skin</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="6e9ed850-7d36-4de7-a047-30f1773499b0"/>
+  <defaultForm>ExternalDataProcessor.GrafanaSkin.Form.Форма</defaultForm>
+  <forms uuid="72fb30e8-edc4-4eeb-89c2-f16de9f355b9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
