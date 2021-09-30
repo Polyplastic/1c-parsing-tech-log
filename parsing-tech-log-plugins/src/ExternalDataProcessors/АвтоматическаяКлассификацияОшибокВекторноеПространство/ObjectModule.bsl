@@ -79,6 +79,12 @@
 	| <div style='text-indent: 25px;'>Форма Настройка 'Автоклассификация ошибок технологического журнала' выполнить настройку классификации</div>
 	| <div style='text-indent: 25px;'>Форма 'Журнал классификации' позволяет выполнить просмотр и анализ результатов</div>
 	| <hr />
+	| <div style='text-indent: 25px;'>Автор идеи: Крючков Владимир.</div>
+	| <div style='text-indent: 25px;'>Реализовали: Крючков Владимир.</div>
+	| <hr />
+	| <a href='https://infostart.ru/1c/articles/1279928/'>Адаптация автоматической классификации ошибок технологического журнала при появлении новых текстов и типов</a>
+	| <a href='https://infostart.ru/1c/articles/1251023/'>Автоматическая классификация ошибок технологического журнала</a>
+	| <hr />
 	| Подробную информацию смотрите по адресу интернет: <a target='_blank' href='https://github.com/Polyplastic/1c-parsing-tech-log'>https://github.com/Polyplastic/1c-parsing-tech-log</a>";
 	
 КонецФункции

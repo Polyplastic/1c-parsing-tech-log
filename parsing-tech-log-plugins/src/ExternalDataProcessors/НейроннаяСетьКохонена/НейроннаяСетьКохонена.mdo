@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4402de71-67bc-4abd-9e3d-edbab0a9debc">
+  <producedTypes>
+    <objectType typeId="74376e9a-1d85-40a7-a245-b79e9c7cc05e" valueTypeId="7a8f054b-e3c1-4873-b5cb-48b13f515d01"/>
+  </producedTypes>
+  <name>НейроннаяСетьКохонена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нейронная сеть кохонена</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="a62140dd-6da5-4f5d-9e2a-0d31fd6bab99"/>
+  <defaultForm>ExternalDataProcessor.НейроннаяСетьКохонена.Form.Форма_SOM</defaultForm>
+  <forms uuid="62d7ea34-1c36-43f8-bb5e-baec6aa93d02">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f8172f8-4c49-49b6-8464-e2e84d1f88b4">
+    <name>Форма_SOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма SOM</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0fa4e84f-bd4c-443e-8f50-02982c15002d">
+    <name>html_google</name>
+    <synonym>
+      <key>ru</key>
+      <value>Html google</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6325b020-2a50-4abd-9b7e-d02671b62567">
+    <name>js_plotly</name>
+    <synonym>
+      <key>ru</key>
+      <value>plotly-latest.min</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3262e5d8-f252-4404-b063-3807c394ff67">
+    <name>html_plotly</name>
+    <synonym>
+      <key>ru</key>
+      <value>Html plotly</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f1f70ca8-3bc1-44f5-b899-33d1085fe692">
+    <name>js_google_loader</name>
+    <synonym>
+      <key>ru</key>
+      <value>loader.js</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

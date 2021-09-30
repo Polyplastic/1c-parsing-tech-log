@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0033)http://raphaeljs.com/graffle.html -->
+<html>
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <script type="text/javascript" src="./loader.js"></script>
+
+            <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+	  var options,chart;
+	  
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['X', 'Series 1', 'Series 2'],
+          [ 8,      12,			8],
+          [ 4,      5.5,		7],
+          [ 11,     -14,			8],
+          [ 4,      5,			5],
+          [ 3,      3.5,		6],
+          [ 6.5,    7,			3]
+        ]);
+
+        options = {
+          title: 'Plots on XY',
+          hAxis: {title: 'X', minValue: -15, maxValue: 15},
+          vAxis: {title: 'Y', minValue: -15, maxValue: 15},
+		  selectionMode: 'single',
+		  aggregationTarget: 'category',
+		  series: {
+			0:{color: 'black', visibleInLegend: true},
+			1:{color: 'red', visibleInLegend: true}
+			},
+          legend: {position: 'right', textStyle: {color: 'blue', fontSize: 16}}
+        };
+
+        chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+	  
+	  function change(d)
+	{
+
+		var data = google.visualization.arrayToDataTable(d);
+
+        chart.draw(data, options);
+
+	}	  
+    </script>
+<style type="text/css" media="all">
+body { 
+    margin: 0; /* Убираем отступы */
+   }
+</style>    
+  </head>
+
+ <body>
+    <div id="chart_div" style="width: 700px; height: 300px;"></div>
+  </body>
+</html>
