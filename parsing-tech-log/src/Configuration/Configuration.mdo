@@ -11,13 +11,14 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="389aa75b-d78b-44a6-9d79-0a699e53a24b"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="41fb1820-988c-4352-a87f-2e957515ce67"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a194674-8458-43f8-9f96-3afe61f16916"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="10d01cfd-f3a0-4ae7-a9bd-4ebc3c6964c1"/>
   <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.9.5</version>
+  <version>2.0.9.6</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
