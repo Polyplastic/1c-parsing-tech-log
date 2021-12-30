@@ -12,37 +12,43 @@
 	<columns>
 		<size>8</size>
 		<columnsItem>
-			<index>6</index>
+			<index>0</index>
 			<column>
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>5</index>
+			<index>1</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>4</index>
+			<index>2</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
 			<column>
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>2</index>
+			<index>4</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>1</index>
+			<index>5</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>3</index>
+			<index>6</index>
 			<column>
 				<formatIndex>6</formatIndex>
 			</column>
@@ -178,7 +184,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Host</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -228,7 +244,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>callsLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -278,7 +304,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -328,7 +364,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MemoryAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -378,7 +424,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SessionID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -428,7 +484,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -478,7 +544,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Session</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -528,7 +604,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Process</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -578,7 +664,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InfoBase</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -700,7 +796,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Locale</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -750,7 +856,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Connection</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -800,7 +916,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UserName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -850,7 +976,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>OutBytesCurrent</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -900,7 +1036,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AppID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -950,7 +1096,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InBytesAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1000,7 +1156,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>StartedAt</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1050,7 +1216,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LastActiveAt</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1100,7 +1276,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Hibernate</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1222,7 +1408,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PassiveSessionHibernateTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1344,7 +1540,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HibernateSessionTerminateTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1466,7 +1672,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>OutBytesAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1588,7 +1804,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>bytesAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1638,7 +1864,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>bytesLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1688,7 +1924,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cpuTimeAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1738,7 +1984,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>callsAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1788,7 +2044,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dbmsBytesAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1931,7 +2197,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dbmsBytesLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2053,7 +2329,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dbProcInfo</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2483,7 +2769,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MemoryCurrent</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2533,7 +2829,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cpuTimeCurrent</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2583,7 +2889,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MemoryLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2633,7 +2949,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InBytesCurrent</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2683,7 +3009,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InBytesLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2733,7 +3069,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>OutBytesLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2927,7 +3273,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CurrentServiceName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -2977,7 +3333,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cpuTimeLast5Min</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3027,7 +3393,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HostName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3077,7 +3453,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3127,7 +3513,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3177,7 +3573,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Connections</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3227,7 +3633,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Process</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3277,7 +3693,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Running</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3327,7 +3753,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>StartedAt</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3377,7 +3813,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MainPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3427,7 +3873,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3477,7 +3933,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IsEnable</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3527,7 +3993,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Use</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3577,7 +4053,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AvailablePerfomance</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3627,7 +4113,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Capacity</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3677,7 +4173,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MemorySize</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3717,7 +4223,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3727,7 +4233,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MemoryExcessTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3767,7 +4283,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3777,7 +4293,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SelectionSize</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3817,7 +4343,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3827,7 +4353,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AvgCallTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3867,7 +4403,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3877,7 +4413,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AvgDBCallTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3917,7 +4463,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3927,7 +4473,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AvgLockCallTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -3967,7 +4523,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3977,7 +4533,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AvgServerCallTime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4017,7 +4583,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4027,7 +4593,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AvgThreads</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4067,7 +4643,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4077,7 +4653,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SafeCallMemoryLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4117,7 +4703,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4127,7 +4713,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MainServer</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4177,7 +4773,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4217,7 +4823,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4227,7 +4833,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>DedicatedManagers</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4267,7 +4883,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4277,7 +4893,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HostName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4327,7 +4953,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4417,7 +5053,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4427,7 +5063,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MainPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4467,7 +5113,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4527,7 +5173,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4567,7 +5223,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4577,7 +5233,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InfoBasesPerWorkingProcessLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4617,7 +5283,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4667,7 +5333,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4677,7 +5343,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ConnectionsPerWorkingProcessLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4717,7 +5393,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4727,7 +5403,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SafeWorkingProcessesMemoryLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4767,7 +5453,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4777,7 +5463,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClusterMainPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4792,6 +5488,114 @@
 	</rowsItem>
 	<rowsItem>
 		<index>87</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>server</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>port-range</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>диапазон портов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>88</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>server</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>temporary-allowed-total-memory-time-limit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>врем. лимит памяти</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>TemporaryAllowedProcessesTotalMemoryTimeLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>89</index>
 		<row>
 			<c>
 				<c>
@@ -4827,7 +5631,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Host</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4841,7 +5655,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>88</index>
+		<index>90</index>
 		<row>
 			<c>
 				<c>
@@ -4877,7 +5691,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4891,7 +5715,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>89</index>
+		<index>91</index>
 		<row>
 			<c>
 				<c>
@@ -4927,7 +5751,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4941,7 +5775,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>90</index>
+		<index>92</index>
 		<row>
 			<c>
 				<c>
@@ -4977,7 +5811,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Application</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -4991,7 +5835,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>91</index>
+		<index>93</index>
 		<row>
 			<c>
 				<c>
@@ -5027,7 +5871,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Connection</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5041,7 +5895,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>92</index>
+		<index>94</index>
 		<row>
 			<c>
 				<c>
@@ -5067,7 +5921,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5077,7 +5931,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ConnID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5103,7 +5967,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>93</index>
+		<index>95</index>
 		<row>
 			<c>
 				<c>
@@ -5139,7 +6003,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InfoBase</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5153,7 +6027,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>94</index>
+		<index>96</index>
 		<row>
 			<c>
 				<c>
@@ -5189,7 +6063,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Process</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5203,7 +6087,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>95</index>
+		<index>97</index>
 		<row>
 			<c>
 				<c>
@@ -5239,7 +6123,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ConnectedAt</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5253,7 +6147,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>96</index>
+		<index>98</index>
 		<row>
 			<c>
 				<c>
@@ -5289,7 +6183,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SessionID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5303,7 +6207,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>97</index>
+		<index>99</index>
 		<row>
 			<c>
 				<c>
@@ -5329,7 +6233,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5339,7 +6243,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>blockedByLS</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5353,7 +6267,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>98</index>
+		<index>100</index>
 		<row>
 			<c>
 				<c>
@@ -5389,7 +6303,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5403,7 +6327,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>99</index>
+		<index>101</index>
 		<row>
 			<c>
 				<c>
@@ -5439,7 +6363,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5453,7 +6387,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>100</index>
+		<index>102</index>
 		<row>
 			<c>
 				<c>
@@ -5489,7 +6423,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>InfoBase</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5503,7 +6447,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>101</index>
+		<index>103</index>
 		<row>
 			<c>
 				<c>
@@ -5553,7 +6497,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>102</index>
+		<index>104</index>
 		<row>
 			<c>
 				<c>
@@ -5589,7 +6533,17 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>0</f>
 					<tl>
@@ -5603,7 +6557,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>103</index>
+		<index>105</index>
 		<row>
 			<c>
 				<c>
@@ -5639,117 +6593,19 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
 				<c>
 					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Строка</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>104</index>
-		<row>
-			<c>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>session licenses</v8:content>
+							<v8:content>Descr</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>license-type</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>тип лицензии</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Строка</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>105</index>
-		<row>
-			<c>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>session licenses</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>full-presentation</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>полное представление</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
+					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5765,7 +6621,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5776,11 +6632,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>series</v8:content>
+							<v8:content>decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>проблема (уровень)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5788,22 +6666,6 @@
 			<c>
 				<c>
 					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>номер лицензии</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5819,7 +6681,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5830,29 +6692,24 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>rmngr-address</v8:content>
+							<v8:content>line-number</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>rmngr адрес</v8:content>
+							<v8:content>номер строки</v8:content>
 						</v8:item>
 					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
 				</c>
 			</c>
 			<c>
@@ -5861,7 +6718,18 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Строка</v8:content>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5873,7 +6741,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5884,11 +6752,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>short-presentation</v8:content>
+							<v8:content>app-id</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>приложение</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AppID</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5896,22 +6786,6 @@
 			<c>
 				<c>
 					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>краткое представление</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5927,7 +6801,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5938,11 +6812,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>issued-by-server</v8:content>
+							<v8:content>started-at</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>время начала</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>StartedAt</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5953,23 +6849,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>выдано сервером</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Булево</v8:content>
+							<v8:content>Дата</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5981,7 +6861,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -5992,11 +6872,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>net</v8:content>
+							<v8:content>hibernate</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>спящий</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Hibernate</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6004,22 +6906,6 @@
 			<c>
 				<c>
 					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>сетевая</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6035,7 +6921,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6046,29 +6932,24 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>max-users-all</v8:content>
+							<v8:content>user-name</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>max-users-all</v8:content>
+							<v8:content>пользователь</v8:content>
 						</v8:item>
 					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
 				</c>
 			</c>
 			<c>
@@ -6077,7 +6958,18 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Число</v8:content>
+							<v8:content>UserName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6089,7 +6981,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6100,11 +6992,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>max-users-cur</v8:content>
+							<v8:content>host</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>компьютер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Host</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6115,23 +7029,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>max-users-cur</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Число</v8:content>
+							<v8:content>Строка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6143,7 +7041,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6154,11 +7052,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>rmngr-port</v8:content>
+							<v8:content>license-type</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>тип лицензии</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LicenseType</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6169,23 +7089,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>rmngr-port</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Число</v8:content>
+							<v8:content>Строка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6197,7 +7101,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6208,11 +7112,33 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>rmngr-pid</v8:content>
+							<v8:content>full-presentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>полное представление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FullPresentation</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6223,19 +7149,423 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>rmngr-pid</v8:content>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>115</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>full-name</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>полное название</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FileName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>116</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>series</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>номер лицензии</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Series</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>117</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-address</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr адрес</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RMngrAddress</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>118</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>short-presentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>краткое представление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShortPresentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>119</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>issued-by-server</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>выдано сервером</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IssuedByServer</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>120</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>net</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>сетевая</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Net</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>121</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-all</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-all</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MaxUsersAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6246,28 +7576,2755 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>122</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-cur</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-cur</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MaxUsersCur</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>123</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RMngrPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>124</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-pid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-pid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RMngrPID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>125</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster-name</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>имя кластера</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClusterName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>126</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>errors-count-threshold</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>errors-count-threshold</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ErrorsCountThreshold</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>127</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>expiration-timeout</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>expiration-timeout</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ExpirationTimeout</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>128</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>host</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>компьютер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HostName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>129</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>kill-by-memory-with-dump</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>kill-by-memory-with-dump</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>KillByMemoryWithDump</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>130</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>kill-problem-processes</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>kill-problem-processes</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>KillProblemProcesses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>131</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>life-time-limit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>life-time-limit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LifeTimeLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>132</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>load-balancing-mode</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>load-balancing-mode</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LoadBalancingMode</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>133</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MainPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>134</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-memory-size</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-memory-size</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MaxMemorySize</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>135</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-memory-time-limit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-memory-time-limit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MaxMemoryTimeLimit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>136</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>security-level</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>security-level</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SecurityLevel</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>137</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session-fault-tolerance-level</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>session-fault-tolerance-level</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SessionFaultToleranceLevel</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>138</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>проблема (уровень)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>139</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cluster</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>line-number</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>номер строки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>140</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>проблема (уровень)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>141</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>line-number</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>номер строки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>142</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>pid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>143</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>host</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>компьютер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HostName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>144</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>менеджер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>145</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>descr</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>описание</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Descr</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>146</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MainPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>147</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>manager</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>using</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>использование</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>148</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>проблема (уровень)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Decision</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>149</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>line-number</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>номер строки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LineNumber</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>150</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MainPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>151</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>license-type</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>тип лицензии</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>LicenseType</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>152</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>full-presentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>полное представление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FullPresentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>153</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>full-name</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>полное название</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FileName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>154</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>series</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>номер лицензии</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Series</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>155</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-address</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr адрес</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RMngrAddress</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>156</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>short-presentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>краткое представление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShortPresentation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>157</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>issued-by-server</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>выдано сервером</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IssuedByServer</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>158</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>net</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>сетевая</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Net</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>159</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-all</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-all</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MaxUsersAll</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>160</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-cur</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>max-users-cur</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MaxUsersCur</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>161</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-port</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RMngrPort</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>162</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-pid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rmngr-pid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RMngrPID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>163</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>pid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PID</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>164</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>is-enable</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>включен</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IsEnable</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>165</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>started-at</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>время начала</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>StartedAt</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>166</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>process licenses</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>host</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>компьютер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HostName</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>115</height>
-	<vgRows>115</vgRows>
+	<height>167</height>
+	<vgRows>167</vgRows>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font faceName="Microsoft Sans Serif" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>125</width>
-	</format>
-	<format>
-		<width>91</width>
-	</format>
-	<format>
-		<width>89</width>
+		<width>103</width>
 	</format>
 	<format>
 		<width>226</width>
 	</format>
 	<format>
+		<width>286</width>
+	</format>
+	<format>
+		<width>89</width>
+	</format>
+	<format>
+		<width>91</width>
+	</format>
+	<format>
+		<width>125</width>
+	</format>
+	<format>
 		<width>191</width>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<borderColor>#A0A0A0</borderColor>
+		<width>128</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#4D4D4D</textColor>
+		<backColor>#F2F2F2</backColor>
 	</format>
 	<format>
 		<width>146</width>
 	</format>
 	<format>
-		<width>103</width>
+		<font>0</font>
+		<border>0</border>
+		<borderColor>#A0A0A0</borderColor>
+		<width>104</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#4D4D4D</textColor>
+		<backColor>#F2F2F2</backColor>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<borderColor>#A0A0A0</borderColor>
+		<width>200</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#4D4D4D</textColor>
+		<backColor>#F2F2F2</backColor>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<borderColor>#A0A0A0</borderColor>
+		<width>232</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#4D4D4D</textColor>
+		<backColor>#F2F2F2</backColor>
 	</format>
 </document>

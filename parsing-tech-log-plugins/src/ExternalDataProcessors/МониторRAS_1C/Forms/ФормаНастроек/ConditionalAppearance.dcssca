@@ -18,11 +18,11 @@
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>ReadOnly</dcscor:parameter>
-				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>Text</dcscor:parameter>
+				<dcscor:parameter>Текст</dcscor:parameter>
 				<dcscor:value xsi:type="v8:LocalStringType">
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -32,12 +32,12 @@
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:use>false</dcscor:use>
-				<dcscor:parameter>Enabled</dcscor:parameter>
+				<dcscor:parameter>Доступность</dcscor:parameter>
 				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>TextColor</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -59,7 +59,11 @@
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>Text</dcscor:parameter>
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Текст</dcscor:parameter>
 				<dcscor:value xsi:type="v8:LocalStringType">
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -68,12 +72,8 @@
 				</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>ReadOnly</dcscor:parameter>
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
 				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
-			</dcscor:item>
-			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>TextColor</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>

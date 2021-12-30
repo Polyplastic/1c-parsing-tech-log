@@ -9,7 +9,7 @@
     <value>Монитор RAS 1 C</value>
   </synonym>
   <comment>Крючков Владимир как (ivanov660) (https://github.com/Polyplastic/1c-parsing-tech-log)</comment>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="59f204ec-1721-43f4-af9d-baaf33ad7103"/>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="05716413-52fe-4d9b-8e8e-e910d7879471"/>
   <defaultForm>ExternalDataProcessor.МониторRAS_1C.Form.ФормаМонитора</defaultForm>
   <forms uuid="9f44192b-8ef9-4a9f-9906-dfd227f36d4a">
     <name>ФормаНастроек</name>
