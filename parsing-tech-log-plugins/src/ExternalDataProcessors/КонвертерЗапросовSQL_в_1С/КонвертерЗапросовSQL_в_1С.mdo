@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68b1cfb9-b2bb-4cd2-b013-e0c282b52060">
+  <producedTypes>
+    <objectType typeId="fe49f7c1-60ec-4dc0-8ac9-cf542fc0edc0" valueTypeId="103f44c1-a10d-46ce-bc1f-d7d8387fafb0"/>
+  </producedTypes>
+  <name>КонвертерЗапросовSQL_в_1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертер текстов запросов и планов SQL в 1С представления</value>
+  </synonym>
+  <comment>Крючков Владимир (ivanov660, kruchkov.v@polyplastic.ru)</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="f7597229-f4d5-4a49-b4f6-a6c24e6fc111"/>
+  <defaultForm>ExternalDataProcessor.КонвертерЗапросовSQL_в_1С.Form.Форма</defaultForm>
+  <forms uuid="d3ba38a8-de14-4bcf-b334-3616ae6d9369">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8c290048-b0ca-45a9-aff9-cc0fe370bcef">
+    <name>Модуль_СервисныеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль сервисные функции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
