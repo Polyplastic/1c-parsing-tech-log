@@ -315,10 +315,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="87cb849d-e443-46cc-9b38-2bc88949f622">
-    <name>ДоплнятьСписокНаборомПолей</name>
+    <name>ДополнятьСписокНаборомПолей</name>
     <synonym>
       <key>ru</key>
-      <value>Доплнять список набором полей</value>
+      <value>Дополнять список набором полей</value>
     </synonym>
     <type>
       <types>Boolean</types>

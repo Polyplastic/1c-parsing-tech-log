@@ -599,12 +599,12 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Объект.ДоплнятьСписокНаборомПолей</segments>
+            <segments>Объект.ДополнятьСписокНаборомПолей</segments>
           </paths>
         </dataPath>
         <handlers>
           <event>OnChange</event>
-          <name>ДоплнятьСписокНаборомПолейПриИзменении</name>
+          <name>ДополнятьСписокНаборомПолейПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>ДоплнятьСписокНаборомПолейРасширеннаяПодсказка</name>

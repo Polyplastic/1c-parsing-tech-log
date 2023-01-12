@@ -13,6 +13,7 @@
     <value>Ключи события</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлючиСобытия.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
