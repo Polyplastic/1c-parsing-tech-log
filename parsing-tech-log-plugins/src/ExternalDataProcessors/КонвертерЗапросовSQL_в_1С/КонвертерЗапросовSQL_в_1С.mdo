@@ -6,9 +6,9 @@
   <name>КонвертерЗапросовSQL_в_1С</name>
   <synonym>
     <key>ru</key>
-    <value>Конвертер текстов запросов и планов SQL в 1С представления</value>
+    <value>(Тимлид: Крючков Владимир) Конвертер текстов запросов и планов SQL в 1С представления</value>
   </synonym>
-  <comment>Крючков Владимир (ivanov660, kruchkov.v@polyplastic.ru)</comment>
+  <comment>Тимлид: Крючков Владимир (ivanov660, kruchkov.v@polyplastic.ru)</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="f7597229-f4d5-4a49-b4f6-a6c24e6fc111"/>
   <defaultForm>ExternalDataProcessor.КонвертерЗапросовSQL_в_1С.Form.Форма</defaultForm>
   <forms uuid="d3ba38a8-de14-4bcf-b334-3616ae6d9369">
