@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>День</dataPath>
+			<field>День</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>День</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДеньПредНед</dataPath>
+			<field>ДеньПредНед</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>День пред нед</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РазнДлитСек</dataPath>
+			<field>РазнДлитСек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разн длит сек</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлитСек</dataPath>
+			<field>ДлитСек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длит сек</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭкономияПревышениеСек</dataPath>
+			<field>ЭкономияПревышениеСек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экономия превышение сек</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлитПредНед</dataPath>
+			<field>ДлитПредНед</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длит пред нед</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РазнКолВо</dataPath>
+			<field>РазнКолВо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разн кол во</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолВо</dataPath>
+			<field>КолВо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кол во</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолВоПердНед</dataPath>
+			<field>КолВоПердНед</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кол во перд нед</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭкономияПревышениеМин</dataPath>
+			<field>ЭкономияПревышениеМин</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экономия превышение мин</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭкономияПревышениеЧас</dataPath>
+			<field>ЭкономияПревышениеЧас</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экономия превышение час</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	НАЧАЛОПЕРИОДА(СобытияЗамера.ДатаСобытия, ДЕНЬ) КАК День,
+	СРЕДНЕЕ(СобытияЗамера.ДлительностьМкс / 1000000) КАК ДлительностьМксСред,
+	КОЛИЧЕСТВО(*) КАК КолВо
+ПОМЕСТИТЬ ВтДанные
+ИЗ
+	Справочник.СобытияЗамера КАК СобытияЗамера
+ГДЕ
+	СобытияЗамера.Владелец = &amp;Владелец
+	И СобытияЗамера.ДатаСобытия МЕЖДУ ДОБАВИТЬКДАТЕ(&amp;ДатаНачало, ДЕНЬ, -&amp;СмещениеДней) И &amp;ДатаОкончания
+
+СГРУППИРОВАТЬ ПО
+	НАЧАЛОПЕРИОДА(СобытияЗамера.ДатаСобытия, ДЕНЬ)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВтДанные.День КАК День,
+	ВтДанные1.День КАК ДеньПредНед,
+	ВЫРАЗИТЬ(ВтДанные.ДлительностьМксСред КАК ЧИСЛО(15, 2)) КАК ДлитСек,
+	ВЫРАЗИТЬ(ВтДанные1.ДлительностьМксСред КАК ЧИСЛО(15, 2)) КАК ДлитПредНед,
+	ВЫРАЗИТЬ(ВтДанные.ДлительностьМксСред - ВтДанные1.ДлительностьМксСред КАК ЧИСЛО(15, 2)) КАК РазнДлитСек,
+	ВтДанные.КолВо КАК КолВо,
+	ВтДанные1.КолВо КАК КолВоПердНед,
+	ВтДанные.КолВо - ВтДанные1.КолВо КАК РазнКолВо,
+	(ВЫРАЗИТЬ(ВтДанные.ДлительностьМксСред - ВтДанные1.ДлительностьМксСред КАК ЧИСЛО(15, 2))) * (ВтДанные.КолВо - ВтДанные1.КолВо) КАК ЭкономияПревышениеСек,
+	ВЫРАЗИТЬ((ВтДанные.ДлительностьМксСред - ВтДанные1.ДлительностьМксСред) / 60 * (ВтДанные.КолВо - ВтДанные1.КолВо) КАК ЧИСЛО(15, 2)) КАК ЭкономияПревышениеМин,
+	ВЫРАЗИТЬ((ВтДанные.ДлительностьМксСред - ВтДанные1.ДлительностьМксСред) / 3600 * (ВтДанные.КолВо - ВтДанные1.КолВо) КАК ЧИСЛО(15, 2)) КАК ЭкономияПревышениеЧас
+ИЗ
+	ВтДанные КАК ВтДанные
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтДанные КАК ВтДанные1
+		ПО (ВтДанные1.День = ДОБАВИТЬКДАТЕ(ВтДанные.День, ДЕНЬ, -&amp;СмещениеДней))
+ГДЕ
+	ВтДанные.День МЕЖДУ &amp;ДатаНачало И &amp;ДатаОкончания
+
+УПОРЯДОЧИТЬ ПО
+	День</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КолВо</dataPath>
+		<expression>Сумма(КолВо)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолВоПердНед</dataPath>
+		<expression>Сумма(КолВоПердНед)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РазнДлитСек</dataPath>
+		<expression>Сумма(РазнДлитСек)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РазнКолВо</dataPath>
+		<expression>Сумма(РазнКолВо)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭкономияПревышениеМин</dataPath>
+		<expression>Сумма(ЭкономияПревышениеМин)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭкономияПревышениеСек</dataPath>
+		<expression>Сумма(ЭкономияПревышениеСек)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭкономияПревышениеЧас</dataPath>
+		<expression>Сумма(ЭкономияПревышениеЧас)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДлитСек</dataPath>
+		<expression>Сумма(ДлитСек)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДлитПредНед</dataPath>
+		<expression>Сумма(ДлитПредНед)</expression>
+	</totalField>
+	<parameter>
+		<name>Владелец</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Владелец</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Замеры</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ДатаНачало</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начало</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>СтандартныйПериод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Стандартный период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>СмещениеДней</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Смещение дней</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">7</value>
+		<useRestriction>false</useRestriction>
+		<availableValue>
+			<value xsi:type="xs:decimal">7</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:decimal">14</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:decimal">21</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:decimal">28</value>
+		</availableValue>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль изменения</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>День</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДеньПредНед</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДлитСек</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДлитПредНед</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РазнДлитСек</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КолВо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КолВоПердНед</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РазнКолВо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭкономияПревышениеЧас</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭкономияПревышениеМин</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭкономияПревышениеСек</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Владелец</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>18fe5efd-39e9-4c5e-a823-9f3467515d0f</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisWeek</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>b6cac906-c7ae-4b53-9831-f2fca8a173a6</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СмещениеДней</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">7</dcscor:value>
+					<dcsset:userSettingID>8f5748b7-4d76-4d4b-8a26-d1cba5bc6278</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Античный</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>День</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДеньПредНед</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

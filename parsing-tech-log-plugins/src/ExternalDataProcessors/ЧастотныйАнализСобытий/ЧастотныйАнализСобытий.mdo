@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a30580fd-cd5a-4ba3-99ac-3c6e4770e513">
+  <producedTypes>
+    <objectType typeId="0e99cf99-ea0a-49d9-a3ac-eb47e0ad58e8" valueTypeId="69833904-294b-4262-af12-61d1c399b735"/>
+  </producedTypes>
+  <name>ЧастотныйАнализСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Частотный анализ событий</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="3214c302-3ca4-4fa4-8b01-7eed8a8196fb"/>
+  <defaultForm>ExternalDataProcessor.ЧастотныйАнализСобытий.Form.ФормаНастроек</defaultForm>
+  <forms uuid="72abc9ec-da99-4185-a316-da15a80d3a54">
+    <name>ФормаОтладка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="44347248-7af1-4ff3-b34f-a2674238086f">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

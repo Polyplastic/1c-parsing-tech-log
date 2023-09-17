@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc91809c-6b9f-421e-b943-1780d91778e9">
+  <producedTypes>
+    <objectType typeId="8661fefb-0dfa-4952-8ad5-271b59b4f2d2" valueTypeId="5875064e-2c24-4f9d-b2dd-0a37f92e56a9"/>
+  </producedTypes>
+  <name>КоличествоСенасовЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество сенасов лицензий</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="b79918cd-d5cf-46f3-a5d1-67ef75c0b1e2"/>
+  <defaultForm>ExternalReport.КоличествоСенасовЛицензий.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>ExternalReport.КоличествоСенасовЛицензий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="54493068-6ebe-4adf-9d39-6b58c6b60eeb">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="decba8ec-a2f4-4b55-8d20-99b54e94980a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
