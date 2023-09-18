@@ -18,7 +18,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>1c@polyplastic.ru</vendor>
-  <version>2.0.9.6</version>
+  <version>2.0.9.11</version>
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
@@ -73,6 +73,8 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ТолькоЧтение</roles>
+  <commonTemplates>CommonTemplate.RegExLin32</commonTemplates>
+  <commonTemplates>CommonTemplate.RegExLin64</commonTemplates>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВызовСервера</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиент</commonModules>

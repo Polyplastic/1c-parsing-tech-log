@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb5216ce-c552-4849-8750-806ad5f1a00e">
+  <producedTypes>
+    <objectType typeId="eeec8429-c12b-4b1f-a05d-83df8bb702aa" valueTypeId="131319a2-02cb-4cf1-83a0-e53e9ea77851"/>
+  </producedTypes>
+  <name>КонтрольИзмененияПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль изменения производительности</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="fd3094ca-e1cd-4eb8-a44d-05d19dba230f"/>
+  <defaultForm>ExternalReport.КонтрольИзмененияПроизводительности.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>ExternalReport.КонтрольИзмененияПроизводительности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="ea32687f-9737-4ab5-82d2-0f1fbce8c7e7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="610badc4-8f37-454e-be1c-f0d825a75838">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
