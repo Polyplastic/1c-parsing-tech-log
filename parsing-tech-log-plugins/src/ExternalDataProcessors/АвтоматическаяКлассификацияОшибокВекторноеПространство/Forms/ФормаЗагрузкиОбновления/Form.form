@@ -53,10 +53,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ИсточникЗагрузки</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИсточникЗагрузки</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -130,10 +128,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>HTML</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>HTML</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -257,4 +253,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>
