@@ -27,6 +27,7 @@
     <green>51</green>
     <blue>51</blue>
   </labelsColor>
+  <labelsFont xsi:type="core:AutoFont"/>
   <transparentLabelsBkg>true</transparentLabelsBkg>
   <labelsBorder xsi:type="core:BorderDef">
     <style>Single</style>
@@ -87,6 +88,9 @@
     <green>51</green>
     <blue>51</blue>
   </chTxtColor>
+  <ttlFont xsi:type="core:AutoFont"/>
+  <legFont xsi:type="core:AutoFont"/>
+  <chFont xsi:type="core:AutoFont"/>
   <isShowScale>true</isShowScale>
   <isShowScaleVL>true</isShowScaleVL>
   <isShowSeriesScale>true</isShowSeriesScale>
@@ -155,7 +159,6 @@
   </border>
   <splineStrain>95</splineStrain>
   <translucenceMode>Auto</translucenceMode>
-  <translucencePercent>255</translucencePercent>
   <multiStageLinkLine>
     <width>1</width>
     <style>Solid</style>
@@ -215,9 +218,6 @@
     <titlePlacement>SpecialArea</titlePlacement>
     <labelOrientation>Auto</labelOrientation>
   </seriesScale>
-  <trendLinesArray>
-    <seriesId>1</seriesId>
-  </trendLinesArray>
   <colorPaletteDescription>
     <colorPalette>Auto</colorPalette>
   </colorPaletteDescription>
@@ -228,4 +228,23 @@
   <pointsReferenceLines/>
   <valuesReferenceBands/>
   <pointsReferenceBands/>
+  <additionalValuesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </additionalValuesScale>
+  <additionalValuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </additionalValuesAxis>
 </chart:Chart>

@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Замер</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Замер</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -70,10 +68,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Классификатор</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Классификатор</segments>
         </dataPath>
         <extendedTooltip>
           <name>КлассификаторРасширеннаяПодсказка</name>
@@ -157,10 +153,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДатаОбновления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДатаОбновления</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <handlers>
@@ -274,10 +268,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ГруппировкаПоВремени</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ГруппировкаПоВремени</segments>
         </dataPath>
         <extendedTooltip>
           <name>ГруппировкаПоВремениРасширеннаяПодсказка</name>
@@ -327,10 +319,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИсточникДанных</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИсточникДанных</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИсточникДанныхРасширеннаяПодсказка</name>
@@ -373,10 +363,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТекТипДиаграммы</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТекТипДиаграммы</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -474,10 +462,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаКлассификатор.Уровень1</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаКлассификатор.Уровень1</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -521,10 +507,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаКлассификатор.Уровень2</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаКлассификатор.Уровень2</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -568,10 +552,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаКлассификатор.Тема</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаКлассификатор.Тема</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТаблицаКлассификаторТемаРасширеннаяПодсказка</name>
@@ -621,10 +603,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаКлассификатор.НижняяГраница</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаКлассификатор.НижняяГраница</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТаблицаКлассификаторНижняяГраницаРасширеннаяПодсказка</name>
@@ -718,6 +698,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ТаблицаКлассификаторСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -756,6 +737,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ТаблицаКлассификаторСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -795,6 +777,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ТаблицаКлассификаторУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -917,10 +900,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИнтервалИстории</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИнтервалИстории</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -1027,10 +1008,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Диаграмма</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Диаграмма</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДиаграммаРасширеннаяПодсказка</name>
@@ -1176,7 +1155,8 @@
       </title>
       <id>5</id>
       <valueType>
-        <types>CatalogRef.ИзвестныеСитуации</types>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -1228,7 +1208,8 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>CatalogRef.Замеры</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -1328,7 +1309,8 @@
     </title>
     <id>8</id>
     <valueType>
-      <types>CatalogRef.ИзвестныеСитуации</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -1452,4 +1434,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>
