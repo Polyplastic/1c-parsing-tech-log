@@ -1208,8 +1208,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.Замеры</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1217,9 +1216,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Замер</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>Диаграмма</name>
@@ -1309,8 +1305,7 @@
     </title>
     <id>8</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.ИзвестныеСитуации</types>
     </valueType>
     <view>
       <common>true</common>

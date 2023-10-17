@@ -12558,8 +12558,7 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>CatalogRef.Замеры</types>
       </valueType>
       <view>
         <common>true</common>
@@ -12576,8 +12575,7 @@
       </title>
       <id>2</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>CatalogRef.Свойства</types>
       </valueType>
       <view>
         <common>true</common>
@@ -12906,8 +12904,7 @@
     </title>
     <id>30</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.Замеры</types>
     </valueType>
     <view>
       <common>true</common>
@@ -12915,9 +12912,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Замер</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ЛогОпераций</name>
@@ -13459,8 +13453,7 @@
     </title>
     <id>49</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.ИзвестныеСитуации</types>
     </valueType>
     <view>
       <common>true</common>
@@ -13468,6 +13461,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Классификатор</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ТаблицаКлассификатор</name>
