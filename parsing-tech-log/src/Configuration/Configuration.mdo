@@ -12,7 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="41fb1820-988c-4352-a87f-2e957515ce67"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a194674-8458-43f8-9f96-3afe61f16916"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="10d01cfd-f3a0-4ae7-a9bd-4ebc3c6964c1"/>
-  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -22,6 +22,7 @@
   <updateCatalogAddress>https://github.com/Polyplastic/1c-parsing-tech-log</updateCatalogAddress>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
+  <usedMobileApplicationFunctionalities/>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <detailedInformation>
@@ -53,10 +54,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Оракул</subsystems>
-  <subsystems>Subsystem.Замеры</subsystems>
-  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Замеры</subsystems>
+  <subsystems>Subsystem.Оракул</subsystems>
+  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
@@ -65,11 +66,11 @@
   <commonPictures>CommonPicture.АватарПоУмолчанию</commonPictures>
   <commonPictures>CommonPicture.Карандаш_16х16</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
-  <commonPictures>CommonPicture.Предупреждение</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаОракул</commonPictures>
-  <commonPictures>CommonPicture.РабочийСтол</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаЗамеры</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаНагрузочноеТестирование</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаОракул</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.РабочийСтол</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ТолькоЧтение</roles>
@@ -79,7 +80,9 @@
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВызовСервера</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиент</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеДанных</commonModules>
+  <commonModules>CommonModule.ОбновлениеДанныхJSON</commonModules>
   <commonModules>CommonModule.ОбновлениеДанныхРегламентное</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
@@ -112,38 +115,36 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
-  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <scheduledJobs>ScheduledJob.Автозагрузка</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
-  <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеНеиспользуемыхФайлов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
-  <commonCommands>CommonCommand.ДополнительныеОбработкиОракул</commonCommands>
-  <commonCommands>CommonCommand.ДополнительныеОтчетыОракул</commonCommands>
+  <commonCommands>CommonCommand.ReleaseDescription</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиЗамеры</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиОракул</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыЗамеры</commonCommands>
-  <commonCommands>CommonCommand.ReleaseDescription</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыОракул</commonCommands>
+  <constants>Constant.АдресИнтернетReleaseDescription</constants>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.МаксимальноеКолВоПотоковДляОднойЗагрузки</constants>
-  <constants>Constant.УдалятьУстаревшиеСобытия</constants>
-  <constants>Constant.АдресИнтернетReleaseDescription</constants>
   <constants>Constant.РазмерПакетаУдаляемыхДанных</constants>
+  <constants>Constant.УдалятьУстаревшиеСобытия</constants>
+  <commonForms>CommonForm.ReleaseDescription</commonForms>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
-  <commonForms>CommonForm.ReleaseDescription</commonForms>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИзвестныеСитуации</catalogs>
   <catalogs>Catalog.КлючиСобытия</catalogs>
-  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <catalogs>Catalog.МашиныСостояний</catalogs>
   <catalogs>Catalog.НейронныеСети</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
@@ -152,16 +153,18 @@
   <catalogs>Catalog.Свойства</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.СобытияЗамера</catalogs>
+  <catalogs>Catalog.УчетныеЗаписи</catalogs>
   <catalogs>Catalog.ФайлыЗамера</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимЗапускаКлиентскогоПриложения</enums>
   <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
   <enums>Enum.ТипыЗамеров</enums>
+  <enums>Enum.ФорматыТЖ</enums>
   <dataProcessors>DataProcessor.НастройкаТехнологическогоЖурнала</dataProcessors>
-  <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеУстаревшихСобытий</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
