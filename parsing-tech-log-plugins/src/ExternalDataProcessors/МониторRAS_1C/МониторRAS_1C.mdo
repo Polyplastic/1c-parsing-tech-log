@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81218903-fede-4856-92bd-4d3b62d3e7b6">
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81218903-fede-4856-92bd-4d3b62d3e7b6">
   <producedTypes>
     <objectType typeId="15d85b67-b530-4ac1-8e62-c096126d355b" valueTypeId="ab94cbb5-1bec-4373-85c2-ff13b7f4e121"/>
   </producedTypes>
@@ -11,6 +11,2337 @@
   <comment>Крючков Владимир как (ivanov660) (https://github.com/Polyplastic/1c-parsing-tech-log)</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="05716413-52fe-4d9b-8e8e-e910d7879471"/>
   <defaultForm>ExternalDataProcessor.МониторRAS_1C.Form.ФормаМонитора</defaultForm>
+  <tabularSections uuid="824a6c7a-b18c-4a29-8d83-428d630b7751">
+    <producedTypes>
+      <objectType typeId="26b5e3fb-2165-4a66-b172-ecd64899f857" valueTypeId="5f62f145-8897-4396-a2f8-6600901b6d1d"/>
+      <rowType typeId="b0d757a5-f2a6-45cc-b502-1f34074d69fc" valueTypeId="81c38662-7a32-424a-9fde-2adee5f086cf"/>
+    </producedTypes>
+    <name>ТаблицаДанных_infobase</name>
+    <synonym>
+      <key>ru</key>
+      <value>infobase</value>
+    </synonym>
+    <comment>Инф. базы</comment>
+    <attributes uuid="3c3359df-b866-4d26-bed2-9dee9e48e644">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b0eedee6-7388-48e7-9e4d-e87a91cda122">
+      <name>InfoBase</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инф. база</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="983b1d8a-6b05-434e-ab35-f30716ff5137">
+      <name>InfoBaseName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инф. база имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="80935f85-df04-4abd-91d3-84dac9caf1e7">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="08f58e30-fdf2-4016-9c82-d5a7e1209f5e">
+      <name>Descr</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5cca56f7-2c24-48c1-8409-0b8c58d88eaf">
+    <producedTypes>
+      <objectType typeId="5896e997-011a-492e-94ec-71d84a4fa4ad" valueTypeId="7aa827c2-2b60-45c6-a301-91485f885929"/>
+      <rowType typeId="dfe1a249-9de0-4245-843a-c7d9ff581ca5" valueTypeId="acbf75ba-07cd-4b1c-bc47-00ee86ace723"/>
+    </producedTypes>
+    <name>ТаблицаДанных_server</name>
+    <synonym>
+      <key>ru</key>
+      <value>server</value>
+    </synonym>
+    <comment>сервера</comment>
+    <attributes uuid="5912adad-3011-47da-bd84-4620391fd71d">
+      <name>SafeCallMemoryLimit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Safe-call-memory-limit</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6e7dcd8d-ae7c-4ba5-bc61-4d5a77b40e89">
+      <name>MainServer</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c9982814-fecd-4e07-aa98-87d5006a5978">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e14ca76c-08a4-4394-b0f3-6600a218f54a">
+      <name>DedicatedManagers</name>
+      <synonym>
+        <key>ru</key>
+        <value>Dedicated-managers</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="20835679-8e57-409f-8eda-c5f5bf92d29b">
+      <name>HostName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Agent-host</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="eb22f8b5-f5e5-4a18-8e32-9451b94dc75f">
+      <name>Server</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="59e5332a-2353-4af0-a595-c5d8ec0e0411">
+      <name>MainPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>agent-port</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f6070e9e-6e43-4aa1-a7b9-95e06e0e70d9">
+      <name>PortRange</name>
+      <synonym>
+        <key>ru</key>
+        <value>Диапазон портов</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="82eec0a5-0c28-44cf-8f5f-16882b6b2d1f">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="87b2cbaa-2686-4799-a598-7c36e76642c9">
+      <name>InfoBasesPerWorkingProcessLimit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Infobases-limit</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c5d6a061-1647-4852-8f2c-c78397f05efd">
+      <name>MemoryLimit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Memory-limit</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3f543332-de7a-46e5-bb69-bfc3800002fd">
+      <name>ConnectionsPerWorkingProcessLimit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Connections-limit</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aa9398e0-069d-43aa-819a-4a2cf8b6b00f">
+      <name>SafeWorkingProcessesMemoryLimit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Safe-working-processes-memory-limit</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e21c0cd5-e027-43cc-9464-c296eeb36102">
+      <name>ClusterMainPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cluster-port</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0b2e67c1-de7b-4da2-a6cc-3f2434971d90">
+      <name>TemporaryAllowedProcessesTotalMemoryTimeLimit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Врем. лимит памяти</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b1a29ce0-295e-4d5a-bc8b-a77cbde3f857">
+    <producedTypes>
+      <objectType typeId="69d3c545-2cce-4000-9dbc-f317c35dc32d" valueTypeId="1818618c-bb0a-48bb-9531-3f84485ac1f6"/>
+      <rowType typeId="bb3bc25f-fcd5-430e-929c-f8c69e839901" valueTypeId="b0fc364f-adfe-409b-97cd-f83064cdd124"/>
+    </producedTypes>
+    <name>ТаблицаДанных_manager</name>
+    <synonym>
+      <key>ru</key>
+      <value>manager</value>
+    </synonym>
+    <comment>менеджеры</comment>
+    <attributes uuid="36de0518-29f1-46ec-bafa-ff0180fae6cb">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="12b1a480-02d4-4542-926c-b024837dc45e">
+      <name>PID</name>
+      <synonym>
+        <key>ru</key>
+        <value>PID</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="22068dd8-cede-4569-9fab-d90809e20468">
+      <name>HostName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0062d40d-94f1-46a1-a890-9c71a84ff16f">
+      <name>Manager</name>
+      <synonym>
+        <key>ru</key>
+        <value>Менеджер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a56b33ed-14e3-45c2-b1aa-a25970730dc3">
+      <name>Descr</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1c283afb-d7e6-42a9-b36a-8be4e3fc6a96">
+      <name>MainPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="48c48096-2360-4e42-ba8d-fcdc01d36e71">
+      <name>Using</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3c63e0bd-6503-4f52-ba69-12a758e45ea5">
+    <producedTypes>
+      <objectType typeId="c962e66a-8055-4c56-b3ed-230f476adc17" valueTypeId="4ea164e8-e344-48cc-8f35-4aed154a6a2b"/>
+      <rowType typeId="d0beeb0d-ca4f-4866-ad8e-7acfcc6e837a" valueTypeId="96e35835-faee-4d93-8c2a-222e6f1f2d88"/>
+    </producedTypes>
+    <name>ТаблицаДанных_process</name>
+    <synonym>
+      <key>ru</key>
+      <value>process</value>
+    </synonym>
+    <comment>процессы</comment>
+    <attributes uuid="3e3dcd09-b96a-4515-a499-4b3dfe65addd">
+      <name>HostName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6903bd2f-e01f-443a-8b43-f404a96032a8">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="94472175-deba-4b82-be52-2fec488495d7">
+      <name>Connections</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во соединений</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9b1d7550-c221-4dfa-ba99-d61d952e5bfa">
+      <name>Process</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процесс</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4df9de49-dd78-429c-be73-f233ae4912af">
+      <name>Running</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ebdd55a1-2f6b-49a3-b668-ce5c2d2f5533">
+      <name>TurnedOn</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8dad5fc2-e814-48ec-b28b-2f17de064ad5">
+      <name>Reserve</name>
+      <synonym>
+        <key>ru</key>
+        <value>Резерв</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e8b57e5f-d099-47d5-8597-9786961164ac">
+      <name>StartedAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="da5dfad3-77f5-42ce-8fe9-07deb5c9d4d4">
+      <name>MainPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a3e30e36-6dee-450f-8421-4a1e6b7ddbaa">
+      <name>PID</name>
+      <synonym>
+        <key>ru</key>
+        <value>PID</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="71e51eb0-6be4-4629-b73f-a2bda64d1912">
+      <name>IsEnable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c0af8d0f-8688-4733-8bed-8f840a592aaa">
+      <name>Use</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c451dc0d-6aa3-43af-8929-f1d0791d9507">
+      <name>AvailablePerfomance</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дост. произв.</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="854227fc-794c-4dfb-b33c-ec739b684a48">
+      <name>Capacity</name>
+      <synonym>
+        <key>ru</key>
+        <value>Емкость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8c8276b5-3cb3-485a-b0bd-5ae2ac63ab82">
+      <name>MemorySize</name>
+      <synonym>
+        <key>ru</key>
+        <value>Память КБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fc59f434-c18e-4eef-8207-2cfdbd54abd6">
+      <name>MemoryExcessTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Memory-excess-time</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6464143e-e6c3-4d0a-af0e-795590114a3d">
+      <name>SelectionSize</name>
+      <synonym>
+        <key>ru</key>
+        <value>Selection-size</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c860ea42-7976-4eb0-96f2-8d536824509d">
+      <name>AvgCallTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Avg-call-time</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7326c1e8-22a0-4d2a-aa7a-852f50c63722">
+      <name>AvgDBCallTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Avg-db-call-time</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="54a36446-40b0-48a4-998b-d80c9a142044">
+      <name>AvgLockCallTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Avg-lock-call-time</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d1a03977-e59a-4f76-be68-69a7e8eda6a0">
+      <name>AvgServerCallTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Avg-server-call-time</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ad79f532-d14e-43f7-aaec-461385305751">
+      <name>AvgThreads</name>
+      <synonym>
+        <key>ru</key>
+        <value>Avg-threads</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="90adf8d5-deac-4f5b-a3a8-beae98a9940c">
+    <producedTypes>
+      <objectType typeId="12c39a62-04a0-4ec2-8849-bbe7d5c22273" valueTypeId="1214eaae-b381-4166-96d0-a3c9fe7b9c4b"/>
+      <rowType typeId="81edea04-882f-451c-aa47-d6b3b8537c29" valueTypeId="147551e6-af50-4282-a363-9df32c18b580"/>
+    </producedTypes>
+    <name>ТаблицаДанных_processlicenses</name>
+    <synonym>
+      <key>ru</key>
+      <value>process licenses</value>
+    </synonym>
+    <comment>проц. лиц.</comment>
+    <attributes uuid="431ce5b5-854b-48fc-a35c-4502dd49557b">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3441dd8c-ed34-4a9c-aa75-69ea2a7e5ce0">
+      <name>MainPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a907b7a6-9126-45ff-9558-9e5c5f78e564">
+      <name>LicenseType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип лицензии</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2c6ba707-a071-41a6-8602-c2539973a0df">
+      <name>FullPresentation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d904d55c-1d3a-447b-a2ba-46dd294d68a2">
+      <name>FileName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a3393961-6bbe-4ffc-adf7-b252f309d640">
+      <name>Series</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер лицензии</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0b8d407a-376c-44aa-84f2-3075ce7c13aa">
+      <name>RMngrAddress</name>
+      <synonym>
+        <key>ru</key>
+        <value>rmngr адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="eebb7b94-d232-45d4-b85d-f4fc331832e6">
+      <name>ShortPresentation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Краткое представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5e83ec06-1cc8-4ab1-bd9a-32e7527e702a">
+      <name>IssuedByServer</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выдано сервером</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b31b8c21-3af8-4163-9592-aa1908d2e97d">
+      <name>Net</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сетевая</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="baff3ac2-6f9f-46a3-a716-88faf2ee1999">
+      <name>MaxUsersAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Max-users-all</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c680a035-0a51-45d0-9c1c-3650901766ef">
+      <name>MaxUsersCur</name>
+      <synonym>
+        <key>ru</key>
+        <value>Max-users-cur</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cd3c0333-68bb-4515-b869-29f63d22f614">
+      <name>RMngrPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>rmngr-port</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3d85a7f5-fdea-4b35-b8a6-119834b0c7b4">
+      <name>RMngrPID</name>
+      <synonym>
+        <key>ru</key>
+        <value>rmngr-pid</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8bf4260a-4194-4b69-adcf-462628875de8">
+      <name>PID</name>
+      <synonym>
+        <key>ru</key>
+        <value>PID</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="78b52b6c-f80c-4345-9a34-bdeacc322aff">
+      <name>IsEnable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c4ada9f9-9b3a-43f3-97c7-9dcd0e341430">
+      <name>StartedAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3b42f3c6-956c-41de-ae4c-bc04382429c0">
+      <name>HostName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4685ec13-2751-40cc-8b63-e63f4c0da486">
+      <name>Process</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процесс</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="24106ac4-b0a2-4569-a094-44ce30abff8a">
+    <producedTypes>
+      <objectType typeId="a56bc30a-f5d3-4ba7-b874-095f03b77a80" valueTypeId="772e268a-9d36-4174-b6bb-96c0cbf56ee5"/>
+      <rowType typeId="977050fa-568c-4559-aa11-be2ac31224c0" valueTypeId="417dfea8-11c7-4bf6-9e78-d60610a85210"/>
+    </producedTypes>
+    <name>ТаблицаДанных_connection</name>
+    <synonym>
+      <key>ru</key>
+      <value>connection</value>
+    </synonym>
+    <comment>соединения</comment>
+    <attributes uuid="cb9313fb-c971-494f-80c1-e2606cbea1b3">
+      <name>Host</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="64913b2d-f09f-4223-95ec-490c255d78df">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4fb90789-362a-4e94-bdbc-dfab8becfd59">
+      <name>Application</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приложение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9591c30d-54d3-4a51-a6fa-b673cf881a39">
+      <name>Connection</name>
+      <synonym>
+        <key>ru</key>
+        <value>Соединение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0e4f7e2a-bc80-4477-b61e-cb74664337f6">
+      <name>ConnID</name>
+      <synonym>
+        <key>ru</key>
+        <value>conn-id</value>
+      </synonym>
+      <comment>Содержит номер соединения. Имеет смысл, если с данного компьютера установлено несколько соединений.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="627876b9-4b02-4c08-97b4-a58798bbeddb">
+      <name>InfoBase</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инф. база</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc7c250f-8cb9-48b7-bc21-15363177409c">
+      <name>Process</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процесс</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b3843a69-ebf6-43c3-8957-37460ad6d0e9">
+      <name>ConnectedAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало работы</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dd52c91c-e740-4118-a1b1-3ca523d90a6a">
+      <name>SessionID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сеанс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e62b1e2d-45a0-4709-9e9e-13b0b6eff70e">
+      <name>blockedByLS</name>
+      <synonym>
+        <key>ru</key>
+        <value>blocked-by-ls</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="38a0cfef-7bf9-44b6-9716-3170647f35e7">
+    <producedTypes>
+      <objectType typeId="e35e464a-d9bd-4e1d-b4ba-c6d45957b644" valueTypeId="c39cc0b8-2fad-4eaa-a0a9-679b9bd58bc6"/>
+      <rowType typeId="08a7f075-af9e-4b44-9877-992c801c2c01" valueTypeId="85664309-e27f-4fdb-807b-dadc1f90a1e6"/>
+    </producedTypes>
+    <name>ТаблицаДанных_session</name>
+    <synonym>
+      <key>ru</key>
+      <value>session</value>
+    </synonym>
+    <comment>сеансы</comment>
+    <attributes uuid="5a09c652-0685-4e83-9546-fc4538193daa">
+      <name>Host</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6e7b2ce7-1a16-4bf9-9262-2b495ed086cc">
+      <name>callsLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>количество вызовов (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d114e5c4-8410-40da-b7c0-c7cf61745dd0">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d2521a7a-2b44-4088-818e-149e3dde3461">
+      <name>MemoryAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Память (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fe844000-8241-42e4-b69d-fe31165aad8a">
+      <name>SessionID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер сеанса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dc3bff89-9811-4aab-9fc1-23c405ea7189">
+      <name>Session</name>
+      <synonym>
+        <key>ru</key>
+        <value>сессия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="319e2693-bd99-45c4-8d80-9f95b407f2f7">
+      <name>Process</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процесс</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="87880edd-b099-454c-9a85-56019fb7992c">
+      <name>InfoBase</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инф. база</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9d2bd368-95f4-4f87-bce7-f3786c8ec9e8">
+      <name>durationCurrentService</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов сервисов (текущее)</value>
+      </synonym>
+      <comment>Содержит время, в течение которого сеанс выполняет текущий вызов сервиса кластера. 0, если в данный момент вызов сервиса кластера не выполняется, в миллисекундах.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e955f0db-d60e-4cdb-bdd4-a3bf9bf81ecf">
+      <name>Locale</name>
+      <synonym>
+        <key>ru</key>
+        <value>Язык</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc84d6d7-22d0-459e-8c45-1ed2615d25f9">
+      <name>Connection</name>
+      <synonym>
+        <key>ru</key>
+        <value>Соединение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5d81813e-5c82-4791-862e-9d812fbb3741">
+      <name>UserName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="acc4eabb-c5a4-4b5e-8674-41bb49629e28">
+      <name>ClientIp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент ip</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ae01cb46-778a-4a19-8574-8762959b945f">
+      <name>OutBytesCurrent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись (текущая)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b2741ad0-aa2e-4409-a9a6-7d2a0d6d39e4">
+      <name>AppID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приложение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cc1818d3-1ff9-444d-96d0-f09c98babe74">
+      <name>InBytesAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="38c5d385-3032-48aa-9e10-176bd76637c6">
+      <name>StartedAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="95c0380c-b74d-4941-b188-75a11a0e03a4">
+      <name>LastActiveAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Последняя активность</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8176c718-2ff4-4baa-8b0d-ec73bc73edb2">
+      <name>Hibernate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спящий</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f9b05ec5-8d13-4195-bd14-7aef59824339">
+      <name>durationAllDBMS</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов СУБД (всего)</value>
+      </synonym>
+      <comment>Содержит суммарное время исполнения запросов к СУБД от имени данного сеанса с момента начала сеанса, в миллисекундах.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2296e8bd-1c54-48ea-a426-51519f8f4ead">
+      <name>PassiveSessionHibernateTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заснуть через</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f3addb53-7118-4c7e-b91c-d9f379abdbe4">
+      <name>durationLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов (5 мин)</value>
+      </synonym>
+      <comment>Содержит время исполнения вызовов сервера 1С:Предприятия от имени данного сеанса за последние 5 минут, в миллисекундах.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="46be5c8f-df5b-4421-8e5f-2f46160ddf45">
+      <name>HibernateSessionTerminateTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Завершить через</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9efc77ba-f7cd-4053-bb34-d4e01f8de611">
+      <name>blockedByDBMS</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИД соед. блок. тек. СУБД</value>
+      </synonym>
+      <comment>Идентификатор cоединения, блокирующего работу данного соединения (в СУБД)</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="92704d7f-7832-4428-83b1-a88547f37d18">
+      <name>OutBytesAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a1c0c2bf-cad6-43f1-bd31-b287a986fe7f">
+      <name>blockedByLS</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИД соед. блок. тек. СУБД транз.</value>
+      </synonym>
+      <comment>Содержит идентификатор соединения, блокирующего работу данного соединения (в Сервисе транзакционных блокировок).</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ee8b60db-94b3-4222-8ffd-e96364147cbd">
+      <name>bytesAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объем данных (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="276457a3-6296-4cfb-bacd-97da562160b6">
+      <name>bytesLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объем данных (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7fed2fa1-f169-45ef-92f1-5b5bf5f7f9b8">
+      <name>cpuTimeAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процессорное время (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1a715823-0123-4784-8748-c930b5aedd47">
+      <name>callsAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество вызовов (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="54c1d8ec-d42b-49d4-b3e8-82c79a085b17">
+      <name>dbmsBytesAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данных СУБД (всего)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5a798438-5829-4e56-9e88-03be9e7a3435">
+      <name>durationCurrentDBMS</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызова СУБД (текущее)</value>
+      </synonym>
+      <comment>1000 сек. Содержит интервал времени в миллисекундах, прошедший с момента начала выполнения запроса, в случае, если сеанс выполняет запрос к СУБД. Иначе – 0.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="54ff281b-f587-46d6-a1f9-65fd941108f0">
+      <name>dbmsBytesLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данных СУБД (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="49787025-7a3f-48b6-b0dc-bbca46fed451">
+      <name>durationAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов (всего)</value>
+      </synonym>
+      <comment>Содержит время исполнения вызовов сервера 1С:Предприятия от имени данного сеанса с момента начала сеанса, в секундах.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b514359b-b257-4272-9865-d58f273a6800">
+      <name>dbProcInfo</name>
+      <synonym>
+        <key>ru</key>
+        <value>Соединение с СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="def927cb-c669-40a4-8440-9cc20def60fb">
+      <name>DataSeparation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разделитель данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8d2c6bb8-561c-47f4-8562-daadcc7c5ebc">
+      <name>dbProcTook</name>
+      <synonym>
+        <key>ru</key>
+        <value>Захвачено СУБД</value>
+      </synonym>
+      <comment>1000 сек. Содержит время соединение с СУБД с момента захвата в миллисекундах. 0 - соединение не захвачено.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ed7d8ff8-3fe5-4ecb-8f5e-1db4e75d6e8c">
+      <name>dbProcTookAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время захвата СУБД</value>
+      </synonym>
+      <comment>Содержит время соединение с СУБД с момента захвата в миллисекундах.0 - соединение не захвачено.</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b7217b59-7f72-4aae-89b1-22e8c1736984">
+      <name>durationCurrent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызова (текущее)</value>
+      </synonym>
+      <comment>1000 сек. Содержит интервал времени в миллисекундах, прошедший с момента начала обращения, в случае, если сеанс выполняет обращение к серверу 1С:Предприятия. Иначе – 0.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0d5dbb06-90b2-42ad-911c-3cf3698e918d">
+      <name>durationLast5MinDBMS</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов СУБД (5 мин)</value>
+      </synonym>
+      <comment>Содержит суммарное время исполнения запросов к СУБД от имени данного сеанса за последние 5 минут, в миллисекундах.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1f20175f-9ee1-42b6-a278-46571e39fa16">
+      <name>MemoryCurrent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Память (текущая)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bae75b99-6490-44eb-b961-78c7185b721c">
+      <name>cpuTimeCurrent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процессорное время (текущее)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="564de70b-6ec2-40af-a52f-a023e1dc9506">
+      <name>MemoryLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Память (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7ccf4f57-5b31-4dca-8ff8-52bc49b9e95f">
+      <name>InBytesCurrent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение (текущее)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0405f4c5-9766-4e25-adbc-18cb8dc1fd91">
+      <name>InBytesLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ff55f2c5-0ab4-4ff9-a1d0-070e0dfda3f0">
+      <name>OutBytesLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запсиь (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7eb503e2-d69e-427e-8b19-d16f6ea248e9">
+      <name>durationLast5MinService</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов сервисов (5 мин)</value>
+      </synonym>
+      <comment>Содержит время, которое затрачено сеансом на вызовы сервисов кластера за последние 5 минут, в миллисекундах.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="18c94858-d3f1-48f7-9881-ddc2aceb9e64">
+      <name>durationAllService</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время вызовов сервисов (всего)</value>
+      </synonym>
+      <comment>Время в миллисекундах, которое затрачено сеансом на вызовы сервисов кластера с момента начала сеанса.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7bb6bb97-fbbc-416a-abba-5c0b3f3b5632">
+      <name>CurrentServiceName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя текущего сервиса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="79f982bf-c44e-459e-8c8d-e7a067d8c2f4">
+      <name>cpuTimeLast5Min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процессорное (5 мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b6f12fb2-7d79-4380-bf79-3250c5e6602a">
+    <producedTypes>
+      <objectType typeId="5b27f6d2-ce06-4319-98fd-65f25338d5b6" valueTypeId="4f63643f-def0-4f4c-97d7-42cc7bbd2752"/>
+      <rowType typeId="23efa042-51f4-4beb-af2e-423a0921e156" valueTypeId="8a4784f5-0df6-4147-859f-08b21643d9d1"/>
+    </producedTypes>
+    <name>ТаблицаДанных_sessionlicenses</name>
+    <synonym>
+      <key>ru</key>
+      <value>session licenses</value>
+    </synonym>
+    <comment>сеансы лиц.</comment>
+    <attributes uuid="0cb73550-959a-4f59-8399-e77680bcd30c">
+      <name>Decision</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проблема (уровень)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1d21e8fd-6a5c-450f-a59a-df8546ab2f64">
+      <name>AppID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приложение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="22850cd3-4eaa-44d2-8346-d52e945afe94">
+      <name>StartedAt</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bfc37e3d-e731-4021-905b-bd6bbf3ab364">
+      <name>Hibernate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спящий</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3c6f6829-d45c-4bf3-bd2f-6e1771eea989">
+      <name>UserName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cfc18e25-f98f-4fa2-a339-acfa1531def0">
+      <name>Host</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="57108d6a-5838-4c21-8b3b-b5f2ad09d99e">
+      <name>LicenseType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип лицензии</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8b0cd6de-c10c-44dc-9bd2-da4699a4f76b">
+      <name>FullPresentation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4dafc0d0-faf9-4077-bbb0-113dcef24f61">
+      <name>FileName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9716fed8-f86f-469b-abdc-e65e837778a5">
+      <name>Series</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер лицензии</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="488115c9-a2a0-4abf-a3d2-4481cb699529">
+      <name>RMngrAddress</name>
+      <synonym>
+        <key>ru</key>
+        <value>RMngr адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc23f01e-863a-48f1-abc9-66bbfa494e55">
+      <name>Session</name>
+      <synonym>
+        <key>ru</key>
+        <value>сессия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0fc6e720-6cbf-444f-886f-0746945054c3">
+      <name>ShortPresentation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Краткое представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0f3ec040-d11b-48a3-9e57-12dc77033cc0">
+      <name>IssuedByServer</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выдано сервером</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="57d34b92-34a9-4c81-99d1-ab9523e836e8">
+      <name>Net</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сетевая</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="297238d6-19b0-4f18-8415-977a04908ab3">
+      <name>MaxUsersAll</name>
+      <synonym>
+        <key>ru</key>
+        <value>Max-users-all</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f466a99a-1193-441b-a4b2-c02d3dc677d7">
+      <name>MaxUsersCur</name>
+      <synonym>
+        <key>ru</key>
+        <value>Max-users-cur</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="33319856-a8ab-46cf-8034-ce13277d3889">
+      <name>RMngrPort</name>
+      <synonym>
+        <key>ru</key>
+        <value>rmngr-port</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0be69b15-710a-4346-9590-95f887bc9d25">
+      <name>RMngrPID</name>
+      <synonym>
+        <key>ru</key>
+        <value>rmngr-pid</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
   <forms uuid="9f44192b-8ef9-4a9f-9906-dfd227f36d4a">
     <name>ФормаНастроек</name>
     <synonym>
