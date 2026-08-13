@@ -161,7 +161,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>IndexWithAdditionalOrder</indexing>
+    <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="efe328f2-e3cb-48d5-be4d-8d6b5d95c1dd">

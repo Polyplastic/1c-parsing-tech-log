@@ -77,9 +77,7 @@
       <value>Группа, к которой относится дополнительный отчет или обработка</value>
     </toolTip>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>ad99c086-2ae3-4648-ad31-fef3acf326e4.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -106,16 +104,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
-    <characteristicTypes>1a7c774d-5b86-4051-b797-3081e19fa30a</characteristicTypes>
-    <keyField>0:00949768-5833-4fe2-8752-b009d1bceef8</keyField>
-    <typesFilterField>-8</typesFilterField>
-    <typesFilterValue xsi:type="core:ReferenceValue">
-      <value>7a576bbd-3683-4c69-8259-b03d2c59db04.5af958b3-10bf-43ad-9872-38fbe4881491</value>
-    </typesFilterValue>
-    <characteristicValues>3ad5d8a7-3071-46aa-aebf-306bdb67983b</characteristicValues>
-    <objectField>0:cb954476-c551-4a06-9bcd-18d67ba47dc8</objectField>
-    <typeField>0:79201015-bfae-463e-81f1-0ae2d3066f3f</typeField>
-    <valueField>0:ab7ef662-71c1-4d51-9f0f-ea8c5ea3df8a</valueField>
+    <typesFilterValue xsi:type="core:ReferenceValue"/>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>

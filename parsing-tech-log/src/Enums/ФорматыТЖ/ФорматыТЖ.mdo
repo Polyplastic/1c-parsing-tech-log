@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d766f30-728c-4128-b5f9-e43f3c962da3">
+  <producedTypes>
+    <refType typeId="1e6c755c-fc8d-48fe-802b-e7480ffddabe" valueTypeId="7d9b6964-4d0b-4ab8-a5f0-22f9ebd31e93"/>
+    <listType typeId="99de00f3-5b73-490f-aac1-b0e0b5127d41" valueTypeId="32e5a738-baf9-4d25-95fe-fc32ab591596"/>
+    <managerType typeId="9c2beb2f-7969-477e-9426-72be790d3d10" valueTypeId="24984ebd-123d-4cd6-a50a-6fc984ba9af5"/>
+  </producedTypes>
+  <name>ФорматыТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы ТЖ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="736f6893-b294-4234-81ef-91e3fef72940">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="021cc878-be8b-4cf5-b436-cdc51641adcf">
+    <name>JSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>JSON</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

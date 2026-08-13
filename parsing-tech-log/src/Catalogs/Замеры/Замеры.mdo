@@ -349,6 +349,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1d5b952a-81fe-4deb-9d13-9c54820abbb2">
+    <name>ФорматТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат ТЖ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФорматыТЖ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="c2fefc64-4b33-4e17-b4d0-61aea4268c34">
     <producedTypes>
       <objectType typeId="401e3f48-13e4-4762-a6f0-e625aedda16a" valueTypeId="e0b076a4-048c-441b-bd50-c23679d4b0c2"/>
@@ -443,6 +458,5 @@
       <types>CatalogRef.Замеры</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>
